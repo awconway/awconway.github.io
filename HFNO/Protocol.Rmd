@@ -1,0 +1,502 @@
+---
+title: "Research Protocol"
+subtitle: "High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial"
+author: "Version 1"
+bibliography: references.bib
+csl: nature.csl
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+    number_sections: true
+    includes:
+      after_body: footer.html
+---
+
+
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri("/Users/aaronconway/OneDrive - UHN/HFNO-RCT/Standard-operating-procedures/Screening/Figures/UHN.jpg"), 
+               alt = 'logo', 
+               style = 'position:absolute; top:0; right:0; padding:10px;')
+```
+
+&nbsp;
+<p style="text-align: left;"><span style="color: #808080;">This protocol was generated using  <a href="http://www.spirit-statement.org/implementation-tools/">SEPTRE</a> (SPIRIT Electronic Protocol Tool & Resource)</p>
+&nbsp;
+
+
+
+|  |  |
+| --- | --- |
+| Study Principal Investigator: | **Aaron Conway, RN, PhD** <br>RBC Chair in Cardiovascular Nursing Research <br>Peter Munk Cardiac Centre, Toronto General Hospital, University Health Network <br>Assistant Professor<br> Lawrence S. Bloomberg Faculty of Nursing, University of Toronto <br><br>| 
+| Sponsors: | Investigator-sponsored trial <br><br>|
+| Protocol contributors: | **Matteo Parotto, MD, PhD** <br> Assistant Professor, Department of Anesthesia and Interdepartmental Division of Critical Care Medicine, University of Toronto <br> Staff, Department of Anesthesia and Pain Management, Toronto General Hospital<br> <br>**Phoebe Lam, M.Ed, H.BSc, RRT, CCAA, FCSRT** <br> Coordinator, Anesthesia Simulation Centre<br>Educator, Anesthesia Assistant, University Health Network<br> <br>**Ana Lopez Filici, MHSc (HA), HBSc, CCAA, RRT, FCSRT** <br>Manager, Anaesthesia Clinical Services, University Health Network <br><br>|
+| Trial identifiers: | CAPCR 18-6343  |
+<br><br>
+**ABBREVIATIONS**
+
+| Abbreviation | Explanation |
+| --- | --- |
+|  TcCO~2~ | Transcutaneous carbon dioxide |
+| CAPCR | Coordinated Approval Process for Clinical Research |
+| EPR | Electronic Patient Record |
+| HFNO | High Flow Nasal Oxygen |
+| ISAS | Iowa Satisfaction with Anesthesia Scale |
+| IT | Information and Technology |
+| PHI | Personal Health Information |
+| PI | Principal Investigator |
+| PICF | Participant Information and Consent Form |
+| RA | Research Assistant |
+| REB | Research Ethics Board |
+| UHN | University Health Network |
+
+
+
+<br><br>
+
+**REVISION HISTORY**
+
+
+
+ Version | Amendment Text | Description 
+ --------| -------------- | ----------- 
+ 1       |                |   
+
+
+<br><br>
+
+# TRIAL SUMMARY
+
+|  | World Health Organization Registration Data Set|
+| --- | --- |
+| Title | High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial |
+| Primary registry and trial identifying number | ClinicalTrials.gov NCT03858257 |
+| Secondary identifying numbers | CAPCR 18-6343  |
+| Sources of monetary or material support | Principal Investigator (PI) Conway has submitted an application for a New Researcher Award from the Connaught Fund (University of Toronto) to support this research. The outcome of this award will be released in June 2019. Regardless of the outcome of this application, this study will be able to be fully supported by funds received by the PI, Aaron Conway, for his appointment as Chair of Cardiovascular Nursing Research at PMCC. This includes all work undertaken by the Research Coordinator and purchasing of equipment and consumables for the HFNO and TcCO~2~ monitoring devices. |
+| Primary sponsor | Investigator-sponsored trial |
+| Secondary sponsors (if any) |  n/a |
+| Central contact | Aaron Conway, RN, PhD<br>RBC Chair in Cardiovascular Nursing Research <br>Peter Munk Cardiac Centre Toronto General Hospital University Health Network <br>Assistant Professor <br>Lawrence S. Bloomberg Faculty of Nursing, University of Toronto<br>Toronto General Hospital Heart &amp; Circulation Admin 4NU - 476 585 University Ave Toronto, ON M5G 2N2<br>(416) 340-4654<br>aaron.conway@uhn.ca |
+| Study officials/Investigators | Aaron Conway, RN, PhD<br>Study Principal Investigator  |
+| Brief title | High flow nasal oxygen during sedation |
+| Acronym |  n/a |
+| Countries of recruitment | Canada |
+| Condition(s) or focus of study | High flow nasal oxygen (HFNO) during procedural sedation. |
+| Interventions |   |
+| *High flow nasal oxygen* | Intervention type: Device<br><br>Intervention name: High flow nasal oxygen<br><br>Intervention description: The Optiflow device (Fisher and Paykel Healthcare, Auckland, New Zealand) will be used. The gas temperature will commence at 31º Celsius and titrated up to 37º Celsius if the patient complains of dryness or irritation. The gas flow rate will commence at 30 liters per minute prior to sedation administration and be titrated up to 70 liters per minute as tolerated by the patient after sedation has been administered. The fraction of oxygen in the gas will be commenced at 50% (same as that delivered from 6 liters per minute via facemask) and can be titrated upward according to patient requirements (i.e. increased if there is evidence of hypoventilation, airway obstruction or inadequate oxygenation). |
+| *Facemask oxygen supplementation (usual care)* | Intervention type: Device<br><br>Intervention name: Facemask oxygen supplementation<br><br>Intervention description: Supplemental oxygen through a facemask with the flow rate chosen by the clinician responsible for sedation as per their standard practice. The oxygen flow rate is typically commenced at 6 liters per minute and can be titrated up to 15 liters per minute.  |
+| Key eligibility criteria | Age eligibility: 16 years or older<br><br>Sex eligibility: Both<br><br>Accepts healthy volunteers: No <br><br>Inclusion criteria: <br>1. Adults undergoing an elective cardiac implantable electronic device procedure in the Peter Munk Cardiac Centre Cardiac Cath Labs with conscious sedation administered by an Anesthesia Assistant (de novo and replacement/revision procedures). <br><br>Exclusion criteria:<br>1. Under 16 years of age.<br>2. Underlying condition requiring chronic oxygen supplementation.<br>3. Diagnosed respiratory condition with confirmed current hypercapnia.<br>4. Pre-existing untreated pneumothorax.<br>5. Transesophageal echocardiography planned for the procedure.<br>6. Active nasal bleeding.<br>7. Complete nasal obstruction.<br>8. Recent upper airway surgery or base of skull fracture.<br>9. Previous participation in the study. |
+| Study design | Study type: Interventional trial<br>Allocation: Randomized<br>Intervention model: Parallel group<br>Primary purpose: Health Services Research <br>Phase: n/a |
+| Masking | Outcome assessors |
+| Date of enrollment | June 2019 (anticipated)  |
+| Target sample size | 150 |
+| Recruitment status | Not yet recruiting |
+| Primary outcomes | Outcome: Peak transcutaneous carbon dioxide (TcCO~2~) concentration<br><br>Timeframe: From the time between first sedative medication administration to the end of the procedure. Estimated duration of procedures is 30 minutes to 120 minutes.<br><br>Description: Continuous measurements will be recorded using the Sentec Digital Monitoring System with VSign 2 sensor. |
+| Secondary outcomes | Outcome: Mean transcutaneous carbon dioxide concentration<br><br>Timeframe: From the time between first sedative medication administration to the end of the procedure. Estimated duration of procedures is 30 minutes to 120 minutes.<br><br>Description:Continuous measurements will be recorded using the Sentec Digital Monitoring with VSign 2 sensor 
+|  |Outcome: Area under SpO~2~ 90% desaturation curve <br><br>Timeframe: From the time between first sedative medication administration to the end of the procedure. Estimated duration of procedures is 30 minutes to 120 minutes.<br><br> Description: Difference between the threshold (90%) and actual oxygen saturation (SpO2) summed every second during which oxygen saturation was below threshold.|
+|  |Outcome: Adverse sedation events<br><br>Timeframe: From the time between first sedative medication administration to the end of the procedure. Estimated duration of procedures is 30 minutes to 120 minutes.<br><br> Description: The Anaesthesia Assistant will be asked to complete the Tracking and reporting outcomes of procedural sedation (TROOPS) tool at the end of procedures. Completion of the tool requires identification and description of the adverse event, the intervention, the outcome and the overall severity of the adverse event.|
+|  |Outcome: Patient satisfaction with sedation<br><br>Timeframe: After the participant has reached phase 2 post-anesthetic recovery. Estimated to be 30 minutes after procedure has finished.<br><br> Description:Iowa Satisfaction with Anesthesia Scale| 
+|  |Outcome: Costs associated with oxygen delivery<br><br>Timeframe: From the time between first sedative medication administration to the end of the procedure. Estimated duration of procedures is 30 minutes to 120 minutes.<br><br> Description: Anesthesia Assistants will document devices used for supplemental oxygen delivery and airway management in both groups as per their usual practice in the anesthesia monitoring system.|
+|  |Outcome: Anesthesia Assistant rating of difficulty maintaining oxygenation status<br><br>Timeframe: To be completed as soon as possible after the end of the procedure (within about 5 minutes).<br><br> Description: 6-level rating scale from "extremely difficult" to "extremely easy"|
+|  |Outcome: Anesthesia Assistant rating of difficulty using oxygen delivery device<br><br>Timeframe: To be completed as soon as possible after the end of the procedure (within about 5 minutes)<br><br> Description: 6-level rating scale from “extremely difficult” to “extremely easy”|
+|  |Outcome: Patient comfort of oxygen delivery<br><br>Timeframe: After the participant has reached phase 2 post-anesthetic recovery. Estimated to be 30 minutes after procedure has finished. <br><br>Description:  6-level rating scale from “maximal discomfort” to “maximal comfort”|
+
+---------------------------------
+<br>
+
+# INTRODUCTION
+
+## Background and rationale
+
+High flow nasal oxygen (HFNO) is increasingly regarded as a promising technology for oxygen delivery in critical care and anesthetic management.[@drakeHighFlowNasalCannula2018]  It permits flows of heated, humidified gas to be delivered to the lungs via nasal prongs at up to 70 liters per minute. Delivering oxygen at such high flow rates into the lungs has multiple physiological effects that may better support the vulnerable breathing state of patients during procedural sedation. For example, it permits more precise titration of the amount of oxygen being administered to the patient because the flow rate exceeds normal inspiratory volumes (about 30 liters per minute). HFNO also increases pressure in the upper airways (which may reduce airway obstruction) and decreases the space within the airways where gas is not able to come in contact with blood and exchange oxygen for carbon dioxide to be exhaled.
+
+In anticipation that the physiological effects of delivering HFNO may lead to improved clinical outcomes, multiple large-scale randomized controlled trials were conducted to test this technology across a variety of critical care populations including acute respiratory failure[@frat2015high; @monro2017effect; @stephan2015high]  and post cardiac surgery.[@futier2016effect] There have also been multiple trials testing the efficacy of integrating HFNO into anesthetic management plans, including for pre-oxygenation prior to, and apneic oxygenation at, anesthetic induction.[@lodenius2018transnasal; @patel2015transnasal]
+
+There is heightened interest in investigating the effects of HFNO therapy for procedural sedation at present. Three small randomized controlled trials of HFNO during procedural sedation have been published in the last year, with a further 5 trials registered at clinicaltrials.gov. One study randomized 60 participants undergoing bronchoscopy to receive HFNO at 50 liters per minute with 100% oxygen or to receive oxygen at 10-15 liters per minute through a facemask.[@douglasRandomisedControlledTrial2018]  There was no difference observed between the treatment groups for the primary outcome, which was the proportion of patients who experienced oxygen desaturation (defined as SpO~2~ 90%). Another study randomized 59 morbidly obese patients undergoing endoscopy to receive a fraction of inspired oxygen concentration of 0.36 either via HFNO at a flow rate of 60 liters per minute or via nasal cannula at 4 liters per minute.[@riccio2019high]  Again, there was no difference in the primary outcome of oxygen desaturation (SpO~2~ 90%). The third study randomized 30 participants undergoing dental sedation into three groups to receive a fraction of inspired oxygen concentration of 0.4 either via HFNO at a flow rate of 50 liters per minute, via HFNO at a flow rate of 30 liters per minute or via nasal cannula at 5 liters per minute.[@sago2015nasal]  Participants randomized to the HFNO groups had higher nadir blood oxygen levels recorded than the low flow oxygen group. Overall, the results from the studies published to date indicate that using HFNO may not result in a substantially improved oxygenation status. However, only 159 participants in total were enrolled in these studies. Therefore, further research is required to elucidate the effects of this technology on respiratory function of sedated patients.
+
+For example, it is important to evaluate the effects of this new technology in each of the diverse contexts in which procedural sedation is used. None of the previous or in-progress clinical trials have enrolled patients undergoing cardiology procedures. In this regard, it is important to note that oxygen desaturation occurs rarely in the context of the common clinical situation where conscious sedation is administered with prophylactic oxygen supplementation at flow rates between 6-10 liters per minute through a face mask during procedures performed in the cardiac catheterisation laboratory.[@conway2013risk]  Results from trials of HFNO during sedation conducted in other clinical settings, such as bronchoscopy and gastrointestinal endoscopy, where desaturation occurs more often, can therefore not be directly generalised to the cardiology context.
+
+It is also essential that all of the potentially beneficial effects of HFNO on respiratory function during sedation are comprehensively evaluated. For example, it is possible that the physiological effect that HFNO has on reducing anatomical dead space may decrease risk of carbon dioxide retention during sedation. Although oxygen desaturation is not common during cardiology procedures, patients commonly have raised arterial carbon dioxide levels indicative of hypoventilation.
+
+The effects of the potential disadvantages of using HFNO during sedation should also be evaluated. It is possible that the gains arising from having more precise control over the fraction of inspired oxygen being delivered to patients through the HFNO device may be offset by reduced ability to monitor ventilation from capnography waveforms due to exhaled carbon dioxide being &#39;washed out&#39; by the high flows of gas.
+
+The impact of using high flow nasal oxygen delivery systems routinely for conscious sedation on departmental costs is also unclear. Evidence from a pre-test post-test study of switching to routine use of HFNO in a critical care unit actually reduced departmental costs.[@fealy2016nasal]
+
+In summary, although promising, further high-quality studies examining the effects of using HFNO during procedural sedation are required to inform decision-making regarding implementation of this new technology into practice. The 2018 guidelines from the American Society of Anesthesiology stated that there is insufficient evidence regarding which methods of supplemental oxygen administration (_e.g._, nasal cannula, face mask, or specialized devices such as HFNO) are more effective. This trial will address this limitation in the evidence base specifically in regard to the efficacy of using HFNO during conscious sedation in the cardiac catheterisation laboratory.
+
+## Objectives
+
+The objective of this study is to test the hypothesis that using nasal high flow oxygen (HFNO) improves ventilation during cardiac implantable electronic device procedures performed with conscious sedation.
+
+## Trial design
+
+A randomized controlled design will be used with participants randomized in a 1:1 ratio to the following treatment conditions:
+
+- Oxygen supplementation through a standard facemask; or
+- Nasal high flow oxygen.
+
+
+
+# METHODS
+
+## Study setting
+
+Peter Munk Cardiac Centre Cardiac Cath Labs at Toronto General Hospital, University Health Network.
+
+## Eligibility criteria
+
+### Inclusion criteria
+
+1. Adults undergoing an elective cardiac implantable electronic device procedure in the Peter Munk Cardiac Centre Cardiac Cath Labs with conscious sedation administered by an Anesthesia Assistant (de novo and replacement/revision procedures).
+
+### Exclusion criteria
+
+1. Under 16 years of age (excluded from this study as they are considered pediatric patients)
+2. Underlying condition requiring chronic oxygen supplementation.
+3. Diagnosed respiratory condition with confirmed current hypercapnia.Hypercapnic COPD or obesity hypoventilation syndrome with PaCO~2~ during current admission over 45mmHg.
+4. Pre-existing untreated pneumothorax.
+5. Transesophageal echocardiography planned for the procedure.
+6. Active nasal bleeding.
+7. Complete nasal obstruction.
+8. Recent upper airway surgery or base of skull fracture.
+9. Previous participation in the study.
+
+## Interventions
+
+### Intervention description
+
+All randomized participants will receive usual care in regard to the medications used for sedation and physiological monitoring or other interventions to support respiratory function that are considered necessary to be initiated during the procedure by the clinicians. As per the hospital policy for conscious sedation administered by Anesthesia Assistants (38.40.001), oxygen therapy is administered as indicated and prescribed to maintain oxygen saturation greater than 93%. In this study, Anesthesia Assistants will follow this policy. Only the device used for oxygen supplementation delivery will differ between groups in the following ways:
+
+>Facemask oxygen supplementation
+
+Supplemental oxygen through a facemask with the flow rate chosen by the clinician responsible for sedation as per their standard practice. The oxygen flow rate is typically commenced at 6 liters per minute and can be titrated up to 15 liters per minute.
+
+>High flow nasal oxygen
+
+The Optiflow device (Fisher and Paykel Healthcare, Auckland, New Zealand), heated breathing tube and chamber, and nasal cannula will be used. This system is a humidifier with an integrated flow generator, able to humidify respiratory gases and deliver them down a heated breathing tube and through the nasal cannula interface. The gas temperature will commence at 31º Celsius and titrated up to 37º Celsius if the patient complains of dryness or irritation. The gas flow rate will commence at 30 liters per minute prior to sedation administration and be titrated up to 70 liters per minute as tolerated by the patient after sedation has been administered. The fraction of oxygen in the gas will be commenced at 50% (same as that delivered from 6 liters per minute via facemask) and can be titrated upward according to patient requirements (i.e. increased if there is evidence of hypoventilation, airway obstruction or inadequate oxygenation). Anesthesia Assistants at the site will be provided with training in the use of this mode of oxygen delivery prior to study commencement. 
+
+
+### Modifications
+
+If a potential participant is enrolled in the study, but the decision is made for them to not receive sedation during their procedure, their data will not be included in the study.
+
+If a participant decides to leave the study, they will have the right to request withdrawal of information collected about them. The information that was collected before they left the study will still be used in order to help answer the research question.
+
+
+
+### Adherence
+
+Due to the short duration of the trial and the nature of the intervention, strategies related to trial retention and adherence to follow-up will not be required.
+
+All randomized participants will receive usual care in regard to the medications used for sedation and physiological monitoring or other interventions to support respiratory function that are considered necessary to be initiated during the procedure by the clinicians. As per the hospital policy for conscious sedation administered by Anesthesia Assistants (38.40.001), oxygen therapy is administered as indicated and prescribed to maintain oxygen saturation greater than 93%. In this study, Anesthesia Assistants will follow this policy. Supplemental oxygen through a facemask with the flow rate chosen by the clinician responsible for sedation as per their standard practice. The oxygen flow rate is typically commenced at 6 liters per minute and can be titrated up to 15 liters per minute. Percentage of hemoglobin saturated with oxygen (SpO~2~) will be measured continuously throughout procedures as part of routine clinical practice through the anesthetic machine.
+
+The use of high flow nasal oxygen will result in no difference in the time required for the intervention vs. routine standard of care. No additional visits will be required following completion of the elective cardiac implantable electronic device procedure.
+
+### Concomitant care
+
+There are no restrictions on concomittant care for this trial. 
+
+The research assistant (RA) will determine if prospective participants are already enrolled in other research trials in the Clinical Research Record through Electronic Patient Record (EPR). If a prospective participant is already enrolled in another trial, the RA will assess whether that trial intervention will also be implemented during the procedure. If not, the prospective participant will still be eligible for the high-flow nasal oxygen trial due to the short duration that this intervention is being implemented and also because the follow-up duration will be completed soon after the end of the procedure.
+
+## Outcomes
+
+The selection of outcomes was informed by recommendations from the Sedation Consortium on Endpoints and Procedures for Treatment, Education and Research (SCEPTER) to assess differences between groups regarding the safety and efficacy of sedation.
+
+>Primary outcome: Peak transcutaneous carbon dioxide ( TcCO~2~) concentration. 
+
+Continuous TcCO~2~ measurements will be recorded using the Sentec Digital Monitoring with VSign 2 sensor. TcCO~2~ monitoring provides continuous, accurate (mean bias -0.1 mmHg) and precise (95% limits of agreement within 6 mmHg) estimates of arterial CO~2~ (PaCO~2~) when the sensor is placed on the earlobe.[@conway2019accuracy] TcCO~2~ monitoring may provide even more precise estimates of changes in PaCO~2~ (mean bias 0.03 mmHg, 95% limits of agreement -0.44 to 0.38 mmHg).[@Fingleton2017]
+
+We have undertaken a preliminary study to evaluate the feasibility of using TcCO~2~ monitoring as an outcome measure during nurse-administered sedation in the cardiac catheterisation laboratory. Continuous TcCO~2~ measurements were recorded from patients undergoing procedures with nurse-administered sedation using the Sentec Digital Monitoring with VSign 2 sensor, starting before sedation was induced (for measurement of baseline TcCO~2~) and ceasing at the end of the procedure. Participating sites were the Wesley Hospital, Holy Spirit Northside Private Hospital, Princess Alexandra Hospital and John Flynn Private Hospital. The feasibility of TcCO~2~ monitoring in this population was confirmed with continuous recordings achieved from all participants without missing data. Changes in TcCO~2~ concentrations are presented in Table 1.
+
+** **
+
+**Table 1. Changes in TcCO~2~ concentrations during sedation (n=123)**
+
+|  | **Mean** | **SD** |
+| --- | --- | --- |
+| Baseline pre-sedation TcCO~2~ | 37.3 | 4.6 |
+| Post-sedation mean TcCO~2~ | 42.3 | 5.8 |
+| Peak TcCO~2~ | 46.8 | 6.9 |
+| Change from baseline to peak TcCO~2~ | 9.4 | 5.6 |
+
+
+<br>
+
+>Secondary outcomes
+
+1. Mean transcutaneous carbon dioxide concentration measured using the VSign 2 sensor.
+2. Area under the curve of oxygen desaturation: This is a composite measure comprising the incidence, depth, and duration of oxygen desaturation events. It is calculated as the difference between the threshold (90%) and actual oxygen saturation (SpO~2~) summed every second during which oxygen saturation was below threshold).
+3. Adverse sedation events: Adverse effects of delivering gas at a high flow rate through the nasal passages will be assessed. These include nose bleeding arising from damage to the mucosal surface and pressure injury to skin from the device. The RA will inspect intervention group participants&#39; skin integrity around the nasal region at the end of procedures to assess for these potentially anticipated as well as unanticipated adverse effects.
+4. Patient satisfaction with sedation: The Iowa Satisfaction with Anesthesia Scale (ISAS) will be used to measure patient satisfaction with the anesthetic used during the procedure performed.
+5. Costs associated with oxygen delivery: The amount of consumable equipment required for oxygen delivery used during procedures and throughout the recovery period will be measured using a data collection form specifically designed for this study.
+6. Patient comfort of oxygen delivery: Participants will be asked to rate at the end of procedures their perceived overall comfort with the oxygen delivery device used during the procedure using a 6-level ratings scale.
+7. Anesthesia Assistant rating of difficulty maintaining oxygenation status.
+8. Anesthesia Assistant rating of difficulty using oxygen delivery device.
+
+
+## Participant timeline
+
+Data for this study will be collected by the RA and entered into an electronic data platform supported by REDCap^TM^ (Research Electronic Data Capture Vanderbilt University, Nashville, TN, USA) at three time points: (T1) at baseline (prior to procedures); (T2) during the procedure; and (T3) on hospital discharge.
+
+After receiving participant consent, demographic information and eligibility to participate will be confirmed at T1. Transcutaneous carbon dioxide ( TcCO~2~) monitoring and pulse oximetry will be measured continuously at T2. Adverse sedation events, patient comfort with sedation, difficulty maintaining oxygen saturation and using the device, and cost associated with the oxygen delivery device will be assessed at T3. Patient satisfaction with sedation will also be assessed at this time using the Iowa Satisfaction with Anesthesia Scale (ISAS) through REDCap^TM^.
+
+|   | **Pre-procedure **  |**During procedure**   | **Post-procedure**  |
+| --- | --- | --- | --- |
+| **TIMEPOINT** | **T1** | **T2** | **T3** |
+| **ENROLLMENT:** | X |   |   |
+| Eligibility screen | X |   |   |
+| Informed consent | X |   |   |
+| Allocation | X |   |   |
+| **INTERVENTIONS:** |   |   |   |
+| Facemask oxygen supplementation |   | X  |   |
+| High flow nasal oxygen |   | X |   |
+| **ASSESSMENTS:** |   |   |   |
+| Demographic information and medical history | X |   |   |
+| Peak TcCO~2~ concentration |   | X |   |
+| Mean TcCO~2~ |   | X |   |
+| Area under the curve of oxygen desaturation |   | X |   |
+| Adverse sedation events |   |   | X |
+| Patient satisfaction with sedation |   |   | X |
+| Costs associated with oxygen delivery   |   |   | X |
+| Anesthesia assistant rating of difficulty maintaining the patient&#39;s oxygenation status |   |   | X |
+| Anesthesia assistant rating of difficulty using oxygen delivery device |   |   | X |
+| Patient comfort of oxygen delivery |   |   | X |
+
+
+
+## Sample size
+
+We estimate based on data from our preliminary study that the peak TcCO~2~ level in the control group will be 47 mmHg and standard deviation in both groups will be 7 mmHg. Assuming a type I error rate of 5%, a sample of 130 participants would achieve 90% power to detect a reduction in mean TcCO~2~ levels of 4 mmHg in the intervention period. A difference in TcCO~2~ levels of 4 mmHg was selected for this sample size calculation because it was used to power previous randomised controlled trials of the effect of oxygen supplementation on ventilation status in other populations, with the authors noting that an effect of this magnitude was of physiological significance.[@perrin2011randomised; @Wijesinghe2012]  Also, differences in CO~2~ levels of a similar magnitude have been detected in previous trials evaluating the efficacy of interventions to improve sedation safety.[@Baulig2015; @Carmi2011; @deoliveirajrDetectionHypoventilationDeep2010; @deoliveirajrEffectKetamineHypoventilation2014; @Smith2015]  To account for any missing primary outcome data (in the event that the TcCO~2~ monitor malfunctions) and dropouts (in the event that a randomised patient&#39;s procedure is cancelled or anesthetic management plan is changed prior to procedure commencement), we plan to recruit a sample of 150 participants.
+
+## Recruitment
+
+A research assistant (RA) will be engaged in this work performing the roles of eligibility screening/participant recruitment and data collection.
+
+The RA will review the pre-admission clinic and cardiac catheterization laboratory schedules to identify potential participants. Potential participants will have the study explained to them by the RA and also receive a Participant Information and Consent Form. Potential participants will be asked for permission to obtain relevant clinical and demographic information from their records for use only in this study. Potential participants scheduled for a procedure in advance will be initially approached during their attendance at the pre-admission clinic. The cardiac catheterization laboratory schedule will be checked each day to identify potentially eligible participants who have not attended the pre-admission clinic. Potential participants who have been admitted to hospital will have the study explained to them and will be given a PICF the day prior to their scheduled procedure so that they can consider their participation overnight. Potential participants who are to be admitted on the day of their procedure without attending the pre-admission clinic, will receive a phone call from the RA prior to their admission to maximize the time for consideration of participation.
+
+## Allocation
+
+Consented eligible patients will be allocated randomly to intervention and control groups. A stratified (by diagnosis of obstructive sleep apnea and type of procedure – cardiac resynchronization therapy device implant), block randomized sequence will be generated using the redcapAPI package in R and uploaded to REDCap^TM^. The RA will retrieve the allocation for each consecutive participant in REDCap^TM^ after confirming eligibility.
+
+## Blinding (masking)
+
+### Blinding mechanism
+
+Due to the nature of the intervention, participants or personnel involved in the trial cannot be blinded to the treatment conditions. Data will be collected in a fashion such that the primary outcome assessment for comparisons between groups will be made without knowledge of the assigned treatment allocation.
+
+### Emergency unblinding
+
+Due to the nature of the intervention, participants or personnel involved in the trial cannot be blinded to the treatment conditions.
+
+## Data collection
+
+### Trial procedures and evaluations
+
+**Instruments used to measure outcomes**
+
+Transcutaneous carbon dioxide concentrations: PI Conway will provide training to the RA in use of the transcutaneous carbon dioxide monitoring device and other data collection procedures. The RA will attach the Sentec VSign 2 sensor to the participant&#39;s forehead using a multi-site attachment ring. Once the Sentec Digital Monitoring System displays a stabilized TcCO~2~ level, the monitor will be covered with a drape so that it is not visible to research staff or clinicians during the procedure. The monitor will not be used by the clinicians to guide treatment. Data will be downloaded to a computer using the USB port on the monitor. TcCO~2~ monitoring provides continuous, accurate (mean bias within 2 mmHg) and precise (95% limits of agreement within 6 mmHg) estimates of arterial CO~2~ (PaCO~2~) in sedated patients.[@conway2019accuracy]
+
+Pulse oximetry: Percentage of hemoglobin saturated with oxygen (SpO~2~) will be measured continuously throughout procedures as part of routine clinical practice through the anaesthetic machine. We will access the DREAM (Drug Reconciliation and Electronic Anesthesia Monitoring) system to download this data. Unreliable SpO~2~ measurements will be filtered out if a pulse rate is not detectable.
+
+Tracking and reporting outcomes of procedural sedation tool.[@Roback2018]  This tool was developed, using a consensus process, by members of a multidisciplinary society who had demonstrated capacity, dedication and competence in research and/or clinical experience in procedural sedation. Completion of the tool requires identification and description of the adverse event, the intervention, the outcome and the overall severity of the adverse event. The Anaesthesia Assistant will be asked to complete this tool at the end of procedures. It takes approximately 2 minutes to complete.
+
+Iowa Satisfaction with Anesthesia Scale (ISAS): The ISAS is a questionnaire that can be used to measure patient satisfaction with the anesthetic used during a procedure performed with sedation.[@dexter1997development; @dexter2011multicenter]  Completion of the 11 items takes 4-5 minutes. This scale reliably measures the construct of satisfaction with the anesthetic, with a Cronbach alpha of .84 found in a 24-center, 315 patient placebo-controlled trial of dexmedetomidine.[@dexter2011multicenter]  In this study, the utility of the ISAS as an outcome measure for sedation trials was demonstrated, as it was able to differentiate patient satisfaction among patients. There were 47 different scores among the 315 participants. In addition, whereas 73% of patients responded with the minimum or maximum score for the single question &quot;I was satisfied with my anesthetic&quot;, only 14% of the sample scored the minimum or maximum for the ISAS.[@dexter2011multicenter]
+
+Adverse effects: Adverse effects of delivering gas at a high flow rate through the nasal passages will be assessed. These include nose bleeding arising from damage to the mucosal surface and pressure injury to skin from the device. The RA will inspect intervention group participants&#39; skin integrity around the nasal region at the end of procedures to assess for these potentially anticipated as well as unanticipated adverse effects.
+
+Costs: Anesthesia Assistants will document devices used for supplemental oxygen delivery and airway management in both groups as per their usual practice in the DREAM anesthesia monitoring system. This data will be accessed for the study by downloading the report from the DREAM anaesthesia monitoring system, permitting the per-patient costs for oxygen delivery and airway management to be calculated and compared between groups.
+
+Anesthesia Assistant rating of perceived level of difficulty in maintaining oxygenation: The Anaesthesia Assistant will be asked to rate their perceived level of difficulty in maintaining oxygenation using a 6-level rating scale with ratings of &quot;extremely difficult&quot;, &quot;very difficult&quot;, &quot;difficult&quot;, &quot;easy&quot;, &quot;very easy&quot;, &quot;extremely easy&quot;.
+
+Anesthesia Assistant rating of perceived level of difficulty using the oxygen delivery device: The Anaesthesia Assistant will be asked to rate their perceived level of difficulty using the oxygen delivery device using a 6-level rating scale with ratings of &quot;extremely difficult&quot;, &quot;very difficult&quot;, &quot;difficult&quot;, &quot;easy&quot;, &quot;very easy&quot;, &quot;extremely easy&quot;.
+
+Comfort associated with oxygen delivery: Participants will be asked to rate at the end of procedures their perceived overall comfort with the oxygen delivery device used during the procedure using a 6-level rating scale with ratings of &#39;maximal discomfort&#39;, &#39;very uncomfortable&#39;, &#39;uncomfortable&#39;, &#39;comfortable&#39;, &#39;very comfortable&#39; and &#39;maximal comfort&#39;.
+
+Supplemental oxygen use and flow settings: Anesthesia assistants will document their use of oxygen therapy in a case report form provided to them by the Research Assistant. Information on the FiO2 setting, flow rate and temperature will be recorded in the HFNO group. The oxygen flow rate will be recorded in the control group. 
+
+### Retention
+
+Due to the design and short duration of the trial, no plans for participation retention will be required.
+
+## Data management
+
+**Data Forms and Data Entry**
+
+In the High flow nasal oxygen (HFNO) during sedation trial, all data will be entered electronically. A majority of this will occur on site where the data originated at the Peter Munk Cardiac Cath cardiac cath labs, however some instances may occur at the PI&#39;s office located in the Peter Munk Cardiac Centre, Toronto General Hospital. Original study forms will be entered and kept on file at the participating hospital site.
+
+All personal information such as the patient&#39;s name, date of birth, health information, and UHN MRN will be removed from the data and will be replaced with a participant ID number. A list linking the participant ID number with patient names will be stored in an electronic file by the study team on a secure UHN Network in compliance with UHN&#39;s policy and procedural manual on storage, transport and destruction of confidential information.
+
+**Data Transmission and Editing**
+
+Using REDCap^TM^, range checks will be applied to minimize errors in data entry.
+
+**Security and Back-Up of Data**
+
+All forms related to study data will be kept in locked cabinets. Access to the study data will be restricted. A password system will be utilized to control access to electronic files related to the study on a secure UHN Network in
+
+compliance with UHN&#39;s policy and procedural manual on storage, transport and destruction of confidential information. These passwords will be changed on a regular basis. In compliance with UHN&#39;s policy &amp; procedure manual on &quot;Research: Data Ownership, Stewardship &amp; Security of Health Information&quot;, the institution will be responsible for providing hard data backs ups of all UHN Information and Technology (IT) systems for disaster recovery purposes.
+
+
+
+## Statistical methods
+
+### Outcomes
+
+For the primary outcome, peak TcCO~2~ levels will be compared between the intervention and control groups using analysis of covariance with baseline TcCO~2~ concentration included in the model as a covariate as is recommended for this type of design.[@Egbewale2014]  Secondary outcomes will be analysed using t-tests for continuous variables and chi-square tests for categorical variables. A p-value less than 0.05 will be considered statistically significant and 95% confidence intervals will be reported. Subgroup analyses will be conducted to compare the effects of HFNO with standard care in patients who have a diagnosis of sleep apnea and those who have a cardiac resynchronization therapy device implant (the variables used for stratification) by including these variables in the model as interaction terms.
+
+### Additional analyses
+
+No additional analyses will be conducted.
+
+### Analysis population and missing data
+
+The primary analysis will be performed on an intention-to-treat basis. Participants included in the intention to treat analysis will be those who provided consent and then underwent a procedure with sedation, even if they do not receive the assigned treatment.
+
+## Data monitoring
+
+### Formal committee
+
+A Data Monitoring Committee is not needed for this trial as it will be conducted within a short duration of time with known minimal risks.
+
+### Interim analysis
+
+As participants for this trial are not anticipated to be recruited over an extended period of time and the safety of high flow nasal oxygen has already been established in critical care and anesthesia settings, interim analyses for safety or efficacy will not be conducted.
+
+## Safety/harms
+
+Any adverse events that arise, whether related to the study intervention or not, will in the first instance be reported to the Nurse Manager of the Cardiac Catheter Laboratories and to the Principal Investigator who will then submit a report of the event to UHN&#39;s REB. The standard reporting system for Toronto General Hospital will be followed.
+
+It is not anticipated that this project will need to be ceased prematurely due to concerns about safety as the intervention is already extensively used and recommended for different population in anesthetic and critical care medicine. Any adverse events that do occur will be reported to UHN&#39;s REB in compliance with the UHN and CAREB&#39;s guidelines for reporting adverse events (unanticipated problems).
+
+## Auditing
+
+REDCap^TM^ retains an audit trail by logging user activity and pages viewed or accessed. Activities documented include data entry and modifications, exporting data, and generating reports.
+
+The study team will request the Research Quality Integration department at UHN to conduct a pre-study audit. The objective of this audit is to determine whether effective processes are in place to achieve the study objectives and compliance with the applicable regulations and guidelines.
+
+
+
+
+
+# ETHICS AND DISSEMINATION
+
+## Research ethics approval
+
+This protocol and the participant informed consent forms (PICF)  will be reviewed and approved by the sponsor and entered into the Coordinated Approval Process for Clinical Research (CAPCR) to receive approval from UHN&#39;s Research Ethics Board (REB) and Institutional Authorization with respect to scientific content and compliance with applicable research and human subjects regulations.
+
+The protocol, PICFs, participant education and recruitment materials, and other requested documents — and any subsequent modifications — will also be submitted through CAPCR to be reviewed by UHN&#39;s REB for ethics approval, and the Executive Vice President of Science and Research or designate for institutional authorization.
+
+Subsequent to initial review and approval, an annual study renewal will be submitted to CAPCR for the UHN&#39;s REB to review at least 14-30 days before the study&#39;s REB expiry date. The Investigator will make safety and progress reports to the REB at least annually and within three months of study termination or completion at the study site.
+
+## Protocol amendments
+
+Any modifications to the protocol which may impact on the conduct of the study, potential benefit of the patient or may affect patient safety, including changes of study objectives, study design, patient population, sample sizes, study procedures, or significant administrative aspects will require a formal amendment to the protocol. Such amendment will be agreed upon by the High-Flow Nasal Oxygen (HFNO) study team, and approved by UHN&#39;s Research Ethics Board (REB) prior to implementation.
+
+
+
+## Informed consent process
+
+The research assistant (RA) will review the cardiac catheterization laboratory schedule to identify potential participants. Potential participants will have the study explained to them by the RA and also receive a Participant Information and Consent Form to consider their participation in the study.
+
+Potential participants will be asked for permission to obtain relevant clinical and demographic information from their records for use only in this study. Potential participants scheduled for a procedure in advance will be initially approached during their attendance at the pre-admission clinic. The cardiac catheterization laboratory schedule will be checked each day to identify potentially eligible participants who have not attended the pre-admission clinic. Potential participants who have been admitted to hospital will have the study explained to them and will be given a PICF the day prior to their scheduled procedure so that they can consider their participation overnight. Potential participants who are to be admitted on the day of their procedure without attending the pre-admission clinic, will receive a phone call from the RA prior to their admission to maximize the time for consideration of participation.
+
+### Ancillary studies
+
+No biological specimens will be collected in this trial. Data collected in this trial will not be used in ancillary studies.
+
+Participant data collected from this study will be recorded in their medical records at Toronto General Hospital and in the UHN computer system. This is for clinical safety purposes. The UHN shares the patient information stored on its computers with other hospitals and health care providers in Ontario so they can access the information if it is needed for clinical care. The study team will inform participants about what will be stored electronically and may be shared outside of the UHN.
+
+## Confidentiality
+
+All study-related information will be stored securely in compliance with UHN&#39;s &quot;Storage, Transport &amp; Destruction of Confidential Information&quot; policy. All participant information will be stored in locked file cabinets in areas with limited access. The types of Participant Health Information (PHI) that will be collected for this study have been limited to that which is necessary for the purposes of the research study, and will be de-identified. PHI will not be used or disclosed for purposes other than those which it was collected, except with the express consent of the individual or as required by law. All personal information such as the patient&#39;s name, date of birth, health information, and UHN MRN will be removed from the data and will be replaced with a participant ID number. A list linking the participant ID number with patient names will be stored in an electronic file by the study team on a secure UHN Network. Thus, all reports, data collection, process, and administrative forms will be de-identified.
+
+All information collected during this study, including PHI, will be kept confidential and will not be shared with anyone outside the study unless required by law. Participants will not be named in any reports, publications, or presentations that may come from this study. Participant de-identified data from this study may be used for other research purposes. If the study data is shared with other researchers, information that links study data directly to the participant will not be shared.
+
+
+
+## Declaration of interests
+
+There are no conflict of interests to declare.
+
+## Access to data
+
+All members of the study team will be given access to the cleaned data sets. The study data sets will be housed on the UHN computer system, and all data sets will be password protected. To ensure confidentiality, data dispersed to the study team members will not contain any identifying participant information.
+
+## Ancillary and post-trial care
+
+If a participant is harmed as a direct result of taking part in this study, all necessary medical treatment will be made available to them by the UHN.
+
+
+
+## Dissemination policy
+
+### Trial results
+
+The study results will be reported in publications and presentations.
+
+### Authorship
+
+The study&#39;s investigators will be authors on the reporting and presentation of the trial&#39;s results. Topics suggested for presentation or publication will be circulated among the High-Flow Nasal Oxygen (HFNO) study team.
+
+### Reproducible research
+
+Study data, participant-level data sets (without identifying information) and code for statistical analyses will be shared in a publicly accessible repository at the time of publication.
+
+
+
+# STUDY ADMINISTRATION
+
+## Key contacts
+
+**Study Principal Investigator**
+
+Aaron Conway, RN, PhD
+
+RBC Chair in Cardiovascular Nursing Research Peter Munk Cardiac Centre Toronto General Hospital University Health Network Assistant Professor Lawrence S. Bloomberg Faculty of Nursing University of Toronto
+
+Toronto General Hospital Heart &amp; Circulation Admin 4NU - 476 585 University Ave Toronto, ON M5G 2N2
+
+(416) 340-4654
+
+aaron.conway@uhn.ca
+
+**Central contact**
+
+Aaron Conway, RN, PhD
+
+RBC Chair in Cardiovascular Nursing Research Peter Munk Cardiac Centre Toronto General Hospital University Health Network Assistant Professor Lawrence S. Bloomberg Faculty of Nursing University of Toronto
+
+Toronto General Hospital Heart &amp; Circulation Admin 4NU - 476 585 University Ave Toronto, ON M5G 2N2
+
+(416) 340-4654
+
+aaron.conway@uhn.ca
+
+**Sponsor**
+
+Investigator-sponsored trial
+
+
+
+## Funders
+
+Principal Investigator (PI) Conway has submitted an application for a New Researcher Award from the Connaught Fund (University of Toronto) to support this research. The outcome of this award will be released in June 2019. Regardless of the outcome of this application, this study will be able to be fully supported by funds received by the PI, Aaron Conway, for his appointment as Chair of Cardiovascular Nursing Research at PMCC. This includes all work undertaken by the Research Coordinator and purchasing of equipment and consumables for the HFNO and TcCO~2~ monitoring devices.
+
+## Roles and responsibilities
+
+### Protocol contributors
+
+AC conceived of the study. AC, MP, PL, ALF contributed to the study design. All authors contributed to refinement of the study protocol and will approve the final manuscripts of results.
+
+### Sponsor and funder
+
+If funding from the Connaught Fund (University of Toronto) is received, the funding source will not have any role during its execution, analyses, interpretation of the data, or decision to submit results.
+
+### Trial committees
+
+N/A
+
+
+
+# REFERENCES
+

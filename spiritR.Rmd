@@ -1,0 +1,11 @@
+---
+title: "spiritR"
+---
+
+The spiritR package contains an Rmarkdown template for a clinical trial protocol adhering to the [SPIRIT](http://www.spirit-statement.org/) checklist.
+
+Contained within the template is a section for each of the elements that should be adressed in a clinical trial protocol. Links to the SPIRIT statement guidance about what should be addressed in each element are provided.
+
+Functions in the spiritR package provide the functionality to  upload information from the protocol developed in your Rmardown file to a new record in the clinicaltrials.gov registry. 
+
+Please visit the spiritR webpage for more information: https://spiritr.netlify.com/

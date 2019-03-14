@@ -1,0 +1,29 @@
+name: "Aaron Conway"
+output_dir: "."
+navbar:
+  title: "Aaron Conway"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      menu: 
+      - text: "High flow nasal oxygen"
+        href: HFNO.html
+    - text: "R packages"
+      menu:
+      - text: "spiritR"
+        href: spiritR.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/awconway
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/aw_conway
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/aaron-conway-toronto/
+      output:
+output:
+  html_document:
+    theme: flatly
+    css: 'styles.css'
