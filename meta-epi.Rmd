@@ -1,0 +1,11 @@
+---
+title: "Improving the quality of research"
+---
+
+<link rel="stylesheet" href="css/academicons.min.css"/>
+
+Dr Conway has an interest in meta-epidemiological studies (or methodological analysis). To optimise the use of evidence in clinical practice, published research needs to be reported with clarity and accuracy. Meta-epidemiology is a type of study focused on evaluating and improving the quality of research. 
+
+In this [study](High_quality_of_evidence_is_uncommon_in_Cochrane.4.pdf), we identified that authors of many Cochrane systematic reviews made conclusive statements about the effects of interventions based on very low, low and moderate quality evidence. These are important findings considering that there could be negative implications for patient outcomes from concluding that an intervention is superior, inferior or equivalent to an alternative based on evidence that is not high quality.
+
+In this [study](https://onlinelibrary.wiley.com/doi/full/10.1002/nur.21536), 

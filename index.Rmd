@@ -1,20 +1,28 @@
 ---
-
+title: RBC Chair in Cardiovascular Nursing Research
 ---
 
 <link rel="stylesheet" href="css/academicons.min.css"/>
-<img src="images/bio-pic.jpg" style="width:25%; margin-right: 20px" align="left">
+<center><img src="images/bio-pic.jpg" style="width:25%"></center>
+<br><br>
 
-Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and the University of Toronto. His research aims to improve patient safety during procedural sedation and analgesia. 
 
-Dr. Conway’s program of research includes:
+>Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and is an Assistant Professor in the Lawrence S. Bloomberg Faculty of Nursing at the University of Toronto. His research aims to make procedural sedation and analgesia as *safe* and *effective* as possible. He is a leading researcher in the field of procedural sedation and analgesia and published the second highest number of articles in this highly multi-disciplinary field over the last 5 years.
 
+<br><br>
+<center><img src="authors.png"></center>
+<br><br>
+Dr. Conway’s current research interests related to procedural sedation includes:
+
+- High flow nasal oxygen;
 - Using machine learning to optimise physiological monitoring;
-- Thermal management;
+- Temperature monitoring and management;
 - Adverse event monitoring to support quality improvement;
 - Developing tools and resources to support sedation training and education programs; and
 - Using simulation to strengthen the evidence for nurse-administered sedation practice.
+<br><br>
+
+>Prior to joining Bloomberg Nursing, Dr. Conway was a Senior Research Fellow at the School of Nursing and Institute of Health & Biomedical Innovation, Queensland University of Technology, Australia where he held a National Health and Medical Research Council Early Career Fellowship from 2014-2018.
 
 
-Prior to joining Bloomberg Nursing, Dr. Conway was a Senior Research Fellow at the School of Nursing and Institute of Health & Biomedical Innovation, Queensland University of Technology, Australia where he held a National Health and Medical Research Council Early Career Fellowship from 2014-2018.
 

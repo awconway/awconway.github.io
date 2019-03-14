@@ -9,6 +9,18 @@ navbar:
       menu: 
       - text: "High flow nasal oxygen"
         href: HFNO.html
+      - text: "Capnography"
+        href: Capnography.html
+      - text: "Transcutaneous carbon dioxide monitoring"
+        href: tcco2.html
+      - text: "Cath lab sedation"
+        href: cathlabsedation.html
+      - text: "Temperature monitoring and management"
+        href: temp.html
+      - text: "Midazolam Cochrane Review"
+        href: midaolam.html
+      - text: "Meta-epidemiology"
+        href: meta-epi.html 
     - text: "R packages"
       menu:
       - text: "spiritR"
