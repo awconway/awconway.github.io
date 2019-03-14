@@ -1,6 +1,7 @@
 ---
 title: "spiritR"
 ---
+<link rel="stylesheet" href="css/academicons.min.css"/>
 
 The spiritR package contains an Rmarkdown template for a clinical trial protocol adhering to the [SPIRIT](http://www.spirit-statement.org/) checklist.
 

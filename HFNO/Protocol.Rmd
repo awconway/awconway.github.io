@@ -13,6 +13,7 @@ output:
     includes:
       after_body: footer.html
 ---
+<link rel="stylesheet" href="css/academicons.min.css"/>
 
 
 ```{r, echo=FALSE}

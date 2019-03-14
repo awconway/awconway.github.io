@@ -1,10 +1,13 @@
 ---
+
 ---
 
-
+<link rel="stylesheet" href="css/academicons.min.css"/>
 <img src="images/bio-pic.jpg" style="width:25%; margin-right: 20px" align="left">
 
-Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and the University of Toronto. His research aims to improve patient safety during procedural sedation and analgesia. Themes within Dr. Conway’s program of research include:
+Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and the University of Toronto. His research aims to improve patient safety during procedural sedation and analgesia. 
+
+Dr. Conway’s program of research includes:
 
 - Using machine learning to optimise physiological monitoring;
 - Thermal management;
@@ -14,3 +17,4 @@ Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the P
 
 
 Prior to joining Bloomberg Nursing, Dr. Conway was a Senior Research Fellow at the School of Nursing and Institute of Health & Biomedical Innovation, Queensland University of Technology, Australia where he held a National Health and Medical Research Council Early Career Fellowship from 2014-2018.
+
