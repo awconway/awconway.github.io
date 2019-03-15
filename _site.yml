@@ -24,7 +24,7 @@ navbar:
     - text: "R packages"
       menu:
       - text: "spiritR"
-        href: spiritR.html
+        href: https://spiritr.netlify.com/
   right:
     - icon: fa-envelope fa-lg
       href: contact.html

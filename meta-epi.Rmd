@@ -4,8 +4,23 @@ title: "Improving the quality of research"
 
 <link rel="stylesheet" href="css/academicons.min.css"/>
 
-Dr Conway has an interest in meta-epidemiological studies (or methodological analysis). To optimise the use of evidence in clinical practice, published research needs to be reported with clarity and accuracy. Meta-epidemiology is a type of study focused on evaluating and improving the quality of research. 
+> Dr Conway has an interest in meta-epidemiological studies (or methodological analysis). To optimise the use of evidence in clinical practice, published research needs to be reported with clarity and accuracy. Meta-epidemiology is a type of study focused on evaluating and improving the quality of research. 
 
-In this [study](High_quality_of_evidence_is_uncommon_in_Cochrane.4.pdf), we identified that authors of many Cochrane systematic reviews made conclusive statements about the effects of interventions based on very low, low and moderate quality evidence. These are important findings considering that there could be negative implications for patient outcomes from concluding that an intervention is superior, inferior or equivalent to an alternative based on evidence that is not high quality.
+<br>
 
-In this [study](https://onlinelibrary.wiley.com/doi/full/10.1002/nur.21536), 
+## <i class="fa fa-angle-double-right fa-lg"></i>  [Quality of evidence in Cochrane systematic reviews](High_quality_of_evidence_is_uncommon_in_Cochrane.4.pdf)
+<br>
+We identified that authors of many Cochrane systematic reviews made conclusive statements about the effects of interventions based on very low, low and moderate quality evidence. These are important findings considering that there could be negative implications for patient outcomes from concluding that an intervention is superior, inferior or equivalent to an alternative based on evidence that is not high quality.
+<br><br>
+
+<center><img id="img-me" src="images/GRADE.png"  height="auto"></center>
+
+
+<br>
+
+## <i class="fa fa-angle-double-right fa-lg"></i> [Statistical analysis of matched case-control studies](https://onlinelibrary.wiley.com/doi/full/10.1002/nur.21536)
+<br>
+
+We sought to ascertain whether matched case–control studies published in the nursing literature utilized appropriate statistical analyses. Of 41 articles identified that met the inclusion criteria, 31 (76%) used an inappropriate statistical test for comparing data derived from case subjects and their matched controls. In response to this finding, we developed an algorithm to support decision‐making regarding statistical tests for matched case–control studies.
+
+<center><img id="img-me" src="images/matched.png"  height="auto"></center>
