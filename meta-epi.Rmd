@@ -13,7 +13,7 @@ title: "Improving the quality of research"
 We identified that authors of many Cochrane systematic reviews made conclusive statements about the effects of interventions based on very low, low and moderate quality evidence. These are important findings considering that there could be negative implications for patient outcomes from concluding that an intervention is superior, inferior or equivalent to an alternative based on evidence that is not high quality.
 <br><br>
 
-<center><img id="img-me" src="images/GRADE.png"  height="auto"></center>
+<center><img id="img-me" src="images/GRADE.png" width="700px" height="auto"></center>
 
 
 <br>
@@ -23,4 +23,4 @@ We identified that authors of many Cochrane systematic reviews made conclusive s
 
 We sought to ascertain whether matched case–control studies published in the nursing literature utilized appropriate statistical analyses. Of 41 articles identified that met the inclusion criteria, 31 (76%) used an inappropriate statistical test for comparing data derived from case subjects and their matched controls. In response to this finding, we developed an algorithm to support decision‐making regarding statistical tests for matched case–control studies.
 
-<center><img id="img-me" src="images/matched.png"  height="auto"></center>
+<center><img id="img-me" src="images/matched.png" width = 700px" height="auto"></center>
