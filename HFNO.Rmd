@@ -1,11 +1,20 @@
 ---
-title: "High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial"
 ---
+<br><br>
 
 <link rel="stylesheet" href="css/academicons.min.css"/>
 
-High flow nasal oxygen (HFNO) is increasingly regarded as a promising technology for oxygen delivery in critical care and anesthetic management. Although promising, further high-quality studies examining the effects of using HFNO during procedural sedation are required to inform decision-making regarding implementation of this new technology into practice. The 2018 guidelines from the American Society of Anesthesiology stated that there is insufficient evidence regarding which methods of supplemental oxygen administration (e.g., nasal cannula, face mask, or specialized devices such as HFNO) are more effective. This trial will address this limitation in the evidence base specifically in regard to the efficacy of using HFNO during conscious sedation in the cardiac catheterisation laboratory.
+## High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial
 
-- The protocol for this study can be found [here](HFNO/Protocol.html)
+<br><br>
 
-- To track trial recruitment progress, click on this [link](https://sedationapps.shinyapps.io/HFNO-screening-dashboard/)
+> High flow nasal oxygen (HFNO) is increasingly regarded as a promising technology for oxygen delivery in critical care and anesthetic management. The 2018 guidelines from the American Society of Anesthesiology for procedural sedation stated that there is insufficient evidence regarding which methods of supplemental oxygen administration (e.g., nasal cannula, face mask, or specialized devices such as HFNO) are more effective. This trial will address this limitation in the evidence base specifically in regard to the efficacy of using HFNO during conscious sedation in the cardiac catheterisation laboratory.
+
+<div align="center">
+## <i class="fa fa-search fa-lg"></i>  Click [here](HFNO/Protocol.html) for the full trial protocol
+
+<br><br>
+
+## <i class="fa fa-tasks fa-lg"></i>  Click [here](https://sedationapps.shinyapps.io/HFNO-screening-dashboard/) to track recruitment progress
+
+</div>
