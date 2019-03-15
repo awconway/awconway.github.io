@@ -1,15 +1,15 @@
 ---
-title: RBC Chair in Cardiovascular Nursing Research
+title: <center>RBC Chair in Cardiovascular Nursing Research</center>
 ---
 
 <link rel="stylesheet" href="css/academicons.min.css"/>
-<center><img src="images/bio-pic.jpg" style="width:25%"></center>
-<br><br>
+<center><img src="images/Picture1.png" style="width:25%"></center>
+<br>
 
 
->Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and is an Assistant Professor in the Lawrence S. Bloomberg Faculty of Nursing at the University of Toronto. His research aims to make procedural sedation and analgesia as *safe* and *effective* as possible. He is a leading researcher in the field of procedural sedation and analgesia and published the second highest number of articles in this highly multi-disciplinary field over the last 5 years.
+>Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and is an Assistant Professor in the Lawrence S. Bloomberg Faculty of Nursing at the University of Toronto. His research aims to make procedural sedation and analgesia as *safe* and *effective* as possible. He is a leading researcher in the field of procedural sedation and analgesia having published the second highest number of articles in this highly multi-disciplinary field over the last 5 years.
 
-<br><br>
+<br>
 <center><img src="authors.png"></center>
 <br><br>
 Dr. Conway’s current research interests related to procedural sedation includes:

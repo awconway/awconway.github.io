@@ -13,14 +13,9 @@ output:
     includes:
       after_body: footer.html
 ---
-<link rel="stylesheet" href="css/academicons.min.css"/>
+<br>
+<img src="UHN.jpg" >
 
-
-```{r, echo=FALSE}
-htmltools::img(src = knitr::image_uri("/Users/aaronconway/OneDrive - UHN/HFNO-RCT/Standard-operating-procedures/Screening/Figures/UHN.jpg"), 
-               alt = 'logo', 
-               style = 'position:absolute; top:0; right:0; padding:10px;')
-```
 
 &nbsp;
 <p style="text-align: left;"><span style="color: #808080;">This protocol was generated using  <a href="http://www.spirit-statement.org/implementation-tools/">SEPTRE</a> (SPIRIT Electronic Protocol Tool & Resource)</p>
