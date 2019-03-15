@@ -17,7 +17,7 @@ navbar:
         href: cathlabsedation.html
       - text: "Temperature monitoring and management"
         href: temp.html
-      - text: "Midazolam Cochrane Review"
+      - text: "Cochrane Reviews"
         href: midaolam.html
       - text: "Meta-epidemiology"
         href: meta-epi.html 
