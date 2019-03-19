@@ -1,23 +1,3 @@
----
-title: "Temperature monitoring and management"
-runtime: shiny
----
-
-> Mild hypothermia (defined as temperature below 36°C) is considered an adverse effect of anaesthesia that should be avoided. Studies have shown that it increases post-operative complications and reduces patient satisfaction. Patients undergoing procedures in the cath lab are exposed to similar risks for perioperative hypotermia, including a low ambient room temperature and receiving medications that impair thermoregulation. Dr Conway's reearch in this area has revealed several significant findings.
-
-
-
-## <i class="fa fa-angle-double-right fa-lg"></i>  Forced air warming reduced risk of hypothermia by 25%
-
-This [randomized controlled trial](https://heart.bmj.com/content/104/8/685) was published in the highly ranked cardiology journal *Heart*. The results support a change to current thermal management practices in an effort to reduce the incidence of inadvertent hypothermia (which is broadly viewed as an adverse effect of anaesthesia that should be avoided) and improve thermal comfort. 
-
-<br>
-
-## <i class="fa fa-angle-double-right fa-lg"></i> Forced air warming is cost-effective at a willingness to pay threshold of $34
-
-Alongside the RCT, we conducted a [cost-effectiveness study](https://onlinelibrary.wiley.com/doi/full/10.1111/jan.13707) to determine how much an organization must be willing to pay for the use of forced air warming during sedation in the cath lab to be considered good value. We have also developed an interactive tool (below) that decision makers can use to estimate the probability that forced air warming would be cost‐effective at their institution.
-
-```{r, echo = FALSE, message=FALSE, warning=FALSE}
 library(shiny)
 library(jsonlite)
 library(curl)
@@ -154,10 +134,4 @@ server <- function(input, output) {
 }
 
 # Run the application 
-shinyApp(ui = ui, server = server, options = list(height = 500))
-```
-
-
-
-
-
+shinyApp(ui = ui, server = server)
