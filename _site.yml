@@ -48,3 +48,5 @@ output:
   html_document:
     theme: flatly
     css: ['css/style.css', 'css/academicons.min.css']
+    includes:
+      in_header: fa.html

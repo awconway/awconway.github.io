@@ -1,8 +1,23 @@
 ---
-title: "Temperature monitoring and management"
 ---
+<div align = "center">
+
+# Temperature monitoring and management
+
+</div>
+
+<br>
+<div class = "row">
+<div class = "col-md-3" align = "center">
+<br><br>
+<i class="fas fa-temperature-frigid fa-8x"></i>
+</div>
+<div class = "col-md-9">
 
 > Mild hypothermia (defined as temperature below 36°C) is considered an adverse effect of anaesthesia that should be avoided. Studies have shown that it increases post-operative complications and reduces patient satisfaction. Patients undergoing procedures in the cath lab are exposed to similar risks for perioperative hypotermia, including a low ambient room temperature and receiving medications that impair thermoregulation. Dr Conway's reearch in this area has revealed several significant findings.
+
+</div>
+</div>
 
 ## <i class="fa fa-angle-double-right fa-lg"></i> 1 in every 4 sedated patients were hypothermic (<36.0°C) 
 
