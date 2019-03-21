@@ -1,14 +1,21 @@
 ---
-title: "Transcutaneous carbon dioxide (TcCO~2~) monitoring"
-
 ---
-
+<div align = "center">
+# Transcutaneous carbon dioxide (TcCO~2~) monitoring
+</div>
+<div class = "row">
+<div class = "col-md-6" align = "center">
+<br><br><br><br>
+<center><img id="img-me" src="images/tcco2.jpg" width="500px" height="auto"></center>
+</div>
+<div class = "col-md-6">
 <br><br>
 
 > It is vital that clinicians have a clear understanding of the accuracy of TcCO~2~ monitoring devices to ensure they are applied in appropriate circumstances. Our research has identified that there are substantial differences between TcCO~2~ and PaCO~2~ depending on the context in which this technology is used. TcCO~2~ sensors should preferentially be applied to the earlobe and users should consider setting the temperature of the sensor higher than 42°C when monitoring at other sites.
 
-<center><img id="img-me" src="images/tcco2.jpg" width="500px" height="auto"></center>
+</div>
+</div>
 
-<br><br>
-
+<br>
+<div align = "center">
 ## <i class="fa fa-angle-double-right fa-lg"></i>  [Read](https://thorax.bmj.com/content/74/2/157.abstract) the full systematic review
