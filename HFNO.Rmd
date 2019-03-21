@@ -7,7 +7,7 @@
 
 <br><br>
 <div class = "row">
-<div class = "col-md-3">
+<div class = "col-md-3" align = "center">
 <br><br>
 <i class="fas fa-lungs fa-10x"></i>
 </div>
