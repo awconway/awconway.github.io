@@ -1,11 +1,19 @@
 ---
-title: "Improving the quality of research"
 ---
 
-
+<div class = "row">
+<div class = "col-md-3"  align = "center">
+<br><br><br>
+<i class="fas fa-analytics fa-8x"></i>
+</div>
+<div class = "col-md-9">
+<div align = "center">
+# Improving the quality of research
+</div>
 > To optimise the use of evidence in clinical practice, published research needs to be reported with clarity and accuracy. Meta-epidemiology is a type of study focused on evaluating and improving the quality of research. Below are examples of Dr Conway's  meta-epidemiological studies (or methodological analysis). 
 
-<br>
+</div>
+</div>
 <div align="center">
 ## <i class="fa fa-angle-double-right fa-lg"></i>  [Quality of evidence in Cochrane systematic reviews](images/High_quality_of_evidence_is_uncommon_in_Cochrane.4.pdf)
 </div>
