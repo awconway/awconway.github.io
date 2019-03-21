@@ -2,8 +2,6 @@
 ---
 <br><br>
 
-<link rel="stylesheet" href="css/academicons.min.css"/>
-
 ## High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial
 
 <br><br>

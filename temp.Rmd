@@ -1,7 +1,6 @@
 ---
 title: "Temperature monitoring and management"
 ---
-<link rel="stylesheet" href="css/academicons.min.css"/>
 
 > Mild hypothermia (defined as temperature below 36°C) is considered an adverse effect of anaesthesia that should be avoided. Studies have shown that it increases post-operative complications and reduces patient satisfaction. Patients undergoing procedures in the cath lab are exposed to similar risks for perioperative hypotermia, including a low ambient room temperature and receiving medications that impair thermoregulation. Dr Conway's reearch in this area has revealed several significant findings.
 

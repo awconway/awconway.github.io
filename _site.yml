@@ -18,7 +18,7 @@ navbar:
       - text: "Temperature monitoring and management"
         href: temp.html
       - text: "Cochrane Reviews"
-        href: midaolam.html
+        href: midazolam.html
       - text: "Meta-epidemiology"
         href: meta-epi.html 
     - text: "R packages"
@@ -47,4 +47,4 @@ navbar:
 output:
   html_document:
     theme: flatly
-    css: style.css
+    css: ['css/style.css', 'css/academicons.min.css']

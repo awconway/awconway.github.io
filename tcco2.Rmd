@@ -2,8 +2,6 @@
 title: "Transcutaneous carbon dioxide (TcCO~2~) monitoring"
 
 ---
-<link rel="stylesheet" href="css/academicons.min.css"/>
-
 
 <br><br>
 
@@ -13,4 +11,4 @@ title: "Transcutaneous carbon dioxide (TcCO~2~) monitoring"
 
 <br><br>
 
-## <i class="fa fa-angle-double-right fa-lg"></i>  Click [here](https://thorax.bmj.com/content/74/2/157.abstract) for the full systematic review
+## <i class="fa fa-angle-double-right fa-lg"></i>  [Read](https://thorax.bmj.com/content/74/2/157.abstract) the full systematic review

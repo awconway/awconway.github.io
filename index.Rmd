@@ -2,7 +2,6 @@
 title: <center>RBC Chair in Cardiovascular Nursing Research</center>
 ---
 
-<link rel="stylesheet" href="css/academicons.min.css"/>
 <center><img id="img-me" src="images/Picture1.png" width="300px" height="auto"></center>
 <br>
 

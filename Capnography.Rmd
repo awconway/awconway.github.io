@@ -1,8 +1,6 @@
 ---
 title: "Capnography"
 ---
-<link rel="stylesheet" href="css/academicons.min.css"/>
-
 
 <br>
 
