@@ -1,9 +1,6 @@
 ---
-runtime: shiny
 ---
-```{r echo=FALSE, include=FALSE}
-library(shiny)
-```
+
 
 <div align = "center">
 
@@ -42,5 +39,7 @@ This [randomized controlled trial](https://heart.bmj.com/content/104/8/685) was 
 ## <i class="fa fa-angle-double-right fa-lg"></i> Forced air warming is cost-effective at a willingness to pay threshold of $34
 
 Alongside the RCT, we conducted a [cost-effectiveness study](https://onlinelibrary.wiley.com/doi/full/10.1111/jan.13707) to determine how much an organization must be willing to pay for the use of forced air warming during sedation in the cath lab to be considered good value. We have also developed the interactive tool presented below that decision makers can use to estimate the probability that forced air warming would be cost‐effective at their institution.
-<center><img id="img-me" src="images/thermalcomfort.png" width = "500" height="auto"></center>
+
+ <iframe src="https://sedationapps.shinyapps.io/THERMISED/" width="800" height="900" style="border: none;"></iframe>
+
  
