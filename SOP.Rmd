@@ -1,0 +1,19 @@
+---
+---
+
+
+# Standard Operating Procedures
+<br>
+
+## [Screening](HFNO/Screening.html)
+
+## [Baseline data collection](HFNO/Baseline.html)
+
+## [Randomization](HFNO/Randomization.html)
+
+## [Transcutaneous carbon dioxide monitoring](HFNO/TcCO2.html)
+
+## [VStats](HFNO/Vstats.html)
+
+## [Post-procedure data collection](HFNO/Post-procedure.html)
+

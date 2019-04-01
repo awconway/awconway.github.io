@@ -31,4 +31,9 @@
 ## <i class="fa fa-info fa-lg"></i>  [Instructions](https://www.aaronconway.info/AA-instructions/#1) for using HFNO during the trial
 
 
+<br><br>
+
+## <i class="fa fa-info fa-lg"></i>  [Open](SOP.html) Standard operating procedures the trial
+
+
 </div>
