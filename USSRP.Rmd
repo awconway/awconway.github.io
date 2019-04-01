@@ -1,0 +1,84 @@
+---
+title: "<center>2019 Undergraduate Student Summer Research Program</center>"
+---
+
+
+
+<div class = "row">
+<div class = "col-md-3" align = "center">
+<i class="fa fa-lungs fa-8x"></i>
+</div>
+
+<div class = "col-md-9" align = "middle">
+> <br><br>Transcutaneous carbon dioxide monitoring during procedural sedation in the cardiac catheterisation laboratory<br><br>
+
+</div>
+</div>
+<br>
+<div class = "row">
+<div class = "col-md-3" align = "center">
+## <i class="fa fa-bullseye-arrow fa-lg"></i> Goals
+</div>
+<div class = "col-md-9">
+- Learn how to use R to tidy, transform and visualise data, as well as some basic modelling
+- Learn how to use the RStudio IDE (or RStudio Cloud)
+- Learn how to use version control with RStudio
+- Prepare a manuscript for publication
+</div>
+</div>
+<br>
+<div class = "row">
+<div class = "col-md-3" align = "center">
+## <i class="fa fa-tasks fa-lg"></i> Activities
+</div>
+
+### <i class="fa fa-angle-double-right fa-lg"></i> Complete the following [Datacamp](www.datacamp.com) courses
+<div class = "col-md-9">
+- Introduction to R (4 hours)
+- Working with the RStudio IDE (Part 1) (3 hours)
+- Chapter 2 - Version Control and Chapter 3 - Reporting of Working with the RStudio IDE (2 hours)
+- Reporting with R Markdown (3 hours)
+- Introduction to the Tidyverse (4 hours)
+- Data viz with ggplot (Part 1) (5 hours)
+- Correlation and Regression (4 hours)
+
+### <i class="fa fa-angle-double-right fa-lg"></i> Set-up R and RStudio
+
+- Follow the instructions [here](https://rstudio.cloud/learn/guide) for RStudio Cloud
+
+### <i class="fa fa-angle-double-right fa-lg"></i> Analysis and Report Writing
+
+- Undertake descriptive analyses of changes in transcutaneous carbon dioxide concentrations during sedation
+- Perform multivariable modelling of post-sedation mean and peak transcutaneous carbon dioxide concentrations
+- Create data vizualisations
+- Prepare the report using R Markdown to display the results and statistical code used for the analyses undertaken
+- Commit and push to Github early and often
+
+
+
+</div>
+</div>
+
+<br>
+<div class = "row">
+<div class = "col-md-3" align = "center">
+### <i class="fa fa-info-circle fa-lg"></i> Resources
+</div>
+
+<div class = "col-md-9">
+### <i class="fa fa-angle-double-right fa-lg"></i> General resources about R and version control
+
+- #### Happy [Git](https://happygitwithr.com/) with R
+
+- #### [Version control](https://bren.zendesk.com/hc/en-us/articles/360015826731-How-to-connect-RStudio-Cloud-with-Github) for RStudio Cloud
+
+- #### <i class="fa fa-twitter fa-lg"></i> [#Rstats](https://twitter.com/search?q=%23rstats&src=typd)
+
+### <i class="fa fa-angle-double-right fa-lg"></i> Transcutaneous carbon dioxide monitoring
+
+- #### [Accuracy](https://thorax.bmj.com/content/74/2/157.abstract)
+- #### [Endoscopy](https://link.springer.com/article/10.1007/s12630-018-1138-7)
+- #### [Cardiology](https://www.sciencedirect.com/science/article/pii/S1553838918303269)
+
+</div>
+</div>

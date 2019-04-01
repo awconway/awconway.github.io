@@ -25,6 +25,11 @@ navbar:
       menu:
       - text: "spiritR"
         href: https://spiritr.netlify.com/
+    - text: "Teaching"
+      menu: 
+      - text: "2019 Summer Research"
+        href: USSRP.html
+
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
