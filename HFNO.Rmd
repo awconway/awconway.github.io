@@ -33,7 +33,7 @@
 
 <br><br>
 
-## <i class="fa fa-info fa-lg"></i>  [Open](SOP.html) Standard operating procedures the trial
+## <i class="fa fa-info fa-lg"></i>  [View](SOP.html) Standard operating procedures the trial
 
 
 </div>
