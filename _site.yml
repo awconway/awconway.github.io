@@ -29,6 +29,8 @@ navbar:
       menu: 
       - text: "2019 Summer Research"
         href: USSRP.html
+    - text: "CV"
+      href: "https://aaronconway.dev/cv/"
 
   right:
     - icon: fa-envelope fa-lg
