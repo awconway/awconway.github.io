@@ -30,7 +30,7 @@ navbar:
       - text: "2019 Summer Research"
         href: USSRP.html
     - text: "CV"
-      href: "https://aaronconway.dev/cv/"
+      href: "https://orcid.org/0000-0002-9583-8636/print"
 
   right:
     - icon: fa-envelope fa-lg
