@@ -13,6 +13,8 @@
 
 ## [Transcutaneous carbon dioxide monitoring](HFNO/TcCO2.html)
 
+## [Setting up HFNO](HFNO/HFNO.html)
+
 ## [VStats](HFNO/Vstats.html)
 
 ## [Post-procedure data collection](HFNO/Post-procedure.html)
