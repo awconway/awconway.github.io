@@ -1,18 +1,18 @@
 ---
-title: <center>RBC Chair in Cardiovascular Nursing Research</center>
+title: Aaron Conway
 ---
 <div class = "row">
   
 <div class = "col-md-3">
 <br>
-<center><img id="img-me" src="https://aaronconway.dev/images/Picture1.png" width="300px" height="auto"></center>
+<center><img id="img-me" src="https://aaronconway.dev/images/Picture1.png" alt="Aaron Conway" width="300px" height="auto"></center>
 </div>
 
 <div class = "col-md-9">
 
 <br>
 
->Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and is an Assistant Professor in the Lawrence S. Bloomberg Faculty of Nursing at the University of Toronto. His research aims to make procedural sedation and analgesia as *safe* and *effective* as possible. He is a leading researcher in the field of procedural sedation and analgesia having published the second highest number of articles in this highly multi-disciplinary field over the last 5 years.
+>Dr. Aaron Conway holds the **RBC Chair in Cardiovascular Nursing Research** at the Peter Munk Cardiac Centre and is an Assistant Professor in the Lawrence S. Bloomberg Faculty of Nursing at the University of Toronto. His research aims to make procedural sedation and analgesia as *safe* and *effective* as possible. He is a leading researcher in the field of procedural sedation and analgesia having published the second highest number of articles in this highly multi-disciplinary field over the last 5 years.
 
 <br>
 <center><img src="authors.png"></center>
