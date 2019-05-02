@@ -1569,7 +1569,7 @@ div.tocify {
 <h1 class="title toc-ignore">Research Protocol</h1>
 <h3 class="subtitle">Predicting apnea during procedural sedation</h3>
 <h4 class="author">Version 1</h4>
-<h4 class="date">18 April, 2019</h4>
+<h4 class="date">02 May, 2019</h4>
 
 </div>
 
@@ -1819,7 +1819,7 @@ div.tocify {
 <blockquote>
 <p>We now plan to build on these preliminary findings about the associations between apneic events and the history of previous respiratory states by building a predictive model from a large sample of capnography waveforms.</p>
 </blockquote>
-<p>Capnography waveforms collected through the Drug Reconciliation and Electronic Anesthesia Monitoring system during cardiac implantable electronic device procedures performed with conscious sedation administered by Anesthesia Assistants at the Peter Munk Cardiac Centre over the past five years (approximately 2000 patients) will be analysed. Long short-term memory recurrent neural networks (LSTM) will be used to train a model to predict the value of ETCO<sub>2</sub> at a set of specified times in the future. These predictions will be used to estimate the duration of apneic episodes. An LSTM model is particularly suited to this prediction problem because it can naturally model time series data exhibiting non-linear and long-term dependencies on a set of time-varying predictors. Once the model is learned, it can produce predictions at any specified set of time horizons. This feature will be utilised to develop the smart alarm by making predictions based on previous states in unobserved data that an apneic period will be prolonged. The final model will be chosen with respect to the optimal balance between accurately predicting ETCO<sub>2</sub>, and thus prolonged apneic periods, and the alarm frequency reduction rate (AFRR). The AFRR metric is the ratio of correct predictions of short apneic periods to the total number of apneic periods.</p>
+<p>Capnography waveforms collected through the Drug Reconciliation and Electronic Anesthesia Monitoring system during cardiac implantable electronic device procedures performed with conscious sedation administered by Anesthesia Assistants at the Peter Munk Cardiac Centre over the past five years (approximately 2000 patients) will be analysed. Long short-term memory recurrent neural networks (LSTM) will be used to train a model to predict the remaining duration of an ongoing apneic episode. An LSTM model is particularly suited to this prediction problem because it can naturally model time series data exhibiting non-linear and long-term dependencies on a set of time-varying predictors. Once the model is learned, it can produce predictions at any specified set of time horizons. This feature will be utilised to develop the smart alarm by making predictions based on previous states in unobserved data that an apneic period will be prolonged. The final model will be chosen with respect to the optimal balance between accurately predicting ETCO<sub>2</sub>, and thus prolonged apneic periods, and the alarm frequency reduction rate (AFRR). The AFRR metric is the ratio of correct predictions of short apneic periods to the total number of apneic periods.</p>
 <blockquote>
 <p>Longer term plans for this program of research are to prospectively evaluate the accuracy of the model developed in the current study, develop a Graphical User Interface that is best suited to operationalise the predictive model as a ‘smart alarm’ in the clinical setting and, ultimately, conduct a randomized controlled trial to test the clinical safety and utility of the ‘smart alarm’.</p>
 </blockquote>
@@ -1895,9 +1895,9 @@ div.tocify {
 </div>
 <div id="statistical-methods" class="section level2">
 <h2><span class="header-section-number">3.8</span> Statistical methods</h2>
-<p>To predict the duration of apneic episodes, we will develop an LSTM model to predict ETCO<sub>2</sub> at several time horizons. The duration of the apneic episodes will then be estimated from the predicted values of ETCO<sub>2</sub>. Inputs of the model will be a multivariate time-series consisting of the current values of EtCO<sub>2</sub>, respiratory rate, the capnography waveform, and the cumulative doses of Midazolam, fentanyl, and propofol.</p>
-<p>The sample will be partitioned into a training and test set following an 80/20 split. To ensure that these partitions are representative of the sample, the sample will be stratified among clusters of patients exhibiting similar procedure durations and number of apneic episodes.</p>
-<p>Hyperparameters of the model will be chosen based on k-fold cross validation on the training data. The performance of each model will be evaluated using the mean square error loss.</p>
+<p>We will develop an LSTM model to predict the remaining duration of an ongoing apenic episode. Inputs of the model will be a multivariate time-series consisting of the current values of EtCO<sub>2</sub>, respiratory rate, the capnography waveform, and the cumulative doses of Midazolam, fentanyl, and propofol. Since we are interested in predicting the length of an ongoing apneic episode, we will consider only data where the most recent ETCO<sub>2</sub> measurement is under 10mmHg.</p>
+<p>The sample data will be partitioned into a training and test set following an 80/20 split across patients. A subset of data within the training set will be set aside for model validation purposes. To ensure that these partitions are representative of the sample, the sample will be stratified among clusters of patients exhibiting similar procedure durations and number of apneic episodes.</p>
+<p>Hyperparameters of the model will be chosen by evaluating the performance of the model on the validation data. The performance of each model will be evaluated using the mean square error loss.</p>
 <div id="additional-analyses" class="section level3">
 <h3><span class="header-section-number">3.8.1</span> Additional analyses</h3>
 <p>No additional analyses will be performed.</p>
