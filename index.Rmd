@@ -5,7 +5,7 @@ title: Aaron Conway
   
 <div class = "col-md-3">
 <br>
-<center><img id="img-me" src="https://rstudio-conway.com/images/Picture1.png" alt="Aaron Conway" width="300px" height="auto"></center>
+<center><img id="img-me" src="https://aconway.dev/images/Picture1.png" alt="Aaron Conway" width="300px" height="auto"></center>
 </div>
 
 <div class = "col-md-9">
