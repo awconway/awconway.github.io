@@ -30,7 +30,7 @@ navbar:
       - text: "2019 Summer Research"
         href: USSRP.html
     - text: "CV"
-      href: pdf-version.pdf
+      href: https://aconway.dev/cv/
 
   right:
     - icon: fa-envelope fa-lg
