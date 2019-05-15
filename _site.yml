@@ -29,6 +29,8 @@ navbar:
       menu: 
       - text: "2019 Summer Research"
         href: USSRP.html
+      - text: "2019 Summer Work Study"
+        href: ZHF-review.html
     - text: "CV"
       href: https://aconway.dev/cv/
 
