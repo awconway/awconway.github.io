@@ -1,0 +1,212 @@
+---
+title: "High Flow Nasal Oxygen during sedation"
+subtitle: <i class="fas fa-lungs"></i><br>
+author: "A randomized controlled trial"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    includes:
+      in_header: fa.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+class: inverse, center, middle
+
+# Background
+
+---
+
+class: center, top
+
+# Potential advantages
+.left[
+## <i class="fas fa-angle-double-right"></i> More precise control over FiO<sub>2</sub>
+## <i class="fas fa-angle-double-right"></i> Reduce airway obstruction
+## <i class="fas fa-angle-double-right"></i> Active gas exchange during apnea
+## <i class="fas fa-angle-double-right"></i> May decrease carbon dioxide retention
+]
+---
+
+class: center, top
+
+# Potential disadvantages
+.left[
+## <i class="fas fa-angle-double-right"></i> Reduced ability to monitor ventilation from capnography waveforms due to exhaled carbon dioxide being "washed out" by the high flows of gas
+## <i class="fas fa-angle-double-right"></i> Additional costs
+]
+
+---
+
+
+class: center, middle
+
+## Currently minimal evidence...3 trials published to date
+
+--
+
+##  But high interest...at least 7 more trials registered
+
+---
+class: left, middle
+
+## <i class="fas fa-angle-double-right"></i> 3 trials to date (159 paticipants)
+### <i class="fas fa-angle-double-right"></i> Bronchoscopy (no difference in SpO<sub>2</sub> <90%)
+### <i class="fas fa-angle-double-right"></i> Endoscopy (no difference in SpO<sub>2</sub> <90%)
+### <i class="fas fa-angle-double-right"></i> Dental sedation (HFNO produced higher nadir SpO<sub>2</sub> levels )
+
+
+---
+
+class: center, top
+
+# Important to evaluate the effects of this new technology
+
+.left[
+
+## <i class="fas fa-angle-double-right"></i> In each of the diverse contexts in which procedural sedation is used
+## <i class="fas fa-angle-double-right"></i> All of the potentially beneficial effects *and* disadvantages of HFNO on respiratory function during sedation
+]
+
+---
+class: left, top
+
+.center[
+# DESIGN
+]
+
+## <i class="fas fa-angle-double-right"></i> Sedation by AA for CIED implant
+## <i class="fas fa-angle-double-right"></i> HFNO vs standard face-mask oxygen
+## <i class="fas fa-angle-double-right"></i> 150 patients
+## <i class="fas fa-angle-double-right"></i> Primary outcome is peak TcCO<sub>2</sub>
+
+---
+
+class: left, middle
+
+### <i class="fas fa-angle-double-right"></i> TcCO<sub>2</sub> as a function of time
+### <i class="fas fa-angle-double-right"></i> Oxygenation ( SpO<sub>2</sub> ) 
+### <i class="fas fa-angle-double-right"></i> Patient satisfaction (sedation & the O<sub>2</sub> supplementation device)
+### <i class="fas fa-angle-double-right"></i> AA ratings for ease of using HFNO and maintainging oxygenation
+### <i class="fas fa-angle-double-right"></i> Adverse events (TROOPS)
+
+---
+class: center, top
+
+# Subgroup Analysis
+.left[
+## <i class="fas fa-angle-double-right"></i> Sleep apnea
+## <i class="fas fa-angle-double-right"></i> Bi-V (longer procedure/sicker patients)
+]
+
+---
+
+class: inverse, center, middle
+
+# Getting Started
+
+---
+
+class: center, middle
+
+## <i class="fas fa-play"></i> Commence O<sub>2</sub> at same time as usual
+
+## <i class="fas fa-thermometer"></i> Set temperature to 'High' (ranges 30-32º Celsius)
+
+## <i class="fas fa-wind"></i> Set flow rate to 30 litres per minute
+
+## <i class="fas fa-tachometer-alt"></i> Set FiO<sub>2</sub> to 50%
+
+
+---
+
+class: inverse, center, middle
+
+# Titrating
+
+---
+
+class: middle
+
+## Once sedated:
+
+## <i class="fas fa-angle-double-right"></i> Increase flow rate to ~ 50 litres per minute
+## <i class="fas fa-angle-double-right"></i> Titrate up and down according to tolerance
+
+
+---
+
+class: center, top
+
+### Interaction of gas flow from cardiogenic oscillations and high‐flow nasal oxygenation provides a mechanism for transporting carbon dioxide from the carina to the pharynx 
+
+<center><img src="https://aconway.dev/images/CO2clearance.png" width="600px" height="auto"></center>
+  
+<br>
+Anaesthesia, Volume: 74, Issue: 4, Pages: 441-449., DOI: (10.1111/anae.14541)
+
+---
+
+class: inverse, center, middle
+# Considerations
+
+---
+
+class: middle
+
+#  <i class="fas fa-knife-kitchen"></i> Diathermy
+
+
+### <i class="fas fa-angle-double-right"></i> Decrease FiO<sub>2</sub> to 25% for ~2 mins prior to and during use
+
+---
+
+class: middle
+
+#  <i class="fas fa-bell"></i> Oxygen desaturation
+
+## <i class="fas fa-angle-double-right"></i> Maintian saturations above 93% as per policy
+## <i class="fas fa-angle-double-right"></i> FiO<sub>2</sub> and flow rate can be increased
+
+**FiO<sub>2</sub> will be accurate when flow rate is 30 litres per minute or higher*
+
+---
+
+class: middle
+
+#  <i class="fas fa-frown-open"></i> Nasal discomfort 
+
+## <i class="fas fa-angle-double-right"></i> Decrease flow rate*
+
+## <i class="fas fa-angle-double-right"></i> Adjust temperature setting
+
+**Attempt to maintain flow rate at 30 litres per minute or higher*
+
+---
+
+class: center, middle
+<iframe src="https://aconway.dev/images/AA-ratings.pdf" width="800" height="600" style="border: none;"></iframe>
+
+---
+
+
+class: inverse, middle, center
+
+# <i class="fas fa-question-square"></i> Questions
+
+## Kristina Chang (Research Coordinator)
+
+<i class="fas fa-phone"></i> Ext.4108  <i class="fas fa-envelope-square"></i> kristina.chang@uhn.ca
+
+## Aaron Conway (Principal Investigator)
+
+ <i class="fas fa-phone"></i> Ext. 4654 <i class="fas fa-envelope-square"></i> aaron.conway@uhn.ca
+
+
