@@ -3,7 +3,6 @@ title: "<center>2019 Summer Work Study Program</center>"
 ---
 
 
-
 <div class = "row">
 <div class = "col-md-3" align = "center">
 <i class="fa fa-thermometer-half fa-8x"></i>
@@ -88,6 +87,7 @@ title: "<center>2019 Summer Work Study Program</center>"
 ### <i class="fa fa-angle-double-right fa-lg"></i> Systematic reviews
 
 - #### [Example of meta-analysis of Bland-Altman method comparison studies](https://thorax.bmj.com/content/74/2/157.abstract)
+- #### [Example of protocol registration on PROSPERO](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=57450)
 - #### [Cochrane Handbook](https://training.cochrane.org/handbook)
 
 </div>
