@@ -1,0 +1,14 @@
+---
+---
+<div align = "center">
+
+# Midazolam for sedation before procedures
+
+## <i class="fa fa-search fa-lg"></i>  [View](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009491.pub2/full#CD009491-abs-0005) the full systematic review
+
+</div>
+
+<br><br>
+<div align = "center">
+<iframe src="https://aconway.dev/midazolam/summary.pdf" height="1250px" width="900px" style="border: none;"></iframe>
+</div>
