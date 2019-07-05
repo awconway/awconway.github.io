@@ -15,7 +15,6 @@ output:
 ---
 
 
-
 # Contact details
 
 |     |     |
@@ -25,7 +24,7 @@ output:
 | *Office Hours* | By appointment |
 |*Teaching Assistant* | Danielle Just, PhD nursing student<br>Email: danielle.just@mail.utoronto.ca|
 | *Course Website* | [NUR1027 Quercus site](https://q.utoronto.ca/courses/113018/) |
-| *Quercus resources* | [Quercus student guide](https://q.utoronto.ca/courses/46670)|
+| *Quercus resources* | <a href="https://q.utoronto.ca/courses/46670" target="_blank"> Quercus student guide</a> |
 
 
 
