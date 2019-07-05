@@ -23,14 +23,14 @@ output:
 | *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 247<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
 | *Office Hours* | By appointment |
 |*Teaching Assistant* | Danielle Just, PhD nursing student<br>Email: danielle.just@mail.utoronto.ca|
-| *Course Website* | [NUR1027 Quercus site](https://q.utoronto.ca/courses/113018/) |
+| *Course Website* | <a href="https://q.utoronto.ca/courses/113018/" target="_blank">NUR1027 Quercus site</a> |
 | *Quercus resources* | <a href="https://q.utoronto.ca/courses/46670" target="_blank"> Quercus student guide</a> |
 
 
 
 # Course description
 
-A major responsibility for masters-prepared advanced practiced nurses in leadership roles (formal or informal) is promoting evidence-informed practice and policy decisions within nursing. In order to be successful in this endeavour, nurses must be knowledgeable consumers of nursing and related (e.g. health services and social sciences) research. This course and the subsequent course NUR1127 will further develop your knowledge, skill, and judgment related to research competencies for advanced practice nurses as outlined in the [Canadian Nurses’ Association document “Advanced Practice Nursing: A Pan-Canadian Framework (2019)”](https://cna-aiic.ca/en/nursing-practice/the-practice-of-nursing/advanced-nursing-practice).
+A major responsibility for masters-prepared advanced practiced nurses in leadership roles (formal or informal) is promoting evidence-informed practice and policy decisions within nursing. In order to be successful in this endeavour, nurses must be knowledgeable consumers of nursing and related (e.g. health services and social sciences) research. This course and the subsequent course NUR1127 will further develop your knowledge, skill, and judgment related to research competencies for advanced practice nurses as outlined in the <a target="_parent" href="https://cna-aiic.ca/en/nursing-practice/the-practice-of-nursing/advanced-nursing-practice">Canadian Nurses’ Association document “Advanced Practice Nursing: A Pan-Canadian Framework (2019)”</a>.
 
 The focus of NUR1027 is on critical examination and reflection on research and evidence-informed practice, with an emphasis on integration of theory and research to guide practice. You will develop an understanding of the philosophical foundations of contemporary approaches to knowledge production in nursing and the health sciences, and essential competencies in locating, interpreting, critiquing, and using research evidence in practice. Critical analysis of both qualitative and quantitative approaches and their underlying theoretical frameworks will enable you to understand and appropriately integrate research into practice.
 
