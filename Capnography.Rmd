@@ -31,7 +31,7 @@ This [systematic review](https://onlinelibrary.wiley.com/doi/full/10.1111/anae.1
 
 ## <i class="fa fa-angle-double-right fa-lg"></i>  Sequence analysis of capnography waveform abnormalities
 
-In this [study](https://awconway.github.io/capnographyssa/) we utilized an approach known as state sequence analysis to examine capnography waveform abnormalities throughout cardiology procedures performed with sedation and analgesia. Analysis of the respiratory state sequences clearly demonstrated that capnography waveform abnormalities are frequent and prolonged in this population of patients undergoing cardiac procedures who received sedation with small bolus doses of midazolam and fentanyl. Applying a clustering algorithm to group similar respiratory state sequences revealed insights into common patterns of ventilatory responses to the medication used for procedural sedation. 
+In this [study](https://rdcu.be/bKqZk) we utilized an approach known as state sequence analysis to examine capnography waveform abnormalities throughout cardiology procedures performed with sedation and analgesia. Analysis of the respiratory state sequences clearly demonstrated that capnography waveform abnormalities are frequent and prolonged in this population of patients undergoing cardiac procedures who received sedation with small bolus doses of midazolam and fentanyl. Applying a clustering algorithm to group similar respiratory state sequences revealed insights into common patterns of ventilatory responses to the medication used for procedural sedation. 
 
 <center><img id="img-me" src="images/sequence-analysis.jpeg"  height="auto"></center>
 
