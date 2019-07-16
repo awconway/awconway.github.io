@@ -33,7 +33,7 @@ title: "<center>2019 Undergraduate Student Summer Research Program</center>"
 </div>
 
 ### <i class="fa fa-angle-double-right fa-lg"></i> View the following RStudio instruction videos
-
+<div class = "col-md-9">
 
 - [Writing code in RStudio](https://resources.rstudio.com/wistia-rstudio-essentials-2/rstudioessentialsprogrammingpart1-2) (0.5 hours)
 - [Projects in RStudio](https://resources.rstudio.com/wistia-rstudio-essentials-2/rstudioessentialsmanagingpart1-2) (0.5 hours)
