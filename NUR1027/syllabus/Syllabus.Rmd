@@ -20,7 +20,7 @@ output:
 |     |     |
 | --- | --- |
 |*Course Location* |  On-line  |
-| *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 247<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
+| *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 274<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
 | *Office Hours* | By appointment |
 |*Teaching Assistant* | Danielle Just, PhD nursing student<br>Email: danielle.just@mail.utoronto.ca|
 | *Course Website* | <a href="https://q.utoronto.ca/courses/113018/" target="_blank">NUR1027 Quercus site</a> |
@@ -393,7 +393,7 @@ The purpose of this assignment is to develop a practice question that may be ans
 ### Evaluation criteria
 
 -	Justification of the relevance of the practice question. 
--	Clarity and feasibility of practice question (population/patient/problem, intervention/issue, comparison <a target="_blank" href="if appropriate], and outcome/evaluation/effect) and search strategy.
+-	Clarity and feasibility of practice question (population/patient/problem, intervention/issue, comparison [if appropriate], and outcome/evaluation/effect) and search strategy.
 -	Comprehensiveness and appropriateness of search strategy. 
 -	Clarity, format and style.
 
