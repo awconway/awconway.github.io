@@ -291,12 +291,11 @@ Certain rules of etiquette are also recommended for online discussions (Netiquet
 
 ## Course Drop Date
 
-October 28, 2019 is the final date to drop September session (Full or Half) courses without academic penalty.For drop dates for 2019-20 courses please go to: https://bloomberg.nursing.utoronto.ca/current-students/sessional-dates-andcalendar#content2.
+October 28, 2019 is the final date to drop September session (Full or Half) courses without academic penalty.For drop dates for 2019-20 courses please go to this <a target="_blank" href="https://bloomberg.nursing.utoronto.ca/current-students/course-timetables#content2">link</a>.
 
 ## Grading of Written Papers
 
-All written assignments are subject to the grading regulations as outlined in the Lawrence S. Bloomberg Faculty of Nursing calendar and the School of Graduate Studies Calendar. Late assignments after the due date will accrue a late penalty of 5% each day (including
-weekends).
+All written assignments are subject to the grading regulations as outlined in the Lawrence S. Bloomberg Faculty of Nursing calendar and the School of Graduate Studies Calendar. Late assignments after the due date will accrue a late penalty of 5% each day (including weekends).
 
 ## Submission of assignments
 
@@ -305,7 +304,7 @@ On the due date, please submit an electronic copy of your paper to the digital d
 ## Writing an exam out of sequence or receiving an extension on an assignment
 
 In an exceptional circumstance, e.g. death in family or medical illness, a student may be allowed to write an exam out of sequence or receive an extension on an assignment. In case of an illness, the student needs a note from a licensed health care providers (Dentist, 
-Nurse/Nurse Practitioner, Physician/Surgeon, Psychologist, Psychotherapist or Social Worker registered and licensed in the Province of Ontario) and needs to fill out the following form: http://www.illnessverification.utoronto.ca/index.php. The student needs to contact the instructor as soon as possible prior to the exam/assignment deadline. The verification of illness form needs to be submitted within 7 calendar days of the assignment deadline/exam date. An alternate date needs to be set as close to the date of the original exam/assignment due date as possible. In case of an exam, you will be asked to complete the Declaration of Confidentiality for Students Sitting Tests/Examinations at Other Than the Regular Specified Time. 
+Nurse/Nurse Practitioner, Physician/Surgeon, Psychologist, Psychotherapist or Social Worker registered and licensed in the Province of Ontario) and needs to fill out the following form <a target="_blank" href="http://www.illnessverification.utoronto.ca/index.php">here</a>. The student needs to contact the instructor as soon as possible prior to the exam/assignment deadline. The verification of illness form needs to be submitted within 7 calendar days of the assignment deadline/exam date. An alternate date needs to be set as close to the date of the original exam/assignment due date as possible. In case of an exam, you will be asked to complete the Declaration of Confidentiality for Students Sitting Tests/Examinations at Other Than the Regular Specified Time. 
 
 ## Questions About Assignment
 
@@ -318,7 +317,7 @@ Turnitin is used in this course. Normally, students will be required to submit t
 Academic integrity is essential to the pursuit of learning and scholarship in a university, and to ensuring that a degree from the University of Toronto is a strong reflection of each student’s individual academic achievement.  
  
 The University of Toronto Governing Council Code of Behaviour on Academic Matters 
-(University of Toronto Governing Council, 2019) is found at http://www.governingcouncil.lamp4.utoronto.ca/wp-content/uploads/2016/07/p0701coboam-2015-2016pol.pdf. The code outlines offences that constitute academic misconduct and processes for addressing academic offences. Section B.1 of the code (copied below) outlines academic offences.   
+(University of Toronto Governing Council, 2019) is found <a target="_blank" href="http://www.governingcouncil.lamp4.utoronto.ca/wp-content/uploads/2016/07/p0701coboam-2015-2016pol.pdf">here</a>. The code outlines offences that constitute academic misconduct and processes for addressing academic offences. Section B.1 of the code (copied below) outlines academic offences.   
  
 It shall be an offence for a student knowingly: 
 
@@ -346,15 +345,15 @@ Students with diverse learning styles and needs are welcomed in this course. In 
  
 ## Health and Wellness Centre  
 
-The Health & Wellness Centre http://healthandwellness.utoronto.ca/  provides a variety of services for registered students including mental health services such as short-term individual counseling and group therapies for anxiety, low or depressed mood and resilience (e.g. Mindfulness-Based, Cognitive-Behavioural Therapy for Anxiety) and psychiatric medication services. Students also have access to counselling services on-site at the Faculty of Nursing through an Embedded Wellness Counsellor, Leah Direnfeld. Students can call 416-978-8030 to book an appointment.  
+The <a target="_blank" href="http://healthandwellness.utoronto.ca/">Health & Wellness Centre</a>  provides a variety of services for registered students including mental health services such as short-term individual counseling and group therapies for anxiety, low or depressed mood and resilience (e.g. Mindfulness-Based, Cognitive-Behavioural Therapy for Anxiety) and psychiatric medication services. Students also have access to counselling services on-site at the Faculty of Nursing through an Embedded Wellness Counsellor, Leah Direnfeld. Students can call 416-978-8030 to book an appointment.  
  
  
 ## Student Evaluation of Courses 
 
 Student evaluation of courses is an essential component of our educational programs at the Lawrence S. Bloomberg Faculty of Nursing.  Student feedback enables us to continue to improve our teaching effectiveness to enhance student learning.  
  
-The Lawrence S. Bloomberg Faculty of Nursing participates in the University of Toronto’s centralized ‘Student Evaluation of Courses’ system. Towards the end of this course, you will receive an email inviting you to complete an online evaluation of this course. The email will provide you with the specific information and links needed to access and complete course evaluation. Your ratings and comments will be anonymous but will be aggregated for summary across evaluations. Once a process has been established, summarized course evaluations will be made available within the faculty and university community. For more information about the University of Toronto policy about student evaluation of courses, please refer to the following website: 
-http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ProvostiaStudentEval.pdf  
+The Lawrence S. Bloomberg Faculty of Nursing participates in the University of Toronto’s centralized ‘Student Evaluation of Courses’ system. Towards the end of this course, you will receive an email inviting you to complete an online evaluation of this course. The email will provide you with the specific information and links needed to access and complete course evaluation. Your ratings and comments will be anonymous but will be aggregated for summary across evaluations. Once a process has been established, summarized course evaluations will be made available within the faculty and university community. For more information about the University of Toronto policy about student evaluation of courses, please refer to the 
+<a target="_blank" href="http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ProvostiaStudentEval.pdf">website</a>.
  
  
 ## Technical Requirements for Online Academic Activities  
@@ -367,10 +366,10 @@ There are technical requirements that will allow you to participate in the cours
  
 If you have purchased your computer within the last 3-5 years you will likely have no trouble meeting these requirements.  If your computer does not meet the minimum requirements you may have difficulty using some of the applications.  
 
-You will need the webcam to enable online proctoring for any proctored examinations.  For proctored examinations we use the Proctor U service and technical requirements for that service can be found here: https://www.proctoru.com/auto-resource-center  Most new laptops (within 3-5 years) have webcams built in. If you are using a desktop computer you may need to purchase a webcam. In addition, you will need a microphone (most webcams and laptops have built-in microphones) and a set of headphones such as the kind that come with mobile devices and smartphones. 
+You will need the webcam to enable online proctoring for any proctored examinations.  For proctored examinations we use the Proctor U service and technical requirements for that service can be found <a target="_blank" href="https://www.proctoru.com/auto-resource-center">here</a>.  Most new laptops (within 3-5 years) have webcams built in. If you are using a desktop computer you may need to purchase a webcam. In addition, you will need a microphone (most webcams and laptops have built-in microphones) and a set of headphones such as the kind that come with mobile devices and smartphones. 
 
 In addition to the computer system requirements it is also recommended you have sufficiently fast Internet. Ensure you have DSL or Cable Internet with at least 1.5 Mbps download speed and at least 1.5 Mbps upload speed. Dial-up Internet is not recommended.   
-You can test your Internet speed by going to https://www.speedtest.net/ and clicking “Go”.
+You can test your Internet speed by going to <a target="_blank" href="https://www.speedtest.net/">this website</a> and clicking “Go”.
 
 In addition, it is important to note that some computer applications may be required to communicate throughout this course.  Ensure you have: 
 -	A PDF Reader (Adobe Reader, Preview, etc.) 
@@ -380,7 +379,7 @@ In addition, it is important to note that some computer applications may be requ
 
 Please note: If you are accessing the Internet through a large organization or using a work computer (e.g. a hospital) you may need to contact your organization’s IT department to arrange these downloads and confirm internet speed.  
 
-Please note, the university also provides free antivirus software to all students http://antivirus.utoronto.ca/index.php?page=students which is strongly recommended.   
+Please note, the university also provides free <a target="_blank" href="http://antivirus.utoronto.ca/index.php?page=students">antivirus software</a> to all students which is strongly recommended.   
  
 
 # Evaluation methods
