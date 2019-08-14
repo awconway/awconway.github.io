@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -86,6 +85,8 @@ overflow: auto;
 margin-left: 2%;
 position: fixed;
 border: 1px solid #ccc;
+webkit-border-radius: 6px;
+moz-border-radius: 6px;
 border-radius: 6px;
 }
 
@@ -113,14 +114,9 @@ font-size: 12px;
 .tocify-subheader .tocify-subheader {
 text-indent: 30px;
 }
+
 .tocify-subheader .tocify-subheader .tocify-subheader {
 text-indent: 40px;
-}
-.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
-text-indent: 50px;
-}
-.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
-text-indent: 60px;
 }
 
 .tocify .tocify-item > a, .tocify .nav-list .nav-header {
@@ -524,13 +520,13 @@ float: none;
 
           item.append($("<a/>", {
 
-            "html": self.html()
+            "text": self.text()
 
           }));
 
         } else {
 
-          item.html(self.html());
+          item.text(self.text());
 
         }
 
@@ -1457,9 +1453,48 @@ summary {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -1508,6 +1543,8 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -1877,32 +1914,6 @@ Phenomenology
 <p>Please also use our course Quercus site Discussion section to ask questions about class content and assignments. Many of you will have similar questions and we can ensure consistent responses to your concerns by using Quercus. We (the Teaching Assistant or I) will read and respond to Quercus postings and messages and our Discussions (via Quercus) on Mondays, Wednesdays and Fridays by 5 pm. E-mail communication with either the Professor or the TA should be used only for purposes other than asking questions about course content (e.g., for scheduling a one-to-one appointment) or for communication of a personal nature.</p>
 <p>Forwarding your utoronto.ca email to a different type of email account is not advisable. In some cases, messages from utoronto.ca addresses sent to other accounts are filtered as junk mail, which means that emails from your course instructor may end up in your spam or junk mail folder.</p>
 </div>
-<div id="technical-requirements" class="section level1">
-<h1>Technical requirements</h1>
-<p>There are technical requirements that will allow you to participate in the course. The course includes online webinars and assignments that are submitted online.</p>
-<p><em>Minimum Computer System Requirements</em></p>
-<ul>
-<li>Laptop or Desktop</li>
-<li>2GB Ram</li>
-<li>3.0 GHz Single Core Processor</li>
-<li>Windows 7 or Mac OSX 10.9</li>
-<li>Webcam with at least 640 x 480 resolutions</li>
-<li>Headphones</li>
-<li>Microphone (Built-in, on headphones, or external)</li>
-</ul>
-<p>As a general rule, if you have purchased your computer within the last 3-5 years you will likely have no trouble meeting these requirements. If your computer does not meet the minimum requirements you may have difficulty using some of the applications.</p>
-<p>Most new laptops (within 3-5 years) have webcams built in. If you are using a desktop computer you may need to purchase a webcam. In addition, you will need a microphone (most webcams and laptops have built-in microphones) and a set of headphones such as the kind that come with mobile devices and smartphones.</p>
-<p>In addition to the computer system requirements it is also recommended you have sufficiently fast Internet. Ensure you have DSL or Cable Internet with at least 1.5 Mbps download speed and at least 1.5 Mbps upload speed. Dial-up Internet is not sufficient and is not recommended.</p>
-<p>You can test your Internet speed by going to ww.speedtest.net and clicking the “Begin” button.</p>
-<p>In addition it is important to note that some computer applications may be required to communicate throughout this course. Ensure you have the latest versions of:</p>
-<ul>
-<li><a target="_blank" href="https://www.adobe.com">Acrobat Reader, Flash Player, and Shockwave</a></li>
-<li><a target="_blank" href="http://www.java.com/en/">Java</a></li>
-<li>Google Chrome, Firefox, Internet Explorer, and/or Safari (we recommend having two browsers installed just in case you run into issues with one of them)</li>
-</ul>
-<p>Please note: If you are accessing the Internet through a large organization (e.g. a hospital) you may need to contact your organization’s IT department to arrange these downloads and confirm internet speed.</p>
-<p>Please note, the university also provides free <a target="_blank" href="http://antivirus.utoronto.ca/index.php?page=students">antivirus software</a> to all students which is strongly recommended.</p>
-</div>
 <div id="course-participation" class="section level1">
 <h1>Course participation</h1>
 <p>The Quercus Discussion Board is our virtual classroom. This is where we will engage in discussion and clarification of the course material, and practise applying course concepts. In order to make the most of this opportunity, we need to allow time for these asynchronous discussions to unfold over the week. Thus it is important that you go join the discussions several times over the week, rather than posting only at the end of the week. To facilitate discussion there will be a number of questions posed each week. It is important that all students participate in these discussions. I ask that you please keep your postings succinct <strong>(maximum 200 words (text) or 2 minutes audio/video)</strong> so that others have an opportunity to respond as well. Postings must be presented in your own words and reflect a critical analysis and interpretation of course material, exercises, and other learning activities. You are encouraged to share insights into the application and use of course concepts in practice. Please include relevant references in your posts (not included in the word count). Students are expected to read assigned material for each week and respond to each other’s postings and questions. The minimum expectation is that you submit one posting of your own and provide a short but substantive response to at least one other student’s post each week.</p>
@@ -1936,7 +1947,77 @@ Phenomenology
 </div>
 <div id="important-university-and-faculty-policies" class="section level1">
 <h1>Important University and Faculty policies</h1>
-<p>To be inserted.</p>
+<div id="course-drop-date" class="section level2">
+<h2>Course Drop Date</h2>
+<p>October 28, 2019 is the final date to drop September session (Full or Half) courses without academic penalty.For drop dates for 2019-20 courses please go to: <a href="https://bloomberg.nursing.utoronto.ca/current-students/sessional-dates-andcalendar#content2" class="uri">https://bloomberg.nursing.utoronto.ca/current-students/sessional-dates-andcalendar#content2</a>.</p>
+</div>
+<div id="grading-of-written-papers" class="section level2">
+<h2>Grading of Written Papers</h2>
+<p>All written assignments are subject to the grading regulations as outlined in the Lawrence S. Bloomberg Faculty of Nursing calendar and the School of Graduate Studies Calendar. Late assignments after the due date will accrue a late penalty of 5% each day (including weekends).</p>
+</div>
+<div id="submission-of-assignments" class="section level2">
+<h2>Submission of assignments</h2>
+<p>On the due date, please submit an electronic copy of your paper to the digital drop box in Turnitin using Quercus. Your paper will NOT be evaluated until it is submitted to Turnitin using Quercus.</p>
+</div>
+<div id="writing-an-exam-out-of-sequence-or-receiving-an-extension-on-an-assignment" class="section level2">
+<h2>Writing an exam out of sequence or receiving an extension on an assignment</h2>
+<p>In an exceptional circumstance, e.g. death in family or medical illness, a student may be allowed to write an exam out of sequence or receive an extension on an assignment. In case of an illness, the student needs a note from a licensed health care providers (Dentist, Nurse/Nurse Practitioner, Physician/Surgeon, Psychologist, Psychotherapist or Social Worker registered and licensed in the Province of Ontario) and needs to fill out the following form: <a href="http://www.illnessverification.utoronto.ca/index.php" class="uri">http://www.illnessverification.utoronto.ca/index.php</a>. The student needs to contact the instructor as soon as possible prior to the exam/assignment deadline. The verification of illness form needs to be submitted within 7 calendar days of the assignment deadline/exam date. An alternate date needs to be set as close to the date of the original exam/assignment due date as possible. In case of an exam, you will be asked to complete the Declaration of Confidentiality for Students Sitting Tests/Examinations at Other Than the Regular Specified Time.</p>
+</div>
+<div id="questions-about-assignment" class="section level2">
+<h2>Questions About Assignment</h2>
+<p>In the interest of fairness and transparency, please direct your questions about the paper to the proper discussion board on Quercus. If you do send an email to the instructor or teaching assistant, you may be encouraged to share this answer on the discussion board if the information is helpful to other learners in the course. Students are not permitted to submit a detailed, formal outline of the assignment for evaluation or instructor/TA feedback before the due date. As always, the instructor and/or TA would be happy to answer your questions via Quercus, email, telephone, or in person.</p>
+</div>
+<div id="plagiarism-academic-integrity" class="section level2">
+<h2>Plagiarism &amp; Academic Integrity</h2>
+<p>Turnitin is used in this course. Normally, students will be required to submit their course assignments to Turnitin.com for a review of textual similarity and detection of possible plagiarism. In doing so, students will allow their assignments to be included as source documents in the Turnitin.com reference database, where they will be used solely for the purpose of detecting plagiarism. The terms that apply to the University’s use of the Turnitin.com service are described on the Turnitin.com web site. Students do have the option of handing in all their rough drafts and notes of their paper if they are opposed using to Turnitin. These students must approach their faculty teacher(s) in advance.</p>
+<p>Academic integrity is essential to the pursuit of learning and scholarship in a university, and to ensuring that a degree from the University of Toronto is a strong reflection of each student’s individual academic achievement.</p>
+<p>The University of Toronto Governing Council Code of Behaviour on Academic Matters (University of Toronto Governing Council, 2019) is found at <a href="http://www.governingcouncil.lamp4.utoronto.ca/wp-content/uploads/2016/07/p0701coboam-2015-2016pol.pdf" class="uri">http://www.governingcouncil.lamp4.utoronto.ca/wp-content/uploads/2016/07/p0701coboam-2015-2016pol.pdf</a>. The code outlines offences that constitute academic misconduct and processes for addressing academic offences. Section B.1 of the code (copied below) outlines academic offences.</p>
+<p>It shall be an offence for a student knowingly:</p>
+<ol style="list-style-type: lower-alpha">
+<li>to forge or in any other way alter or falsify any document or evidence required by the University, or to utter, circulate or make use of any such forged, altered or falsified document, whether the record be in print or electronic form;</li>
+<li>to use or possess an unauthorized aid or aids or obtain unauthorized assistance in any academic examination or term test or in connection with any other form of academic work;</li>
+<li>to personate another person, or to have another person personate, at any academic examination or term test or in connection with any other form of academic work;</li>
+<li>to represent as one’s own any idea or expression of an idea or work of another in any academic examination or term test or in connection with any other form of academic work, i.e. to commit plagiarism (for a more detailed account of plagiarism, see Appendix “A”) ;</li>
+<li>to submit, without the knowledge and approval of the instructor to whom it is submitted, any academic work for which credit has previously been obtained or is being sought in another course or program of study in the University or elsewhere;</li>
+<li>to submit any academic work containing a purported statement of fact or reference to a source which has been concocted. (Code of Behaviour on Academic Matters, 2019)</li>
+</ol>
+<p>All suspected incidents of academic misconduct will be investigated following procedures outlined in the Code of Behaviour on Academic Matters (University of Toronto Governing Council, 2019).</p>
+</div>
+<div id="proctoru" class="section level2">
+<h2>ProctorU</h2>
+<p>The University of Toronto Master of Nursing NP Field, Health System Leadership and Administration Field, and Post-Master of Nursing Nurse Practitioner Diploma programs offer students the opportunity to take exams at home with online proctoring. In such cases, the Faculty uses online proctoring services to ensure exam integrity. The Faculty of Nursing contracts with an organization called ProctorU to complete online proctoring for students taking examinations online. Students who take their examinations online must agree to be proctored by ProctorU throughout the duration of the exam. ProctorU provides live proctoring by highly-trained human proctors.</p>
+<p>Students must first confirm their identity with photo ID with the human proctor. The proctor then closely monitors students throughout the entire exam using webcams and remote desktop monitoring through high-speed Internet connections. All components of proctoring must be maintained for the duration of the exam. During the exam, the proctor may reach out to the student if they lose the ability to proctor the exam (camera view obstructed/loss of remote desktop view). If the proctor contacts the student during the exam through a pop-up message, voice, or a loud beep, the student is expected to respond to the proctor. Failure to respond to the proctor to allow proctoring threatens the integrity of the exam. This will be investigated to determine whether an academic offence has been committed as per the University of Toronto Governing Council Code of Behaviour on Academic Matters. Students who do not agree to be proctored by ProctorU must take their examination on campus at the University of Toronto or at an approved Exam Testing Centre (at the expense of the student) at the same time as the exam is offered online. In such cases, students must notify the Faculty at least two weeks in advance so that appropriate arrangements can be made.</p>
+<p>At the completion of the exam, a report of student exam-taking behaviours is generated and reviewed by Faculty and IT staff. Exam grades will NOT be released to students until the integrity of the exam has been verified through ProctorU, the Faculty of Nursing IT staff, and relevant teaching Faculty.</p>
+</div>
+<div id="accessibility-statement" class="section level2">
+<h2>Accessibility Statement</h2>
+<p>Students with diverse learning styles and needs are welcomed in this course. In particular, if you have a disability/health consideration that may require accommodations, please contact the Accessibility Services Office as soon as possible. The St. George Campus Accessibility Services staff (located in Robarts Library, First Floor) are available by appointment to assess specific needs, provide referrals and arrange appropriate accommodations (416)978-8060 or <a href="mailto:accessibility.services@utoronto.ca" class="email">accessibility.services@utoronto.ca</a>.</p>
+</div>
+<div id="health-and-wellness-centre" class="section level2">
+<h2>Health and Wellness Centre</h2>
+<p>The Health &amp; Wellness Centre <a href="http://healthandwellness.utoronto.ca/" class="uri">http://healthandwellness.utoronto.ca/</a> provides a variety of services for registered students including mental health services such as short-term individual counseling and group therapies for anxiety, low or depressed mood and resilience (e.g. Mindfulness-Based, Cognitive-Behavioural Therapy for Anxiety) and psychiatric medication services. Students also have access to counselling services on-site at the Faculty of Nursing through an Embedded Wellness Counsellor, Leah Direnfeld. Students can call 416-978-8030 to book an appointment.</p>
+</div>
+<div id="student-evaluation-of-courses" class="section level2">
+<h2>Student Evaluation of Courses</h2>
+<p>Student evaluation of courses is an essential component of our educational programs at the Lawrence S. Bloomberg Faculty of Nursing. Student feedback enables us to continue to improve our teaching effectiveness to enhance student learning.</p>
+<p>The Lawrence S. Bloomberg Faculty of Nursing participates in the University of Toronto’s centralized ‘Student Evaluation of Courses’ system. Towards the end of this course, you will receive an email inviting you to complete an online evaluation of this course. The email will provide you with the specific information and links needed to access and complete course evaluation. Your ratings and comments will be anonymous but will be aggregated for summary across evaluations. Once a process has been established, summarized course evaluations will be made available within the faculty and university community. For more information about the University of Toronto policy about student evaluation of courses, please refer to the following website: <a href="http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ProvostiaStudentEval.pdf" class="uri">http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ProvostiaStudentEval.pdf</a></p>
+</div>
+<div id="technical-requirements-for-online-academic-activities" class="section level2">
+<h2>Technical Requirements for Online Academic Activities</h2>
+<p>There are technical requirements that will allow you to participate in the course. The course includes online webinars, online examinations, and assignments that are submitted online.</p>
+<ul>
+<li>Minimum Recommended Computer System Requirements</li>
+<li>Laptop or Desktop 4GB Ram Windows 10 or Mac OSX 10.12</li>
+<li>Screen Resolution of 1280 x 720 Webcam Headphones Microphone (Built-in, on headphones, or external) DSL or Cable Internet with 1.5 Mbps upload and download</li>
+</ul>
+<p>If you have purchased your computer within the last 3-5 years you will likely have no trouble meeting these requirements. If your computer does not meet the minimum requirements you may have difficulty using some of the applications.</p>
+<p>You will need the webcam to enable online proctoring for any proctored examinations. For proctored examinations we use the Proctor U service and technical requirements for that service can be found here: <a href="https://www.proctoru.com/auto-resource-center" class="uri">https://www.proctoru.com/auto-resource-center</a> Most new laptops (within 3-5 years) have webcams built in. If you are using a desktop computer you may need to purchase a webcam. In addition, you will need a microphone (most webcams and laptops have built-in microphones) and a set of headphones such as the kind that come with mobile devices and smartphones.</p>
+<p>In addition to the computer system requirements it is also recommended you have sufficiently fast Internet. Ensure you have DSL or Cable Internet with at least 1.5 Mbps download speed and at least 1.5 Mbps upload speed. Dial-up Internet is not recommended.<br />
+You can test your Internet speed by going to <a href="https://www.speedtest.net/" class="uri">https://www.speedtest.net/</a> and clicking “Go”.</p>
+<p>In addition, it is important to note that some computer applications may be required to communicate throughout this course. Ensure you have: - A PDF Reader (Adobe Reader, Preview, etc.) - Word Processing Software (ie. Microsoft Office available free from U of T) - Two web browsers (Firefox and Chrome are recommended) - An updated Adobe Flashplayer as some systems still use this legacy product</p>
+<p>Please note: If you are accessing the Internet through a large organization or using a work computer (e.g. a hospital) you may need to contact your organization’s IT department to arrange these downloads and confirm internet speed.</p>
+<p>Please note, the university also provides free antivirus software to all students <a href="http://antivirus.utoronto.ca/index.php?page=students" class="uri">http://antivirus.utoronto.ca/index.php?page=students</a> which is strongly recommended.</p>
+</div>
 </div>
 <div id="evaluation-methods" class="section level1">
 <h1>Evaluation methods</h1>
@@ -2075,49 +2156,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
