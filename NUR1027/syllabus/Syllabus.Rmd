@@ -141,25 +141,25 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 <tr>
 <td>Oct. 22</td>
 <td>Week 7</td>
-<td>Interpreting Results of Quantitative Research</td>
+<td>Measurement in Quantitative Research</td>
 <td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/113018/assignments/172862">Search Paper due Friday Oct 25 at 4:00 pm</a></strong></td>
 </tr>
 <tr>
 <td>Oct. 29</td>
 <td>Week 8</td>
-<td>Interpretation and Critical Appraisal of Descriptive Studies</td>
+<td>Statistical testing in Research</td>
 <td></td>
 </tr>
 <tr>
 <td>Nov. 5</td>
 <td>Week 9</td>
-<td>Qualitative Approaches to Research</td>
+<td>Quantitative descriptive studies</td>
 <td></td>
 </tr>
 <tr>
 <td>Nov. 12</td>
 <td>Week 10</td>
-<td>Sampling, Data Collection and Data Analysis Approaches in Qualitative Research</td>
+<td>Qualitative Approaches to Research</td>
 <td></td>
 </tr>
 <tr>
