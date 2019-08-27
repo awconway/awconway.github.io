@@ -459,7 +459,19 @@ The purpose of this assignment is to develop a practice question that may be ans
 
 ### Description
 
-Students will examine a published research study based on the approach to knowledge production (positivist, critical social or constructivist) that underpins the study. In the analysis, you will address the extent to which the philosophical approach, research question, study design, data collection and analysis, and study conclusions are aligned. 
+Students will examine a published research study. The paper will comprise three components including:
+
+1. Study Overview
+
+Provide a summary of the study including research aim(s), methods used and key study findings.
+
+2. Analysis of philosophical underpinnings
+
+In this component, you will analyze the key elements characterizing the philosophical paradigm (ontology, epistemology and methodology).  A discussion justifying the philosophical paradigm with clear examples should be provided. 
+
+3. Analysis of research methods
+
+Identify and discuss the strengths and weaknesses of the study design, data collection, analysis, and conclusions. Provide clear and logical strengths and weaknesses are identified and supported with examples.
 
 **Due Friday December 6 by 4:00 pm EDT**
 
