@@ -30,18 +30,15 @@ class: center top hide-count
 
 ## A workflow to enable direct upload of a clinical trial protocol to clinicaltrials.gov
 <br>
+
 ### Aaron Conway
 ### <i class="fab fa-github-square"></i> [Code](http://github.com/awconway/spiritR) <i class="fad fa-link"></i> [spiritR.netlify.com](https://spiritR.netlify.com) <i class="fab fa-twitter-square"></i> [aw_conway](https://twitter.com/aw_conway)
 
 ---
 class: left, top hide-count
 
-# SPIRIT
-
-- The SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials) statement outlines recommendations for a minimum set of elements to be addressed in a clinical trial protocol.
-- This package was inspired by the Spirit Electronic Protocol Tool & Resource [SEPTRE](https://www.spirit-statement.org/septre) software program.
-
-# New 
+background-image: url(img/septre.png)
+background-size: contain
 
 ---
 class: left, top hide-count
@@ -235,3 +232,9 @@ class: center, middle, hide-count
 ### Please send <i class="fad fa-bug"></i> reports or issues!
 
 ]
+
+---
+class: center, middle, hide-count
+
+
+# Thank you
