@@ -38,7 +38,7 @@ class: left, top hide-count
 
 # SPIRIT
 
-- The SPIRIT (Standard Protocol Items for Interventional Trials) statement outlines recommendations for a minimum set of elements to be addressed in a clinical trial protocol (Chan et al. 2013).
+- The SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials) statement outlines recommendations for a minimum set of elements to be addressed in a clinical trial protocol.
 - This package was inspired by the Spirit Electronic Protocol Tool & Resource [SEPTRE](https://www.spirit-statement.org/septre) software program.
 
 # New 
@@ -92,7 +92,7 @@ class: left, top, hide-count
 ctxml <- do.call(spiritR::create_ctxml, args_ctxml)
 ```
 
-### <i class="fad fa-code"></i>
+### How it works...
 .scroll-output[
 `xml2::xml_new_root( "study_collection",
                       "xmlns:prs" = "http://clinicaltrials.gov/prs") %>%
@@ -217,8 +217,7 @@ class: center, middle, hide-count
 <i class="fad fa-clipboard-list-check fa-10x"></i>
 ]
 .pull-right[
-<br>
-### <i class="fad fa-exclamation"></i> Will trigger errors if there are too many characters or not the right format for clinicaltrials.gov xml document
+### <i class="fad fa-exclamation"></i> `create_ctxml()` will trigger errors if there are too many characters or not the right format for clinicaltrials.gov xml document
 
 ]
 
