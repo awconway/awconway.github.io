@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>index.utf8.md</title>
+    <meta charset="utf-8" />
+      <head>
+        <!-- Place your kit's code here -->
+        <script src="https://kit.fontawesome.com/db7db5fd59.js"></script>
+      </head>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: center top hide-count
+
+&lt;img src="img/logo.png" height = "200px"/&gt;
+
+## A workflow to enable direct upload of a clinical trial protocol to clinicaltrials.gov
+&lt;br&gt;
+### Aaron Conway
+### &lt;i class="fab fa-github-square"&gt;&lt;/i&gt; [Code](http://github.com/awconway/spiritR) &lt;i class="fad fa-link"&gt;&lt;/i&gt; [spiritR.netlify.com](https://spiritR.netlify.com) &lt;i class="fab fa-twitter-square"&gt;&lt;/i&gt; [aw_conway](https://twitter.com/aw_conway)
+
+---
+class: left, top hide-count
+
+# SPIRIT
+
+- The SPIRIT (Standard Protocol Items for Interventional Trials) statement outlines recommendations for a minimum set of elements to be addressed in a clinical trial protocol (Chan et al. 2013).
+- This package was inspired by the Spirit Electronic Protocol Tool &amp; Resource [SEPTRE](https://www.spirit-statement.org/septre) software program.
+
+# New 
+
+---
+class: left, top hide-count
+
+background-image: url(img/overview_workflow.png)
+background-size: contain
+
+---
+
+class: left, top, hide-count
+
+.pull-left[
+&lt;img src="img/markdown.png" height="400px"/&gt;
+]
+
+.pull-right[
+
+
+### &lt;i class="fad fa-book-open"&gt;&lt;/i&gt; Section for each SPIRIT item 
+### &lt;i class="fad fa-link"&gt;&lt;/i&gt; Links to SPIRIT webpage for guidance
+###&lt;i class="fad fa-brackets-curly"&gt;&lt;/i&gt; Code chunks 
+- Enables creation of xml document for upload to clinicaltrials.gov
+- Auto-populates fields in relevant sections of clinical trial protocol using in-line code
+
+
+```r
+args_ctxml &lt;- list(
+org_name = "UHNToronto",
+org_study_id = "Unique ID",
+brief_title = "SpiritR test trial",
+study_acronym = "N/A", ...)
+```
+
+]
+
+---
+
+class: left, top, hide-count
+
+.pull-left[
+&lt;img src="img/xml.png" height="400px"/&gt;
+]
+.pull-right[
+### Step 1: Create base xml
+
+&gt;Large number of arguments so easiest to use do.call on the list created in the R Markdown template
+
+
+```r
+ctxml &lt;- do.call(spiritR::create_ctxml, args_ctxml)
+```
+
+### &lt;i class="fad fa-code"&gt;&lt;/i&gt;
+.scroll-output[
+`xml2::xml_new_root( "study_collection",
+                      "xmlns:prs" = "http://clinicaltrials.gov/prs") %&gt;%
+    xml2::xml_add_child("clinical_study") %&gt;% 
+    xml2::xml_add_child("id_info") %&gt;% 
+    xml2::xml_add_child("org_name", org_name) %&gt;% 
+    xml2::xml_add_sibling("org_study_id", org_study_id) %&gt;% ...`
+]
+
+]
+---
+
+class: left, top, hide-count
+
+.pull-left[
+&lt;img src="img/xml.png" height="400px"/&gt;
+]
+.pull-right[
+### Step 2: Add to ctxml
+
+&gt;Trials have a different number of arms/interventions and outcomes so required separate functions
+
+
+```r
+ctxml &lt;- add_arm(ctxml, arm_label, arm_type, arm_desc)
+ctxml &lt;- add_intervention(ctxml, int_name, int_type,
+                          int_desc, arm_label)
+ctxml &lt;- add_pr_outcome(ctxml, name, time, description)
+ctxml &lt;- add_sec_outcome(ctxml, name, time, description)
+ctxml &lt;- add_condition(ctxml, condition)
+ctxml &lt;- add_keyword(ctxml, keyword)
+```
+
+]
+---
+
+class: left, top, hide-count
+
+.pull-left[
+&lt;img src="img/xml.png" height="400px"/&gt;
+]
+
+### Step 3: Check ctxml
+
+
+
+```r
+print_ctxml(ctxml = ctxml)
+```
+
+
+
+.scroll-output[
+
+
+```
+## &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+## &lt;study_collection xmlns:prs="http://clinicaltrials.gov/prs"&gt;
+##   &lt;clinical_study&gt;
+##     &lt;id_info&gt;
+##       &lt;org_name&gt;UHNToronto&lt;/org_name&gt;
+##       &lt;org_study_id&gt;Foo trial 20190311&lt;/org_study_id&gt;
+##     &lt;/id_info&gt;
+##     &lt;is_fda_regulated/&gt;
+##     &lt;is_section_801/&gt;
+##     &lt;delayed_posting/&gt;
+##     &lt;is_ind_study/&gt;
+##     &lt;brief_title&gt;Foo trial to test auto upload 20190311&lt;/brief_title&gt;
+##     &lt;acronym&gt;N/A&lt;/acronym&gt;
+##     &lt;official_title&gt;Foo trial to test auto upload: A randomized trial new 20190311&lt;/official_title&gt;
+##     &lt;sponsors&gt;
+##       &lt;lead_sponsor&gt;
+##         &lt;agency&gt;Aaron Conway&lt;/agency&gt;
+##       &lt;/lead_sponsor&gt;
+##       &lt;resp_party&gt;
+##         &lt;resp_party_type&gt;Sponsor-Investigator&lt;/resp_party_type&gt;
+##         &lt;investigator_username&gt;aconway&lt;/investigator_username&gt;
+##         &lt;investigator_title&gt;Assistant Professor&lt;/investigator_title&gt;
+##         &lt;investigator_affiliation/&gt;
+##         &lt;name_title/&gt;
+##         &lt;organization/&gt;
+##         &lt;phone/&gt;
+##         &lt;phone_ext/&gt;
+##         &lt;email/&gt;
+##       &lt;/resp_party&gt;
+##     &lt;/sponsors&gt;
+##     &lt;oversight_info&gt;
+##       &lt;irb_info&gt;
+##         &lt;approval_status/&gt;
+##       &lt;/irb_info&gt;
+##       &lt;has_dmc/&gt;
+##       &lt;fda_regulated_drug/&gt;
+##       &lt;fda_regulated_device/&gt;
+##       &lt;post_prior_to_approval/&gt;
+##     &lt;/oversight_info&gt;
+##     &lt;brief_summary&gt;
+##       &lt;textblock&gt;Lay summary here&lt;/textblock&gt;
+##     &lt;/brief_summary&gt;
+##     &lt;detailed_description&gt;
+##       &lt;textblock/&gt;
+##     &lt;/detailed_description&gt;
+##     &lt;overall_status&gt;Not yet recruiting&lt;/overall_status&gt;
+##     &lt;why_stopped/&gt;
+##     &lt;verification_date/&gt;
+##     &lt;start_date&gt;2019-10&lt;/start_date&gt;
+##     &lt;start_date_type&gt;Anticipated&lt;/start_date_type&gt;
+##     &lt;end_date/&gt;
+##     &lt;last_follow_up_date&gt;2020-12&lt;/last_follow_up_date&gt;
+##     &lt;last_follow_up_date_type&gt;Anticipated&lt;/last_follow_up_date_type&gt;
+##     &lt;prim_compl_date&gt;2020-12&lt;/prim_compl_date&gt;
+##     &lt;primary_compl_date_type&gt;Anticipated&lt;/primary_compl_date_type&gt;
+##     &lt;study_design&gt;
+##       &lt;study_type&gt;Interventional&lt;/study_type&gt;
+##       &lt;interventional_design&gt;
+##         &lt;interventional_subtype&gt;Treatment&lt;/interventional_subtype&gt;
+##         &lt;phase&gt;N/A&lt;/phase&gt;
+##         &lt;assignment&gt;Parallel&lt;/assignment&gt;
+##         &lt;model_description&gt;
+##           &lt;textblock/&gt;
+##         &lt;/model_description&gt;
+##         &lt;allocation&gt;Randomized&lt;/allocation&gt;
+##         &lt;masking/&gt;
+##         &lt;no_masking&gt;False&lt;/no_masking&gt;
+##         &lt;masked_subject&gt;True&lt;/masked_subject&gt;
+##         &lt;masked_caregiver&gt;True&lt;/masked_caregiver&gt;
+##         &lt;masked_investigator&gt;True&lt;/masked_investigator&gt;
+##         &lt;masked_assesor&gt;True&lt;/masked_assesor&gt;
+##         &lt;masking_description&gt;
+##           &lt;textblock/&gt;
+##         &lt;/masking_description&gt;
+##         &lt;control/&gt;
+##         &lt;number_of_arms&gt;2&lt;/number_of_arms&gt;
+##       &lt;/interventional_design&gt;
+##     &lt;/study_design&gt;
+*##     &lt;primary_outcome/&gt;
+*##     &lt;primary_outcome&gt;
+*##       &lt;outcome_measure&gt;test outcome&lt;/outcome_measure&gt;
+*##       &lt;outcome_time_frame&gt;one week&lt;/outcome_time_frame&gt;
+*##       &lt;outcome_description&gt;
+*##         &lt;textblock&gt;description&lt;/textblock&gt;
+*##       &lt;/outcome_description&gt;
+*##     &lt;/primary_outcome&gt;
+*##     &lt;secondary_outcome/&gt;
+*##     &lt;secondary_outcome&gt;
+*##       &lt;outcome_measure&gt;measure&lt;/outcome_measure&gt;
+*##       &lt;outcome_time_frame&gt;timeframe&lt;/outcome_time_frame&gt;
+*##       &lt;outcome_description&gt;
+*##         &lt;textblock&gt;description&lt;/textblock&gt;
+*##       &lt;/outcome_description&gt;
+*##     &lt;/secondary_outcome&gt;
+##     &lt;enrollment&gt;40&lt;/enrollment&gt;
+##     &lt;enrollment_type&gt;Anticipated&lt;/enrollment_type&gt;
+##     &lt;condition/&gt;
+##     &lt;keyword/&gt;
+*##     &lt;arm_group/&gt;
+*##     &lt;arm_group&gt;
+*##       &lt;arm_group_label&gt;Standard&lt;/arm_group_label&gt;
+*##       &lt;arm_type&gt;Experimental&lt;/arm_type&gt;
+*##       &lt;arm_group_description&gt;
+*##         &lt;textblock&gt;Description for arm&lt;/textblock&gt;
+*##       &lt;/arm_group_description&gt;
+*##     &lt;/arm_group&gt;
+*##     &lt;intervention/&gt;
+*##     &lt;intervention&gt;
+*##       &lt;intervention_type&gt;Device&lt;/intervention_type&gt;
+*##       &lt;intervention_name&gt;test intervention&lt;/intervention_name&gt;
+*##       &lt;intervention_description&gt;
+*##         &lt;textblock&gt;description for intervention&lt;/textblock&gt;
+*##       &lt;/intervention_description&gt;
+*##       &lt;arm_group_label&gt;Intervention&lt;/arm_group_label&gt;
+*##     &lt;/intervention&gt;
+##     &lt;eligibility&gt;
+##       &lt;study_population&gt;
+##         &lt;textblock/&gt;
+##       &lt;/study_population&gt;
+##       &lt;sampling_method/&gt;
+##       &lt;criteria&gt;
+##         &lt;textblock&gt;details&lt;/textblock&gt;
+##       &lt;/criteria&gt;
+##       &lt;healthy_volunteers&gt;No&lt;/healthy_volunteers&gt;
+##       &lt;gender&gt;Both&lt;/gender&gt;
+##       &lt;gender_based&gt;No&lt;/gender_based&gt;
+##       &lt;gender_description&gt;
+##         &lt;textblock/&gt;
+##       &lt;/gender_description&gt;
+##       &lt;minimum_age&gt;N/A&lt;/minimum_age&gt;
+##       &lt;maximum_age&gt;N/A&lt;/maximum_age&gt;
+##     &lt;/eligibility&gt;
+##     &lt;overall_official&gt;
+##       &lt;first_name&gt;hjkdskja&lt;/first_name&gt;
+##       &lt;middle_name/&gt;
+##       &lt;last_name&gt;fhdjksah&lt;/last_name&gt;
+##       &lt;degrees&gt;ffj&lt;/degrees&gt;
+##       &lt;role&gt;fhdjhsfjk&lt;/role&gt;
+##       &lt;affiliation&gt;fdjkhf&lt;/affiliation&gt;
+##     &lt;/overall_official&gt;
+##     &lt;overall_contact&gt;
+##       &lt;first_name&gt;Aaron&lt;/first_name&gt;
+##       &lt;middle_name/&gt;
+##       &lt;last_name&gt;Conway&lt;/last_name&gt;
+##       &lt;degrees&gt;PhD&lt;/degrees&gt;
+##       &lt;phone&gt;649-728-8499&lt;/phone&gt;
+##       &lt;phone_ext/&gt;
+##       &lt;email&gt;dhsksj@hfhfk.com&lt;/email&gt;
+##     &lt;/overall_contact&gt;
+##     &lt;overall_contact_backup&gt;
+##       &lt;first_name/&gt;
+##       &lt;middle_name/&gt;
+##       &lt;last_name/&gt;
+##       &lt;degrees/&gt;
+##       &lt;phone/&gt;
+##       &lt;phone_ext/&gt;
+##       &lt;email/&gt;
+##     &lt;/overall_contact_backup&gt;
+##     &lt;ipd_sharing_statement&gt;
+##       &lt;sharing_ipd&gt;Yes&lt;/sharing_ipd&gt;
+##       &lt;ipd_description&gt;
+##         &lt;textblock&gt;detils&lt;/textblock&gt;
+##       &lt;/ipd_description&gt;
+##       &lt;ipd_info_type_protocol&gt;True&lt;/ipd_info_type_protocol&gt;
+##       &lt;ipd_info_type_sap&gt;True&lt;/ipd_info_type_sap&gt;
+##       &lt;ipd_info_type_icf&gt;True&lt;/ipd_info_type_icf&gt;
+##       &lt;ipd_info_type_csr&gt;True&lt;/ipd_info_type_csr&gt;
+##       &lt;ipd_info_type_analytic_code&gt;True&lt;/ipd_info_type_analytic_code&gt;
+##       &lt;ipd_time_frame&gt;
+##         &lt;textblock&gt;detials&lt;/textblock&gt;
+##       &lt;/ipd_time_frame&gt;
+##       &lt;ipd_access_criteria&gt;
+##         &lt;textblock&gt;details&lt;/textblock&gt;
+##       &lt;/ipd_access_criteria&gt;
+##       &lt;ipd_url&gt;http://www.fhkf.com&lt;/ipd_url&gt;
+##     &lt;/ipd_sharing_statement&gt;
+##   &lt;/clinical_study&gt;
+## &lt;/study_collection&gt;
+```
+]
+
+---
+
+class: left, top, hide-count
+
+.pull-left[
+&lt;img src="img/upload.png" height="400px"/&gt;
+]
+.pull-right[
+### Step 4: Upload to clinicaltrials.gov
+
+
+```r
+upload_ctxml(ctxml = ctxml, org_name ="UHNToronto", 
+                            user_name = "aconway",
+                            password = "password")
+```
+
+## Returns a list
+ - The ‘content’ element is a list of the messages parsed from the XML response. 
+ - The ‘response’ elements is the original XML response.
+ ]
+ 
+---
+
+class: center, top, hide-count
+
+.pull-left[
+&lt;img src="img/upload.png" height="400px"/&gt;
+]
+
+&lt;div align="left"&gt;
+
+.pull-right[
+
+
+## Step 5: Check and release
+
+
+
+&gt;Even in the event of a successful upload, this function has been programmed with the http POST request 'autoRELEASE' argument set to FALSE. This means that users will need to log-in to clinicaltrials.gov directly to inspect their upload, attend to any warning messages that may have been alerted, and then 'release' the submission for PRS review by clinicaltrials.gov.
+
+&lt;/div&gt;
+]
+
+---
+class: center, middle, hide-count
+
+
+.pull-left[
+&lt;i class="fad fa-clipboard-list-check fa-10x"&gt;&lt;/i&gt;
+]
+.pull-right[
+&lt;br&gt;
+### &lt;i class="fad fa-exclamation"&gt;&lt;/i&gt; Will trigger errors if there are too many characters or not the right format for clinicaltrials.gov xml document
+
+]
+
+---
+class: center, middle, hide-count
+
+
+.pull-left[
+&lt;i class="fad fa-wrench fa-10x"&gt;&lt;/i&gt;
+]
+.pull-right[
+# Future improvements
+### Could add in ability to upload observational/cohort study designs
+
+### Please send &lt;i class="fad fa-bug"&gt;&lt;/i&gt; reports or issues!
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
