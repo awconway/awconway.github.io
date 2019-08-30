@@ -93,6 +93,7 @@ ctxml &lt;- do.call(spiritR::create_ctxml, args_ctxml)
 ]
 
 ]
+
 ---
 
 class: left, top, hide-count
@@ -115,9 +116,21 @@ ctxml &lt;- add_sec_outcome(ctxml, name, time, description)
 ctxml &lt;- add_condition(ctxml, condition)
 ctxml &lt;- add_keyword(ctxml, keyword)
 ```
+]
+
+---
+class: center, middle, hide-count
+
+
+.pull-left[
+&lt;i class="fad fa-clipboard-list-check fa-10x"&gt;&lt;/i&gt;
+]
+.pull-right[
+### &lt;i class="fad fa-exclamation"&gt;&lt;/i&gt; `create_ctxml()` will trigger errors if there are too many characters or not the right format for clinicaltrials.gov xml document
 
 ]
 ---
+
 
 class: left, top, hide-count
 
@@ -365,18 +378,7 @@ class: center, top, hide-count
 ]
 
 ---
-class: center, middle, hide-count
 
-
-.pull-left[
-&lt;i class="fad fa-clipboard-list-check fa-10x"&gt;&lt;/i&gt;
-]
-.pull-right[
-### &lt;i class="fad fa-exclamation"&gt;&lt;/i&gt; `create_ctxml()` will trigger errors if there are too many characters or not the right format for clinicaltrials.gov xml document
-
-]
-
----
 class: center, middle, hide-count
 
 
@@ -385,6 +387,8 @@ class: center, middle, hide-count
 ]
 .pull-right[
 # Future improvements
+### R Markdown template currently formatted to knit to html - could add pdf template
+
 ### Could add in ability to upload observational/cohort study designs
 
 ### Please send &lt;i class="fad fa-bug"&gt;&lt;/i&gt; reports or issues!
