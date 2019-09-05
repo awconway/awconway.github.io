@@ -8,7 +8,7 @@
 <div class = "row">
 <div class = "col-md-3" align = "center">
 <br><br>
-<i class="fas fa-lungs fa-10x"></i>
+<i class="fad fa-lungs fa-10x"></i>
 </div>
 
 <div class = "col-md-9">
@@ -20,11 +20,11 @@
 
 <br>
 <div align = "center">
-## <i class="fa fa-search fa-lg"></i>  [View](HFNO/Protocol.html) the full trial protocol
+## <i class="fad fa-search fa-lg"></i>  [View](HFNO/Protocol.html) the full trial protocol
 
 <br><br>
 
-## <i class="fa fa-tasks fa-lg"></i>  [Track](https://aconway.dev/hfno/) recruitment progress
+## <i class="fad fa-tasks fa-lg"></i>  [Track](https://aconway.dev/hfno/) recruitment progress
 
 <br><br>
 
@@ -34,6 +34,10 @@
 <br><br>
 
 ## <i class="fa fa-info fa-lg"></i>  [View](SOP.html) Standard operating procedures the trial
+
+<br><br>
+
+## <i class="fad fa-tv fa-lg"></i>  [Watch](https://fphcare.box.com/s/rgwqjvlrpxn5x6w7y931pcpyhbspvzq9) HFNO mechanisms (Fisher & Paykel)
 
 
 </div>
