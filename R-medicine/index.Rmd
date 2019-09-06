@@ -171,7 +171,7 @@ add_sec_outcome(ctxml,
 
 .scroll-output[
 
-```{r echo = FALSE, tx-wrangle, highlight.output = c(79:94, 99:115)}
+```{r echo = FALSE, highlight.output = c(79:94, 99:115)}
 print_ctxml(ctxml = ctxml)
 ```
 ]
