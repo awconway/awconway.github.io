@@ -229,7 +229,26 @@ All written assignments should be carefully proofread and well edited. The requi
 
 The Purdue Online Writing Lab provides a helpful overview of the <a target="_blank" href="http://owl.english.purdue.edu/owl/resource/560/01/">General APA guidelines</a>.
 
+## Submission
 
+When submitting your assignment electronically, please name the file as follows: surname_first
+initial_assignment[#].doc. Thus if your name is Mary Jones and you are submitting the first
+written assignment, name the file jones_m_assignment1.doc.
+
+## Cover page
+
+Each paper should be presented with a formal cover page, which includes:
+
+1. A title for the paper (Select a title that describes the substantive focus of the
+assignment). Please do not name your papers “Assignment 1,” “Search Assignment”,
+etc.)
+1. Course number and title
+1. Professor’s name
+1. Student’s name (or initials, if you prefer) and student number
+
+## References and appendices
+
+Include a reference list of cited material using APA (6th edition) referencing format. For assignments that require Appendices, place these after the reference list.
 
 # Other useful links
 
