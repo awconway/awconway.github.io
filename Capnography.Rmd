@@ -38,6 +38,6 @@ In this [study](https://rdcu.be/bKqZk) we utilized an approach known as state se
 
 ## <i class="fa fa-angle-double-right fa-lg"></i>  Predictors of apnea
 
-To further examine the associations between respiratory states, we used a Mixed effects Cox model, sometimes called a frailty model, to analyze the recurrent apneic events. The interactive plot below illustrates how the risk of an apneic episode varies during the procedure for patients in the sample.
+To further examine the associations between respiratory states, in this [study](https://rdcu.be/bSDxX) we used a Mixed effects Cox model, sometimes called a frailty model, to analyze the recurrent apneic events. The interactive plot below illustrates how the risk of an apneic episode varies during the procedure for patients in the sample.
 
 <iframe src="https://aconway.dev/pre-apneic/" width="100%" height="1200" style="border: none;"></iframe>
