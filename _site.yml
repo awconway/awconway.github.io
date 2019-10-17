@@ -15,6 +15,8 @@ navbar:
         href: tcco2.html
       - text: "Cath lab sedation"
         href: cathlabsedation.html
+      - text: "Pre-procedural fasting"
+        href: thirst-discomfort-study.html
       - text: "Temperature monitoring and management"
         href: temp.html
       - text: "Cochrane Reviews"
@@ -56,6 +58,6 @@ navbar:
 output:
   html_document:
     theme: flatly
-    css: ['css/style.css', 'css/academicons.min.css']
+    css: ['css/styles.css', 'css/academicons.min.css']
     includes:
       in_header: fa.html

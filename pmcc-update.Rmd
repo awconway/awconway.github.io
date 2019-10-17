@@ -1,0 +1,166 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 1
+    includes:
+      after_body: annotation.html
+---
+
+<div class = "row">
+  
+<div class = "col-md-2" align = "center">
+<br><br><br>
+<i class="fad fa-calendar-star fa-5x"></i>
+</div>
+
+<div class = "col-md-10">
+
+<br>
+
+> <h2><center>Update on RBC Chair of Cardiovascular Nursing Resarch activities to October 2019</h2>
+
+</div>
+</div>
+
+<br><br>
+
+# <i class="fa fa-pencil fa-lg"></i> Publications
+<hr>
+<br>
+
+## <i class="fa fa-angle-double-right fa-lg"></i>  Sequence analysis of capnography waveform abnormalities
+
+In this study published in [Scientific Reports](https://rdcu.be/bKqZk), we utilized an approach known as state sequence analysis to examine capnography waveform abnormalities throughout cardiology procedures performed with sedation and analgesia. Analysis of the respiratory state sequences clearly demonstrated that capnography waveform abnormalities are frequent and prolonged in this population of patients undergoing cardiac procedures who received sedation with small bolus doses of midazolam and fentanyl. Applying a clustering algorithm to group similar respiratory state sequences revealed insights into common patterns of ventilatory responses to the medication used for procedural sedation. 
+
+<center><img id="img-me" src="images/sequence-analysis.jpeg"  height="auto"></center>
+
+
+## <i class="fa fa-angle-double-right fa-lg"></i>  Predictors of apnea
+
+To further examine the associations between respiratory states, in this study published in the [Journal of Clinical Monitoring and Computing](https://rdcu.be/bSDxX), we used a Mixed effects Cox model, sometimes called a frailty model, to analyze the recurrent apneic events. The interactive plot below illustrates how the risk of an apneic episode varies during the procedure for patients in the sample.
+
+<iframe src="https://aconway.dev/pre-apneic/" width="100%" height="450px" style="border: none;"></iframe>
+
+## <i class="fa fa-angle-double-right fa-lg"></i>  Cost-effectiveness of a thermal care bundle for perioperative hypothermia
+
+We found in this study, published in the <a href="https://www.sciencedirect.com/science/article/pii/S0020748919301142">International Journal of Nursing Studies</a>, that increasing use of active warming by implementing a thermal care bundle was highly likely to generate cost-savings for health care systems and improve the quality of life for surgical patients. It would be good value for hospitals with similar characteristics to those included in our model to allocate the extra resources required for implementation. We have developed an interactive webpage, so that decision-makers can estimate the probability that implementing the thermal care bundle would be cost-effective at their hospital.
+
+<iframe src="https://sedationapps.shinyapps.io/thermalbundleCEA" width="100%" height="600px" style="border: none;"></iframe>
+
+<br>
+
+## <i class="fa fa-angle-double-right fa-lg"></i>  Teaching evidence-based practice
+
+This <a href="https://link.springer.com/article/10.1186/s12909-019-1698-4">systematic review</a>, published in BMC Medical Education, critically appraised and synthesized evidence on the effectiveness of EBP theory-based teaching strategies specifically for undergraduate health students. Mixed results were reported on EBP knowledge, attitudes and skills across the studies. Interventions grounded in theory were found to have a small but positive effect on EBP attitudes.
+
+<br>
+
+## <i class="fa fa-angle-double-right fa-lg"></i>  Transcutaneous carbon dioxide (TcCO~2~) monitoring
+
+It is vital that clinicians have a clear understanding of the accuracy of TcCO~2~ monitoring devices to ensure they are applied in appropriate circumstances. Our research has identified that there are substantial differences between TcCO~2~ and PaCO~2~ depending on the context in which this technology is used. TcCO~2~ sensors should preferentially be applied to the earlobe and users should consider setting the temperature of the sensor higher than 42°C when monitoring at other sites. Results of the meta-analyses were published in [Thorax](https://thorax.bmj.com/content/74/2/157.abstract), and are presented below. 
+
+<br>
+
+<iframe src="https://aconway.dev/tcco2review/" width="100%" height="600px" style="border: none;"></iframe>
+
+<br><br>
+
+# <i class="fa fa-money fa-lg"></i> Grants
+<hr>
+
+## Current
+
+|Funding Source | Title | Amount |
+| --- | --- | ---|
+|UofT - Connaught New Researcher Award | Pilot randomized controlled trial of nasal high flow oxygen during procedural sedation and analgesia| $20000 |
+|UofT – Rosenstadt Faculty Small Research Grant | A smart alarm to guide treatment of sedation-induced respiratory depression | $5000 |
+
+## Planned
+
+- A smart alarm to guide treatment of sedation-induced respiratory depression (CIHR Project Grant Scheme - March 2020) 
+- High flow nasal oxygen for sedation (CIHR Project Grant Scheme - September 2020) 
+
+<br><br>
+
+# <i class="fa fa-construction fa-lg"></i> Current studies
+<hr>
+
+## [High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial](https://www.aaronconway.info/HFNO)
+
+## [Validating the Perioperative Thirst Discomfort Scale](https://www.aaronconway.info/thirst-discomfort)
+
+<br><br>
+
+# <i class="fa fa-forward fa-lg"></i> Planned studies
+<hr>
+
+### Automating pre-procedural fasting instructions.
+
+This program of research will involve: 1) predictive modelling of procedure start times using a large retrospective database of cardiac cath lab procedure scheduling information; and 2) user-centered design principles to create an alert system optimally suited to patient and clinician requirements for the delivery of automated pre-procedural fasting instructions.
+
+Progress to date:
+
+- Worked out a process with the Enterprise Data Warehouse to automatically send 'snapshots' of PHS scheduling information for cath labs so that we can build up a database of scheduling data to use in our predictive model.
+- Need to write full protocol for REB
+- I want to include Dr Barry Rubin and have had initial conversation with Dr Michael Farkough
+
+> Advertised as potential PhD project
+
+### A smart alarm to guide treatment of sedation-induced respiratory depression
+
+How nurses detect and respond to sedation-induced respiratory depression during medical procedures can make the difference between a good or disastrous patient outcome. We propose that the current approach to capnography monitor alarm management may be improved upon by using machine learning to create a ‘smart alarm’ that can alert clinicians only if an apneic event is predicted to be prolonged. Based on results from our preliminary work, it seems that using information about the history of previous respiratory states may be a promising solution in regards to predicting durations of apneic periods. We now plan to build on these preliminary findings about the associations between apneic events and the history of previous respiratory states by building a predictive model from a large sample of capnography waveforms. Longer term plans for this program of research are to prospectively evaluate the accuracy of the model developed in the current study, develop a Graphical User Interface that is best suited to operationalise the predictive model as a ‘smart alarm’ in the clinical setting and, ultimately, conduct a randomized controlled trial to test the clinical safety and utility of the ‘smart alarm’.
+
+- Waiting on DREAM team to make 10-second data available.
+- Applied similar modelling techniques to a much smaller dataset that we have available now (really need a larger sample).
+
+### Automating sedation state assessments
+
+Procedural sedation is used to to attenuate the pain and distress that may otherwise be experienced during diagnostic and interventional medical procedures. The ‘ideal’ state is when the patient is pain and anxiety free, not moving and with normal vital signs. This program of research will focus on automatic classification of sedation states based on a combination of video, audio and physiological monitoring inputs. Automating sedation state assessments has multiple potential applications. For example, it could be used to assist providers to determine how often the ‘ideal’ sedation state is achieved when different sedation techniques are utilized. Predictive models could also be developed to determine the probability of an impending sedation state transition, potentially allowing for clinicians to titrate sedation doses and optimize time spent in the ‘ideal’ sedation state. It could also provide an improved remote monitoring experience for anesthetists who are charged with supervising the provision of sedation by other providers, such as nurses and anesthesia assistants.
+
+> Advertised as potential PhD project
+
+<br><br>
+
+# <i class="fa fa-users fa-lg"></i> New collaborations
+<hr>
+
+## Researchers
+Dr Sebastian Mafeld (UHN) – Dr Mafeld is an Interventional Radiologist at the Toronto General Hospital with an interest in procedural sedation research and machine learning. I plan to collaborate with Dr Mafeld on a new program of research aiming to automate pre-procedural fasting instructions using machine learning. I have already collaborated with Dr Mafeld on a journal article to be submitted to the Canadian Journal of Radiology on patient safety.
+
+Dr Matteo Parotto (UHN) – Dr Parotto is an Anesthetist who I will be collaborating with on a randomised controlled trial of High Flow Nasal Oxygen. I plan to undertake further work with Dr Parotto focused on developing a ‘smart-alarm’ for guiding treatment of sedation-induced respiratory depression.
+
+Dr Tobias Everett (Sick Kids) – Dr Everett is a Pediatric Anesthetist and Director of Sedation Services. I have commenced a collaboration with Dr Everett, including a co-authored update to my Cochrane Systematic Review on Midazolam. Future plans for work with Dr Everett include a ‘living’ network meta-analysis on oral procedural sedation and collaboration on a program of research aiming to automate sedation state assessments using artificial intelligence algorithms based on classifying pain from facial expressions.
+
+
+
+## Staff nurses
+
+- Amanda Matthews (Cardiac Triage)
+- Shahvand Masihi (JDMI Educator)
+
+## Nurse Managers
+
+- Pauline Glaves
+- Sheryl Alexander
+
+<br>
+
+# <i class="fa fa-chart-line fa-lg"></i> Research Capacity Building
+<hr>
+
+## Graduate students
+
+- Navpreet Kamboj (PhD Student). 
+
+Navpreet will be developing a program of research into predicting hemodynamic responses to vasoactive medication in coronary care. I will be looking into how Nav's research during her PhD may be integrated with PMCC.
+
+## Undergraduate students
+
+- Summer students from UofT now working on a study at TGH
+
+## PMCC nurses
+
+- I would like to investigate the possibility of running a 'Intro to Research' course for nurses at PMCC. Developed a lot of resources for a similar [course](https://nur1027.netlify.com) at UofT that could be adapted.
+

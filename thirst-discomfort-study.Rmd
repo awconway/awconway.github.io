@@ -1,0 +1,31 @@
+---
+---
+
+<br><br>
+<center>
+# Validating the perioperative thirst discomfort scale
+</center>
+<div class = "row">
+<div class = "col-md-3" align = "center">
+<br><br>
+<i class="fad fa-hand-holding-water fa-10x"></i>
+</div>
+
+<div class = "col-md-9">
+
+> Pre-procedural fasting has been historically implemented to reduce the risk of vomiting and aspiration pneumonia. Prolonged fluid restriction causes thirst symptoms to develop (e.g., dry mouth, swollen tongue), which can lead to great discomfort for the patient. Despite the relevance and value of assessing thirst-discomfort of patients, the subjective experience of thirst presents challenges in developing a valid and reliable tool to succinctly and accurately measure its symptoms and level of discomfort prior to procedures.
+
+</div>
+</div>
+
+<br>
+<div align = "center">
+## <i class="fad fa-search fa-lg"></i>  [View](thirst-discomfort/index.html) the full trial protocol
+
+<br><br>
+
+
+
+</div>
+<br>
+<img align="center" width="100%" src="images/thirst-discomfort.png"/>

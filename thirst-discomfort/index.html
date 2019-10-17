@@ -7,9 +7,10 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Version 1" />
+<meta name="author" content="Version 4" />
 
 
 <title>Research Protocol</title>
@@ -68,8 +69,6 @@ overflow: auto;
 margin-left: 2%;
 position: fixed;
 border: 1px solid #ccc;
-webkit-border-radius: 6px;
-moz-border-radius: 6px;
 border-radius: 6px;
 }
 
@@ -97,9 +96,14 @@ font-size: 12px;
 .tocify-subheader .tocify-subheader {
 text-indent: 30px;
 }
-
 .tocify-subheader .tocify-subheader .tocify-subheader {
 text-indent: 40px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 50px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 60px;
 }
 
 .tocify .tocify-item > a, .tocify .nav-list .nav-header {
@@ -503,13 +507,13 @@ float: none;
 
           item.append($("<a/>", {
 
-            "text": self.text()
+            "html": self.html()
 
           }));
 
         } else {
 
-          item.text(self.text());
+          item.html(self.html());
 
         }
 
@@ -1415,48 +1419,9 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -1505,8 +1470,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -1550,8 +1513,8 @@ div.tocify {
 
 <h1 class="title toc-ignore">Research Protocol</h1>
 <h3 class="subtitle">Validating the perioperative thirst discomfort scale</h3>
-<h4 class="author">Version 1</h4>
-<h4 class="date">24 July, 2019</h4>
+<h4 class="author">Version 4</h4>
+<h4 class="date">16 September, 2019</h4>
 
 </div>
 
@@ -1617,10 +1580,10 @@ div.tocify {
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>2</td>
+<td>2019.08.14</td>
+<td>Statistical Methods</td>
+<td>Corrections from REB review</td>
 </tr>
 </tbody>
 </table>
@@ -1765,7 +1728,7 @@ div.tocify {
 <p>A Research Assistant (RA) will be engaged in this work performing the roles of eligibility screening, participant recruitment and data collection. Patients will be recruited for the study before procedures.</p>
 <div id="pre-procedural-recruitment-process" class="section level3">
 <h3><span class="header-section-number">3.5.1</span> Pre-procedural recruitment process</h3>
-<p>The nurse in the preprocedural bay will ask eligible (e.g., non-emergency procedure, instructed to fast, can speak and understand English, sufficient time to allow for participation prior to anticipated procedure commencement) potential participants for permission for the RA to provide additional information and the study overview and invite them to participate in the study. If the potential participant agrees, the RA will explain the study so that they can consider their participation in completing the instruments before their procedure. It is anticipated that completion of the Perioperative Thirst Discomfort Scale will only take about 5 minutes or less to complete.</p>
+<p>The RA will ask a nurse in the preprocedural bay if the patient is eligible (e.g., non-emergency procedure, instructed to fast, can speak and understand English, sufficient time to allow for participation prior to anticipated procedure commencement) and for permission for the RA to invite the patient to participate in the study. If the nurse confirms that the patient is eligible and can be approached, the RA will explain the study to the potential participant so that they can consider their participation in completing the instruments before their procedure. It is anticipated that completion of the Perioperative Thirst Discomfort Scale will only take about 5 minutes or less to complete.</p>
 <p>It is typical for patients to ‘wait’ in the pre-procedural bay for at least one hour before procedures. As such, in most circumstances there will be sufficient time for patients to participate in the study. Nevertheless, we will exclude patients if the nurse allocated to preparing the patient for their procedures considers that there is insufficient time prior to the anticipated procedure commencement to allow for participation. This period is also the most appropriate time to administer the survey, as it will be the point in time prior to procedures where fasting duration is greatest.</p>
 </div>
 <div id="waiting-room-recruitment-process" class="section level3">
@@ -1788,7 +1751,7 @@ div.tocify {
 <li>the time the patient last had any clear fluids;</li>
 <li>the time the patient last had any food;</li>
 <li>two items to evaluate the clarity of fasting instructions;</li>
-<li>demographics (age, sex and type of procedure to be performed); and</li>
+<li>age, sex of patient and type of procedure to be performed; and</li>
 <li>an item to determine if the participant’s thirst-discomfort has changed since last assessed (only applicable at T2 and T3).</li>
 </ul>
 <p><em>Perioperative Thirst Discomfort Scale</em></p>
@@ -1810,20 +1773,19 @@ div.tocify {
 <div id="data-management" class="section level2">
 <h2><span class="header-section-number">3.7</span> Data management</h2>
 <p><strong>Data Forms and Data Entry</strong></p>
-<p>All data will be entered in case report forms developed in REDCap<sup>TM</sup> to extract information about the demographic characteristics of the sample. No identifying information will be included in the database. All personal information such as the patient’s name and health information will be removed from the data and will be replaced with a participant ID number. A majority of this will occur on site where the data originated at the Peter Munk Cardiac Catherization Labs or in Interventional Radiology, however some instances may occur at the PI’s office located in the Peter Munk Cardiac Centre, Toronto General Hospital.</p>
-<p>All original study forms will be kept on file at the participating hostpial site. A list linking the participant ID number with patient names will be stored in an electronic file by the study team on a secure UHN Network in compliance with UHN’s policy and procedural manual on storage, transport and destruction of confidential information (1.40.006).</p>
+<p>All data will be entered in case report forms developed in REDCap<sup>TM</sup> to extract information about the age, sex and type of procedures performed of the sample. No identifying information will be collected or included in the database. Participants recruited to the study will be assigned a participant ID number to enter into REDCap<sup>TM</sup>. This will occur on site where the data originated at the Peter Munk Cardiac Catherization Labs or in Interventional Radiology, Toronto General Hospital.</p>
 <p><strong>Data Transmission and Editing</strong></p>
 <p>Using REDCap<sup>TM</sup>, range checks will be applied to minimize errors in data entry.</p>
 <p><strong>Security and Back-Up of Data</strong></p>
-<p>All forms related to study data will be kept in locked cabinets. Access to the study data will be restricted. A password system will be utilized to control access to electronic files related to the study on a secure UHN Network in compliance with UHN’s policy and procedural manual on storage, transport and destruction of confidential information. These passwords will be changed on a regular basis.</p>
+<p>Access to the study data will be restricted. A password system will be utilized to control access to electronic files related to the study on a secure UHN Network in compliance with UHN’s policy and procedural manual on storage, transport and destruction of confidential information. These passwords will be changed on a regular basis.</p>
 <p>In compliance with UHN’s policy &amp; procedure manual on “Research: Data Ownership, Stewardship &amp; Security of Health Information”, the institution will be responsible for providing hard data backs ups of all UHN Information and Technology (IT) systems for disaster recovery purposes.</p>
 <p><strong>Data Storage</strong></p>
 <p>In accordance with the UHN Administrative- Management, Retention &amp; Disposal of Administrative Record policy (1.30.007), the study data will be retained for 10 years.</p>
 </div>
 <div id="statistical-methods" class="section level2">
 <h2><span class="header-section-number">3.8</span> Statistical methods</h2>
-<p>Internal consistency of the Perioperative Thirst Discomfort Scale, and test-retest reliability statistics of the scores at the three time-points will be calculated to assess the reliability of the instrument across items and over time.<span class="citation"><sup>17</sup></span> The intraclass correlation coefficient (two-way mixed-effects model) of the three Perioperative Thirst Discomfort scores will be calculated with 95% confidence intervals.<span class="citation"><sup>18</sup></span> Standard error of measurement will be assessed to determine the absolute reliability and clinically relevant differences of scores produced by the Perioperative Thirst Discomfort Scale.<span class="citation"><sup>19,20</sup></span> Finally, the minimal detectable difference will be calculated to determine the instrument’s responsiveness to the smallest statistically significant change between scores.<span class="citation"><sup>21,22</sup></span></p>
-<p>Exploratory factor analysis will be conducted with principal components analysis to evaluate the structural validity of the Perioperative Thirst Discomfort Scale. Construct validity will be evaluated by using t-tests to identify associations between scores on the Perioperative Thirst-Discomfort Scale and fasting duration. To demonstrate construct validity we hypothesise that higher scores on the Perioperative Thirst Discomfort Scale are associated with greater fasting duration. Convergent validity will be assessed by using Kendall’s tau to compare the Perioperative Thirst Discomfort Scale score with the global thirst discomfort score. Convergent validity will be assessed by using the Spearman’s rank correlation to compare the Perioperative Thirst Discomfort Scale with the thirst intensity rating, pain scale rating. Chi-square analysis will be carried out on the Perioperative Thirst Discomfort Scale score and the patient’s use of oxygen.</p>
+<p>Internal consistency of the Perioperative Thirst Discomfort Scale, and test-retest reliability statistics of the scores at the three time-points will be calculated to assess the reliability of the instrument across items and over time.<span class="citation"><sup>17</sup></span> The intraclass correlation coefficient (two-way mixed-effects model) of the Perioperative Thirst Discomfort scores measured at T1 and T2 will be calculated with 95% confidence intervals.<span class="citation"><sup>18</sup></span> T1 and T2 scores will be used because it is not expected that a participant’s thirst discomfort will change over this short time-period. Standard error of measurement will be assessed to determine the absolute reliability and clinically relevant differences of scores produced by the Perioperative Thirst Discomfort Scale.<span class="citation"><sup>19,20</sup></span> Finally, the minimal detectable difference will be calculated to determine the instrument’s responsiveness to the smallest statistically significant change between scores.<span class="citation"><sup>21,22</sup></span></p>
+<p>The structural validity of the Perioperative Thirst Discomfort Scale was not tested in its initial development. For this reason, exploratory factor analysis will be used to evaluate the structural validity of the Perioperative Thirst Discomfort Scale in this study using measurements taken at the T3 timepoint. Construct validity will be evaluated by using correlations to identify associations between scores on the Perioperative Thirst-Discomfort Scale and fasting duration. To demonstrate construct validity we hypothesise that higher scores on the Perioperative Thirst Discomfort Scale are associated with greater fasting duration. Convergent validity will be assessed by using Kendall’s tau to compare the Perioperative Thirst Discomfort Scale score with the global thirst discomfort score. Convergent validity will be assessed by using the Spearman’s rank correlation to compare the Perioperative Thirst Discomfort Scale with the thirst intensity rating, pain scale rating. Chi-square analysis will be carried out on the Perioperative Thirst Discomfort Scale score and the patient’s use of oxygen.</p>
 <div id="sample-size-justification" class="section level3">
 <h3><span class="header-section-number">3.8.1</span> Sample size justification</h3>
 <p>We will aim to recruit 200 participants for the nurse survey. A sample of this size will meet a recommended minimum necessary sample size for factor analysis (assuming the variables-to-factors ratio is not lower than 5).<span class="citation"><sup>23</sup></span></p>
@@ -1865,7 +1827,7 @@ div.tocify {
 </div>
 <div id="confidentiality" class="section level2">
 <h2><span class="header-section-number">4.4</span> Confidentiality</h2>
-<p>All study-related information will be stored securely in compliance with UHN’s “Storage, Transport &amp; Destruction of Confidential Information” policy (1.40.006). All participant information will be stored in locked file cabinets in areas with limited access. All information collected during this study will be kept confidential and will not be shared with anyone outside the study unless required by law. Participants will not be named in any reports, publications, or presentations that may come from this study.</p>
+<p>All study-related information will be stored securely in compliance with UHN’s “Storage, Transport &amp; Destruction of Confidential Information” policy (1.40.006). All information collected during this study will be kept confidential and will not be shared with anyone outside the study unless required by law. As the questionnaire will collect anonymous data, participants will not be identifiable, thus they will not be named in any reports, publications, or presentations that may come from this study.</p>
 </div>
 <div id="declaration-of-interests" class="section level2">
 <h2><span class="header-section-number">4.5</span> Declaration of interests</h2>
@@ -2022,6 +1984,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
