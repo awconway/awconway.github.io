@@ -20,7 +20,7 @@
 
 <br>
 <div align = "center">
-## <i class="fad fa-search fa-lg"></i>  [View](thirst-discomfort/index.html) the full trial protocol
+## <i class="fad fa-search fa-lg"></i>  [View](thirst-discomfort/index.html) the full study protocol
 
 <br><br>
 
