@@ -22,6 +22,11 @@
 <div align = "center">
 ## <i class="fad fa-search fa-lg"></i>  [View](thirst-discomfort/index.html) the full study protocol
 
+## <i class="fa fa-info fa-lg"></i>   [View](thirst-discomfort/screening.html) standard operating procedure for participant recruitment
+
+## <i class="fa fa-info fa-lg"></i>   [View](thirst-discomfort/data-collection.html) standard operating procedure for data collection
+
+
 <br><br>
 
 
