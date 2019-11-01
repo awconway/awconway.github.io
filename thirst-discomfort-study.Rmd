@@ -26,6 +26,7 @@
 
 ## <i class="fa fa-info fa-lg"></i>   [View](thirst-discomfort/data-collection.html) standard operating procedure for data collection
 
+## <i class="fad fa-tasks fa-lg"></i>  [Track](https://aconway.dev/thirst-discomfort-screening/) recruitment progress
 
 <br><br>
 
