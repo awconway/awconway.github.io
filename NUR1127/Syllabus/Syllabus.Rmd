@@ -1,0 +1,501 @@
+---
+title: |
+  NUR1127 – Integrated approaches to research appraisal and utilization (Part 2)<br><br>
+subtitle: Winter 2020<br><br>
+output:
+  html_document:
+    css: table.css
+    includes:
+      before_body: before.html
+      in_header: lineheight.html
+    theme: flatly
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+
+
+**Click <a href="http://www.aaronconway.info/NUR1127/Syllabus/Syllabus.pdf" target="_blank">here</a> for a pdf version of the syllabus.**
+
+# Contact details
+
+|     |     |
+| --- | --- |
+|*Course Location* |  On-line  |
+| *Faculty* | **Aaron Conway RN, PhD**<br>155 College Street<br>Rm. 274<br>(416) 946-7112 <br> Email: aaron.conway@utoronto.ca|
+| *Office Hours* | By appointment |
+|*Teaching Assistant* | Danielle Just, PhD nursing student<br>Email: danielle.just@mail.utoronto.ca|
+| *Course Website* | <a href="https://q.utoronto.ca/courses/140300/" target="_blank">NUR1127 Quercus site</a> |
+| *Quercus resources* | <a href="https://q.utoronto.ca/courses/46670" target="_blank"> Quercus student guide</a> |
+
+
+
+# Course description
+
+NUR1127 builds on and extends the content introduced in NUR1027 and focuses on specific research designs and approaches that explain phenomena and relationships, or involve interventions/actions. You will develop competence in critically appraising, interpreting and synthesizing results from individual research studies and research syntheses.  Critical appraisal and interpretation of qualitative and quantitative approaches and mixed methods studies will be addressed.
+
+
+
+# Course objectives
+
+*The overall objectives of the course are to enable students to:*
+
+1.	Apply knowledge of approaches and rigour in research to address a variety of nursing and health care questions. 
+1.	Understand and appreciate ethical issues associated with health care research.
+
+
+*Specifically, students will develop the ability to:*
+
+1.	Interpret and critically appraise individual studies with different approaches and with a variety of research designs.
+1.	Interpret and critically appraise research syntheses (systematic reviews, meta-syntheses, clinical practice guidelines).
+1.	Synthesize research evidence to inform nursing and healthcare leadership practice. 
+
+
+
+
+# Reading
+
+## Required textbooks
+
+**Same as for NUR1027**
+
+Craig, JV & Smyth, RL. (2012). The Evidence-based Practice Manual for Nurses (3rd ed.) Churchill Livingstone Elsevier.
+
+Gray, J.R., Grove, S.K. & Sutherland, S.  (2017). The Practice of Nursing Research (8th ed.) St. Louis Missouri: Elsevier. 
+
+Textbooks can be purchased in person at the U of T Bookstore (214 College St.) or ordered online through the <a target="_blank" href="http://www.uoftbookstore.com/"> bookstore</a>.
+
+## Required readings/resources
+
+The readings for this course are not included in this syllabus. Unless otherwise stated, all articles listed in the course syllabus are available electronically by clicking on the links provided or through the University of Toronto Libraries <a target="_blank" href="http://www.library.utoronto.ca">website</a>.  
+
+## Recommended resource
+
+The <a target="_blank" href="http://www.equator-network.org/">EQUATOR</a> (Enhancing the Quality and Transparency of Health Research) Network is a collection of reporting frameworks and guidelines for different types of studies. These resources are intended to provide guidance to researchers in reporting their studies. However they may be useful in helping you understand the essential components of different types of research reports. 
+
+
+
+# Course structure
+
+Over 12 weeks, you will learn key information about how to find, appraise, and use research in your practice. Each week's learning activities will include: learning objectives, resources and content as well as online class discussion to help you understand and apply the concepts. Each week will begin on a Tuesday and end on the following Monday at 11:59pm.
+
+
+
+# Weekly course schedule
+
+<table>
+  <col width="15%">
+  <col width="15%">
+  <col width="35%">
+  <col width="35%">
+  <row height="10px">
+<thead>
+<tr>
+<th>Date</th>
+<th>Week</th>
+<th>Topic</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jan 7</td>
+<td>Week 1</td>
+<td>Grounded Theory</td>
+<td></td>
+</tr>
+<tr>
+<td>Jan 14</td>
+<td>Week 2</td>
+<td>Randomized studies of interventions</td>
+<td></td>
+</tr>
+<tr>
+<td>Jan 21</td>
+<td>Week 3</td>
+<td>Systematic reviews of randomized controlled trials</td>
+<td></td>
+</tr>
+<tr>
+<td>Jan 28</td>
+<td>Week 4</td>
+<td>Non-randomized studies of interventions</td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243719">Critical Appraisal and Interpretation of a Randomized Controlled Trial (group assigned)</a></strong></td>
+</tr>
+<tr>
+<td>Feb 4</td>
+<td>Week 5</td>
+<td>Mixed methods</td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243719">Critical Appraisal and Interpretation of a Systematic Review (group assigned)</a></strong></td>
+</tr>
+<tr>
+<td>Feb 11</td>
+<td>Week 6</td>
+<td>Model testing and cohort/case-control designs</td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243719">Critical Appraisal and Interpretation of a Non-randomized study of an intervention (group assigned)</a></strong></td>
+</tr>
+<tr>
+<td>Feb 18</td>
+<td></td>
+<td><strong><center>Family day and Reading week <br> NO CLASS</center></strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Feb 25</td>
+<td>Week 7</td>
+<td>Alternative types of systematic reviews</td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 3</td>
+<td>Week 8</td>
+<td>Economic evaluation</td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243708">Knowledge test Friday March. 6th at 10:00 am</a></strong></td>
+</tr>
+<tr>
+<td>Mar 10</td>
+<td>Week 9</td>
+<td>Ethics in research</td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243705">Online Ethics Tutorial due Monday March 16 at 4:00 pm</a></strong></td>
+</tr>
+<tr>
+<td>Mar 17</td>
+<td>Week 10</td>
+<td>No class - reading week</td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 24</td>
+<td>Week 11</td>
+<td>Machine learning</td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 31</td>
+<td>Week 12</td>
+<td>Practice guidelines</td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243730">Research summary and recommendations paper due Friday April 3 at 4:00 pm</a></strong></td>
+</tr>
+</tbody>
+</table>
+
+# Discussion group
+
+Participation in an asynchronous discussion group, found by clicking on "Discussions" in Quercus will give you an opportunity for further clarification and commentary on the key concepts and learning activities, through dialogue with your classmates, professor and teaching assistant. It is expected that students will regularly respond to questions and comments posed on the discussion board, and that posts will develop increasing depth and sophistication as the course progresses.
+
+
+
+# Online activities
+
+In addition to independent learning activities, there will be regular online group activities designed to create learning synergies, extend your critical thinking about the course material, and build a sense of community among students. 
+
+
+
+# Working in an online environment
+
+How do I work and learn in an online environment?
+The online environment provides increased flexibility in terms of when and where you engage in learning activities. However it can also present challenges, requiring a degree of self-discipline to ensure you are able to take advantage of group discussions and learn from the observations and insights of your colleagues, as well as the course faculty. Here are some tips to help you be successful in engaging in on-line learning:
+
+- This is a relatively self-directed learning environment, so it is important to manage your time carefully.
+- As is the case in all graduate programs (both in-class and on-line), the course requires a considerable amount of independent study, guided by the resources and learning activities provided each week. Be sure to complete the weekly learning activities, and to participate in the Discussion every week. This is where we will work through together any questions you have about the material you are studying.
+- Organize your time to ensure that you can complete the weekly reading and other learning activities on time. It is critical that you do not get behind. 
+- While completing the weekly learning activities, compile a list of questions or concerns that arise so that you can seek help via your colleagues on the discussion board.
+
+
+
+# Course time commitment
+
+Most students will need a **minimum 8-10 hours/week** to complete the readings and learnings activities and participate in the discussion group.  **Additional time** will be required to complete assignments.
+
+
+
+# Writing resources
+
+We strongly recommend a visit to the <a target="_blank" href="http://writing.utoronto.ca/">University of Toronto Writing Centre Website</a>. This website has a wealth of information regarding academic writing including information about writing when English is not your first language, writing courses and workshops available for students, and information about using other Writing Centres at the University of Toronto. The “Writing Advice” tab contains a host of online writing support resources. Sample topics include: preparing an outline, revising an essay, developing coherent paragraphs, style and editing, grammar and punctuation, etc.
+
+Other helpful writing websites include:
+
+1.	<a target="_blank" href="http://www.hswriting.ca/">Health Sciences Writing Centre</a>
+2.	<a target="_blank" href="http://www.writing.utoronto.ca/advice/using-sources/how-not-to-plagiarize">How to avoid plagiarism</a>
+3. <a target="_blank" href="http://www.sgs.utoronto.ca/currentstudents/Pages/GCAC.aspx">Graduate Centre for Academic Communication</a>
+
+
+
+# Appearance and editing of assignments
+
+All written assignments should be carefully proofread and well edited. The required style manual for the formatting of essays and assignments at the Lawrence S. Bloomberg Faculty of Nursing is that of the American Psychological Association (APA) 6th edition, which is described in: 
+
+*Publications Manual of the American Psychological Association (6th ed.). Washington: American Psychological Association, 2010.*
+
+The Purdue Online Writing Lab provides a helpful overview of the <a target="_blank" href="http://owl.english.purdue.edu/owl/resource/560/01/">General APA guidelines</a>.
+
+## Submission
+
+When submitting your assignment electronically, please name the file as follows: surname_first
+initial_assignment[#].doc. Thus if your name is Mary Jones and you are submitting the first
+written assignment, name the file jones_m_assignment1.doc.
+
+## Cover page
+
+Each paper should be presented with a formal cover page, which includes:
+
+1. A title for the paper (Select a title that describes the substantive focus of the
+assignment). Please do not name your papers “Assignment 1,” “Search Assignment”,
+etc.)
+1. Course number and title
+1. Professor’s name
+1. Student’s name (or initials, if you prefer) and student number
+
+## References and appendices
+
+Include a reference list of cited material using APA (6th edition) referencing format. For assignments that require Appendices, place these after the reference list.
+
+# Other useful links
+
+1.	<a target="_blank" href="http://www.library.utoronto.ca">University of Toronto Library System</a>
+2.	<a target="_blank" href="http://gerstein.library.utoronto.ca/">Gerstein Science Information Centre</a>
+3.	<a target="_blank" href="http://www.sgs.utoronto.ca/">School of Graduate Studies</a>
+4.  <a target="_blank" href="https://guides.library.utoronto.ca/nursing-eresources">Nursing Resource Guide</a>
+
+
+
+# Course communication
+
+Please ensure that you have an active your.name@utoronto.ca or your.name@mail.utoronto.ca e-mail address as this is the only one to which faculty will respond.  If your contact information changes, please notify the MN Graduate and Curriculum Assistant (academic.nursing@utoronto.ca) and update ACORN immediately.  
+
+Quercus will be used to post the course syllabus, recorded lectures, weekly readings and other learning activities, and important announcements.  Click <a target="_blank" href="https://q.utoronto.ca/courses/46670">here</a> for Quercus information and resources.
+
+Please also use our course Quercus site Discussion section to ask questions about class content and assignments.  Many of you will have similar questions and we can ensure consistent responses to your concerns by using Quercus.  We (the Teaching Assistant or I) will read and respond to Quercus postings and messages and our Discussions (via Quercus) on Mondays, Wednesdays and Fridays by 5 pm.  E-mail communication with either the Professor or the TA should be used only for purposes other than asking questions about course content (e.g., for scheduling a one-to-one appointment) or for communication of a personal nature.  
+
+Forwarding your utoronto.ca email to a different type of email account is not advisable. In some cases, messages from utoronto.ca addresses sent to other accounts are filtered as junk mail, which means that emails from your course instructor may end up in your spam or junk mail folder. 
+
+
+# Course participation
+
+The Quercus Discussion Board is our virtual classroom. This is where we will engage in discussion and clarification of the course material, and practise applying course concepts. In order to make the most of this opportunity, we need to allow time for these asynchronous discussions to unfold over the week. Thus it is important that you go join the discussions several times over the week, rather than posting only at the end of the week.
+To facilitate discussion there will be a number of questions posed each week. It is important that all students participate in these discussions. I ask that you please keep your postings succinct **(maximum 200 words)** so that others have an opportunity to respond as well. Postings must be presented in your own words and reflect a critical analysis and interpretation of course material, exercises, and other learning activities.  You are encouraged to share insights into the application and use of course concepts in practice. Please include relevant references in your posts (not included in the word count).
+Students are expected to read assigned material for each week and respond to each other’s postings and questions.  The minimum expectation is that you submit one posting of your own and provide a short but substantive response to at least one other student’s post each week.
+
+
+*Relevance and Content*
+
+The student:
+
+-	Comments and questions and thoughtfully addresses the topic and question.
+-	Demonstrates s/he has read the discussion and has taken the discussion into consideration before posting.
+-	Contributes new ideas (e.g., new perspectives, examples) in integrating relevant readings.
+-	Makes connections between ideas (e.g., connects concepts, explains similarities).
+-	Applies and rephrases ideas from previous classes accurately and appropriately.
+-	Asks questions that promote in-depth discussion.
+
+*Tone and Clarity*
+
+-	Tone is respectful, friendly and professional.
+-	Proofreads comments for clarity before posting.
+-	Communicates ideas in a professional but engaging way.
+-	Addresses other students by name.
+-	Humour, emotions, and colloquial language, if used at all, are used sparingly and with sensitivity to other students.
+-	Responds to other students as well as the instructor.
+
+*Netiquette*
+
+Certain rules of etiquette are also recommended for online discussions (Netiquette). These include:
+
+- Always be courteous to other students
+- Before introducing a new topic area, search to see if a similar discussion point already exists
+- Stay on-topic
+- Avoid the use of all CAPTIAL LETTERS in posts. ALL CAPS is considered shouting
+
+
+
+# Important University and Faculty policies
+
+## Course Drop Date
+
+October 28, 2019 is the final date to drop September session (Full or Half) courses without academic penalty.For drop dates for 2019-20 courses please go to this <a target="_blank" href="https://bloomberg.nursing.utoronto.ca/current-students/course-timetables#content2">link</a>.
+
+## Grading of Written Papers
+
+All written assignments are subject to the grading regulations as outlined in the Lawrence S. Bloomberg Faculty of Nursing calendar and the School of Graduate Studies Calendar. Late assignments after the due date will accrue a late penalty of 5% each day (including weekends).
+
+## Submission of assignments
+
+On the due date, please submit an electronic copy of your paper to the digital drop box in Turnitin using Quercus. Your paper will NOT be evaluated until it is submitted to Turnitin using Quercus. 
+
+## Writing an exam out of sequence or receiving an extension on an assignment
+
+In an exceptional circumstance, e.g. death in family or medical illness, a student may be allowed to write an exam out of sequence or receive an extension on an assignment. In case of an illness, the student needs a note from a licensed health care providers (Dentist, 
+Nurse/Nurse Practitioner, Physician/Surgeon, Psychologist, Psychotherapist or Social Worker registered and licensed in the Province of Ontario) and needs to fill out the following form <a target="_blank" href="http://www.illnessverification.utoronto.ca/index.php">here</a>. The student needs to contact the instructor as soon as possible prior to the exam/assignment deadline. The verification of illness form needs to be submitted within 7 calendar days of the assignment deadline/exam date. An alternate date needs to be set as close to the date of the original exam/assignment due date as possible. In case of an exam, you will be asked to complete the Declaration of Confidentiality for Students Sitting Tests/Examinations at Other Than the Regular Specified Time. 
+
+## Questions About Assignment
+
+In the interest of fairness and transparency, please direct your questions about the paper to the proper discussion board on Quercus. If you do send an email to the instructor or teaching assistant, you may be encouraged to share this answer on the discussion board if the information is helpful to other learners in the course. Students are not permitted to submit a detailed, formal outline of the assignment for evaluation or instructor/TA feedback before the due date. As always, the instructor and/or TA would be happy to answer your questions via Quercus, email, telephone, or in person.
+
+## Plagiarism & Academic Integrity
+
+Turnitin is used in this course. Normally, students will be required to submit their course assignments to Turnitin.com for a review of textual similarity and detection of possible plagiarism. In doing so, students will allow their assignments to be included as source documents in the Turnitin.com reference database, where they will be used solely for the purpose of detecting plagiarism. The terms that apply to the University's use of the Turnitin.com service are described on the Turnitin.com web site. Students do have the option of handing in all their rough drafts and notes of their paper if they are opposed using to Turnitin. These students must approach their faculty teacher(s) in advance.  
+ 
+Academic integrity is essential to the pursuit of learning and scholarship in a university, and to ensuring that a degree from the University of Toronto is a strong reflection of each student’s individual academic achievement.  
+ 
+The University of Toronto Governing Council Code of Behaviour on Academic Matters 
+(University of Toronto Governing Council, 2019) is found <a target="_blank" href="http://www.governingcouncil.lamp4.utoronto.ca/wp-content/uploads/2016/07/p0701coboam-2015-2016pol.pdf">here</a>. The code outlines offences that constitute academic misconduct and processes for addressing academic offences. Section B.1 of the code (copied below) outlines academic offences.   
+ 
+It shall be an offence for a student knowingly: 
+
+(a)	to forge or in any other way alter or falsify any document or evidence required by the University, or to utter, circulate or make use of any such forged, altered or falsified document, whether the record be in print or electronic form; 
+(b)	to use or possess an unauthorized aid or aids or obtain unauthorized assistance in any academic examination or term test or in connection with any other form of academic work; 
+(c)	to personate another person, or to have another person personate, at any academic examination or term test or in connection with any other form of academic work; 
+(d) to represent as one’s own any idea or expression of an idea or work of another in any academic examination or term test or in connection with any other form of academic work, i.e. to commit plagiarism (for a more detailed account of plagiarism, see Appendix "A") ; 
+(e)	to submit, without the knowledge and approval of the instructor to whom it is submitted, any academic work for which credit has previously been obtained or is being sought in another course or program of study in the University or elsewhere; 
+(f)	to submit any academic work containing a purported statement of fact or reference to a source which has been concocted. (Code of Behaviour on Academic Matters, 2019) 
+ 
+ 
+All suspected incidents of academic misconduct will be investigated following procedures outlined in the Code of Behaviour on Academic Matters (University of Toronto Governing Council, 2019). 
+ 
+## ProctorU 
+ 
+The University of Toronto Master of Nursing NP Field, Health System Leadership and Administration Field, and Post-Master of Nursing Nurse Practitioner Diploma programs offer students the opportunity to take exams at home with online proctoring. In such cases, the Faculty uses online proctoring services to ensure exam integrity.  The Faculty of Nursing contracts with an organization called ProctorU to complete online proctoring for students taking examinations online.  Students who take their examinations online must agree to be proctored by ProctorU throughout the duration of the exam. ProctorU provides live proctoring by highly-trained human proctors.  
+
+Students must first confirm their identity with photo ID with the human proctor. The proctor then closely monitors students throughout the entire exam using webcams and remote desktop monitoring through high-speed Internet connections. All components of proctoring must be maintained for the duration of the exam. During the exam, the proctor may reach out to the student if they lose the ability to proctor the exam (camera view obstructed/loss of remote desktop view). If the proctor contacts the student during the exam through a pop-up message, voice, or a loud beep, the student is expected to respond to the proctor. Failure to respond to the proctor to allow proctoring threatens the integrity of the exam. This will be investigated to determine whether an academic offence has been committed as per the University of Toronto Governing Council Code of Behaviour on Academic Matters. Students who do not agree to be proctored by ProctorU must take their examination on campus at the University of Toronto or at an approved Exam Testing Centre (at the expense of the student) at the same time as the exam is offered online. In such cases, students must notify the Faculty at least two weeks in advance so that appropriate arrangements can be made.  
+
+At the completion of the exam, a report of student exam-taking behaviours is generated and reviewed by Faculty and IT staff. Exam grades will NOT be released to students until the integrity of the exam has been verified through ProctorU, the Faculty of Nursing IT staff, and relevant teaching Faculty.
+ 
+## Accessibility Statement 
+Students with diverse learning styles and needs are welcomed in this course. In particular, if you have a disability/health consideration that may require accommodations, please contact the Accessibility Services Office as soon as possible. The St. George Campus Accessibility Services staff (located in Robarts Library, First Floor) are available by appointment to assess specific needs, provide referrals and arrange appropriate accommodations (416)978-8060 or accessibility.services@utoronto.ca. 
+ 
+ 
+## Health and Wellness Centre  
+
+The <a target="_blank" href="http://healthandwellness.utoronto.ca/">Health & Wellness Centre</a>  provides a variety of services for registered students including mental health services such as short-term individual counseling and group therapies for anxiety, low or depressed mood and resilience (e.g. Mindfulness-Based, Cognitive-Behavioural Therapy for Anxiety) and psychiatric medication services. Students also have access to counselling services on-site at the Faculty of Nursing through an Embedded Wellness Counsellor, Leah Direnfeld. Students can call 416-978-8030 to book an appointment.  
+ 
+ 
+## Student Evaluation of Courses 
+
+Student evaluation of courses is an essential component of our educational programs at the Lawrence S. Bloomberg Faculty of Nursing.  Student feedback enables us to continue to improve our teaching effectiveness to enhance student learning.  
+ 
+The Lawrence S. Bloomberg Faculty of Nursing participates in the University of Toronto’s centralized ‘Student Evaluation of Courses’ system. Towards the end of this course, you will receive an email inviting you to complete an online evaluation of this course. The email will provide you with the specific information and links needed to access and complete course evaluation. Your ratings and comments will be anonymous but will be aggregated for summary across evaluations. Once a process has been established, summarized course evaluations will be made available within the faculty and university community. For more information about the University of Toronto policy about student evaluation of courses, please refer to the 
+<a target="_blank" href="http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ProvostiaStudentEval.pdf">website</a>.
+ 
+ 
+## Technical Requirements for Online Academic Activities  
+
+There are technical requirements that will allow you to participate in the course. The course includes online webinars, online examinations, and assignments that are submitted online. 
+  
+- Minimum Recommended Computer System Requirements 
+- Laptop or Desktop 4GB Ram Windows 10 or Mac OSX 10.12 
+- Screen Resolution of 1280 x 720  Webcam Headphones Microphone (Built-in, on headphones, or external) DSL or Cable Internet with 1.5 Mbps upload and download  
+ 
+If you have purchased your computer within the last 3-5 years you will likely have no trouble meeting these requirements.  If your computer does not meet the minimum requirements you may have difficulty using some of the applications.  
+
+You will need the webcam to enable online proctoring for any proctored examinations.  For proctored examinations we use the Proctor U service and technical requirements for that service can be found <a target="_blank" href="https://www.proctoru.com/auto-resource-center">here</a>.  Most new laptops (within 3-5 years) have webcams built in. If you are using a desktop computer you may need to purchase a webcam. In addition, you will need a microphone (most webcams and laptops have built-in microphones) and a set of headphones such as the kind that come with mobile devices and smartphones. 
+
+In addition to the computer system requirements it is also recommended you have sufficiently fast Internet. Ensure you have DSL or Cable Internet with at least 1.5 Mbps download speed and at least 1.5 Mbps upload speed. Dial-up Internet is not recommended.   
+You can test your Internet speed by going to <a target="_blank" href="https://www.speedtest.net/">this website</a> and clicking “Go”.
+
+In addition, it is important to note that some computer applications may be required to communicate throughout this course.  Ensure you have: 
+-	A PDF Reader (Adobe Reader, Preview, etc.) 
+-	Word Processing Software (ie. Microsoft Office available free from U of T) 
+-	Two web browsers (Firefox and Chrome are recommended) 
+-	An updated Adobe Flashplayer as some systems still use this legacy product 
+
+Please note: If you are accessing the Internet through a large organization or using a work computer (e.g. a hospital) you may need to contact your organization’s IT department to arrange these downloads and confirm internet speed.  
+
+Please note, the university also provides free <a target="_blank" href="http://antivirus.utoronto.ca/index.php?page=students">antivirus software</a> to all students which is strongly recommended.   
+ 
+
+# Evaluation methods
+
+## Assessment 1: Presentation – Critical Appraisal and Interpretation of a Research Study
+
+### Description
+
+Students will work in small groups (4 people) to present a review and critical appraisal of a research study (using an example article from the syllabus for that week). Students will provide a slide presentation with voiceover (10 minutes maximum, 8-10 slides), to be posted on Voicethread and will facilitate an online discussion. The list of topics and dates for group presentations will be posted the first week of class.
+
+<strong>
+Presentations must be posted by noon EST on the Monday of your scheduled week:
+
+- Monday 27th Jan (RCT topic for discussion groups 1, 2, 3)
+- Monday 3rd Feb (Systematic review topic for discussion groups 1, 2, 3)
+- Monday 10th Feb (Non-randomized study of interventions topic for discussion groups 1, 2, 3)
+</strong>
+
+**25% of final grade**
+
+### Structure
+
+The presentation should include a brief summary of the study approach (purpose, design, setting and sample, methods), presentation and interpretation of results, and discussion of key strengths and limitations. 
+
+
+-------
+
+
+## Assessment 2: Knowledge test
+
+### Description
+
+This on-line examination will cover material presented in Weeks 1-7. It will include primarily multiple choice and some short-answer questions. On-line proctoring (Proctor U) will be used to support academic integrity. 
+
+**To be scheduled for week 8**
+
+**25% of final grade**
+
+
+-------
+
+
+## Assessment 3: Ethics tutorial
+
+
+### Description
+
+Complete the interactive on-line ethics tutorial from the Government of Canada <a href="http://tcps2core.ca/welcome">website</a>.
+
+**Due Monday March 16 by 4pm pm EDT**
+
+**5% of final grade**
+
+-------
+
+
+## Assessment 4: Research summary and recommentations
+
+### Description
+
+Students will compile, review, critically appraise, and synthesize research evidence about a topic or question, and prepare a table of the research evidence (to be appended). The topic/question should address a practice situation that calls for a specific strategy or direction. The literature review must include 3 published research studies. The table will include a description of key features of each study, substantive results, and major strengths and limitations. You will provide a summary of the studies and summary of your critical appraisal in the body of paper. The assignment will conclude with overall conclusions regarding the state of the evidence, and 2-3 evidence-informed recommendations from your three studies to address the practice issue or situation.  
+
+**Due Friday April 3 by 4pm pm EDT**
+
+**5% of final grade**
+
+### Structure
+
+Maximum 8 pages, plus table and references.
+
+-------
+
+
+## Assessment 5: Class Online Participation
+
+
+### Description
+
+- Active participation in assigned learning activities and discussions is required each week. 
+- The participation grade will be based on consistency of engagement in the weekly learning activities and discussions, and the quality of the comments and contributions.  
+**No due date - graded throughout the course**
+
+**10% of final grade**
+
+
+### The overall online participation grade will be assigned as follows:
+
+*Excellent*
+
+Regular and thoughtful contributions to learning activities and discussions push the conversation to a deeper level and encourage others to join.
+
+*Acceptable* 
+
+Learning activity and discussion contributions are regular and keep the discussions on topic and help it to develop.
+
+*Inadequate* 
+
+Contributions do not add to the development and progression of the discussion or learning activities. The student is missing from the discussion for several days, or regularly makes a first or last post without engaging with others.
