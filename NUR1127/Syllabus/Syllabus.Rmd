@@ -155,8 +155,8 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 <tr>
 <td>Mar 10</td>
 <td>Week 9</td>
-<td>Ethics in research</td>
-<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243705">Online Ethics Tutorial due Monday March 16 at 4:00 pm</a></strong></td>
+<td>Practice guidelines and recommendations</td>
+<td></td>
 </tr>
 <tr>
 <td>Mar 17</td>
@@ -167,13 +167,13 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 <tr>
 <td>Mar 24</td>
 <td>Week 11</td>
-<td>Machine learning</td>
-<td></td>
+<td>Ethics in research</td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243705">Online Ethics Tutorial due Monday March 30 at 4:00 pm</a></strong></td>
 </tr>
 <tr>
 <td>Mar 31</td>
 <td>Week 12</td>
-<td>Practice guidelines</td>
+<td>Machine learning and prediction</td>
 <td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243730">Research summary and recommendations paper due Friday April 3 at 4:00 pm</a></strong></td>
 </tr>
 </tbody>
