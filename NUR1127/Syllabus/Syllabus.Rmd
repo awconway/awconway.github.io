@@ -15,8 +15,6 @@ output:
 ---
 
 
-**Click <a href="http://www.aaronconway.info/NUR1127/Syllabus/Syllabus.pdf" target="_blank">here</a> for a pdf version of the syllabus.**
-
 # Contact details
 
 |     |     |
@@ -312,7 +310,7 @@ Certain rules of etiquette are also recommended for online discussions (Netiquet
 
 ## Course Drop Date
 
-October 28, 2019 is the final date to drop September session (Full or Half) courses without academic penalty.For drop dates for 2019-20 courses please go to this <a target="_blank" href="https://bloomberg.nursing.utoronto.ca/current-students/course-timetables#content2">link</a>.
+February 24, 2020 is the final date to drop September session (Full or Half) courses without academic penalty. For drop dates for 2019-20 courses please go to this <a target="_blank" href="https://bloomberg.nursing.utoronto.ca/current-students/course-timetables#content2">link</a>.
 
 ## Grading of Written Papers
 
@@ -381,18 +379,25 @@ The Lawrence S. Bloomberg Faculty of Nursing participates in the University of T
 
 There are technical requirements that will allow you to participate in the course. The course includes online webinars, online examinations, and assignments that are submitted online. 
   
-- Minimum Recommended Computer System Requirements 
+Minimum Recommended Computer System Requirements:
+
 - Laptop or Desktop 4GB Ram Windows 10 or Mac OSX 10.12 
-- Screen Resolution of 1280 x 720  Webcam Headphones Microphone (Built-in, on headphones, or external) DSL or Cable Internet with 1.5 Mbps upload and download  
+- Screen Resolution of 1280 x 720 
+- Webcam 
+- Headphones
+- Microphone (Built-in, on headphones, or external) 
+- DSL or Cable Internet with 1.5 Mbps upload and download  
  
 If you have purchased your computer within the last 3-5 years you will likely have no trouble meeting these requirements.  If your computer does not meet the minimum requirements you may have difficulty using some of the applications.  
 
 You will need the webcam to enable online proctoring for any proctored examinations.  For proctored examinations we use the Proctor U service and technical requirements for that service can be found <a target="_blank" href="https://www.proctoru.com/auto-resource-center">here</a>.  Most new laptops (within 3-5 years) have webcams built in. If you are using a desktop computer you may need to purchase a webcam. In addition, you will need a microphone (most webcams and laptops have built-in microphones) and a set of headphones such as the kind that come with mobile devices and smartphones. 
 
 In addition to the computer system requirements it is also recommended you have sufficiently fast Internet. Ensure you have DSL or Cable Internet with at least 1.5 Mbps download speed and at least 1.5 Mbps upload speed. Dial-up Internet is not recommended.   
+
 You can test your Internet speed by going to <a target="_blank" href="https://www.speedtest.net/">this website</a> and clicking “Go”.
 
 In addition, it is important to note that some computer applications may be required to communicate throughout this course.  Ensure you have: 
+
 -	A PDF Reader (Adobe Reader, Preview, etc.) 
 -	Word Processing Software (ie. Microsoft Office available free from U of T) 
 -	Two web browsers (Firefox and Chrome are recommended) 
