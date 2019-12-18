@@ -134,27 +134,27 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 </tr>
 <tr>
 <td>Feb 18</td>
-<td></td>
-<td><strong><center>Family day and Reading week <br> NO CLASS</center></strong></td>
-<td></td>
-</tr>
-<tr>
-<td>Feb 25</td>
 <td>Week 7</td>
 <td>Alternative types of systematic reviews</td>
 <td></td>
 </tr>
 <tr>
-<td>Mar 3</td>
+<td>Feb 25</td>
 <td>Week 8</td>
 <td>Economic evaluation</td>
-<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243708">Knowledge test Friday March. 6th at 10:00 am</a></strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 3</td>
+<td></td>
+<td><strong><center>Residency week <br> NO CLASS</center></strong></td>
+<td></td>
 </tr>
 <tr>
 <td>Mar 10</td>
 <td>Week 9</td>
 <td>Practice guidelines and recommendations</td>
-<td></td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243708">Knowledge test Friday March 13th at 10:00 am</a></strong></td>
 </tr>
 <tr>
 <td>Mar 17</td>
