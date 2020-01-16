@@ -154,7 +154,7 @@ Over 12 weeks, you will learn key information about how to find, appraise, and u
 <td>Mar 10</td>
 <td>Week 9</td>
 <td>Practice guidelines and recommendations</td>
-<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243708">Knowledge test Friday March 13th at 10:00 am</a></strong></td>
+<td><strong><a target="_blank"  href="https://q.utoronto.ca/courses/140300/assignments/243708">Knowledge test Wednesday March 11th at 10:00 am</a></strong></td>
 </tr>
 <tr>
 <td>Mar 17</td>
@@ -440,7 +440,7 @@ The presentation should include a brief summary of the study approach (purpose, 
 
 This on-line examination will cover material presented in Weeks 1-7. It will include primarily multiple choice and some short-answer questions. On-line proctoring (Proctor U) will be used to support academic integrity. 
 
-**To be scheduled for week 8**
+**11th March at 10am - Week 9**
 
 **25% of final grade**
 
