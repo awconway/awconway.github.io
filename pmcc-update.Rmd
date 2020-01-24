@@ -31,11 +31,13 @@ output:
 <hr>
 <br>
 
-## <i class="fa fa-angle-double-right fa-lg"></i>  [Costs of inadvertent perioperative hypothermia in Australia: A cost-of-illness study](https://www.sciencedirect.com/science/article/pii/S1322769619301891)
+## <i class="fa fa-angle-double-right fa-lg"></i>  Costs of inadvertent perioperative hypothermia in Australia: A cost-of-illness study
+- [Link to paper](https://www.sciencedirect.com/science/article/pii/S1322769619301891)
 
 <br>
 
-## <i class="fa fa-angle-double-right fa-lg"></i>  [Large expert-curated database for benchmarking document similarity detection in biomedical literature search](https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006)
+## <i class="fa fa-angle-double-right fa-lg"></i> Large expert-curated database for benchmarking document similarity detection in biomedical literature search
+- [Link to paper](https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006)
 
 <br><br>
 
@@ -54,13 +56,13 @@ output:
 <hr>
 
 ## High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial 
-- [link to progress update](https://aconway.dev/hfno)
+- [Link to progress update](https://aconway.dev/hfno)
 
 ## Validating the Perioperative Thirst Discomfort Scale 
-- [link to progress update](https://aconway.dev/thirst-discomfort-screening)
+- [Link to progress update](https://aconway.dev/thirst-discomfort-screening)
 
 ## Predicting apnea during procedural sedation 
-- [link to protocol](https://apnea-prediction-protocol.netlify.com/)
+- [Link to protocol](https://apnea-prediction-protocol.netlify.com/)
 
 
 <br><br>
