@@ -39,6 +39,10 @@ output:
 ## <i class="fa fa-angle-double-right fa-lg"></i> Large expert-curated database for benchmarking document similarity detection in biomedical literature search
 - [Link to paper](https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006)
 
+## <i class="fa fa-angle-double-right fa-lg"></i> Preprocedural Assessment for Patients Anticipating Sedation 
+
+- [Link to paper](https://link.springer.com/article/10.1007%2Fs40140-020-00368-8)
+
 <br><br>
 
 # <i class="fa fa-money fa-lg"></i> Grants
