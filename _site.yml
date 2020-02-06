@@ -34,7 +34,7 @@ navbar:
       - text: "2019 Summer Work Study"
         href: ZHF-review.html
     - text: "CV"
-      href: https://aconway.dev/cv/
+      href: https://conwaycv.netlify.com
 
   right:
     - icon: fa-envelope fa-lg
