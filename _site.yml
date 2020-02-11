@@ -34,25 +34,12 @@ navbar:
       - text: "2019 Summer Work Study"
         href: ZHF-review.html
     - text: "CV"
-      href: https://conwaycv.netlify.com
+      href: https://www.aaronconway.info/scheduleCV
 
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
-    - icon: fa-github fa-lg
-      href: https://github.com/awconway
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/aw_conway
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/aaron-conway-toronto/
-    - icon: ai-google-scholar ai-lg
-      href: https://scholar.google.ca/citations?user=2hpmnr8AAAAJ&hl=en&inst=315209982802967212
-    - icon: ai-researchgate ai-lg
-      href: https://www.researchgate.net/profile/Aaron_Conway2
-    - icon: ai-publons ai-lg
-      href: https://publons.com/researcher/395960/aaron-conway
-    - icon: ai-orcid ai-lg
-      href: https://orcid.org/0000-0002-9583-8636
+
 
 
 output:
