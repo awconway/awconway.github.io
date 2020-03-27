@@ -41,6 +41,7 @@ navbar:
         href: ZHF-review.html
     - text: "CV"
       href: https://www.aaronconway.info/scheduleCV
+  right:
     - icon: fa-github fa-lg
       href: https://github.com/awconway
     - icon: fa-twitter fa-lg
