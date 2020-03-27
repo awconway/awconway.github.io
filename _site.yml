@@ -29,6 +29,12 @@ navbar:
         href: https://spiritr.netlify.com/
     - text: "Teaching"
       menu: 
+      - text: "NUR1027 Course Webpage"
+        href: https://nur1027.netlify.com/
+      - text: "NUR1127 Course Webpage"
+        href: https://nur1127.netlify.com/
+      - text: "NUR1059 Data Viz Workshop"
+        href: https://nur1059-dataviz.netlify.com/
       - text: "2019 Summer Research"
         href: USSRP.html
       - text: "2019 Summer Work Study"
