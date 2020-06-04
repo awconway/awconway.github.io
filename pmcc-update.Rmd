@@ -20,7 +20,7 @@ output:
 <br>
 
 > <h2><center>Update on RBC Chair of Cardiovascular Nursing Resarch activities <br>
-<sub>(October 2019 - January 2019)</sub></h2>
+<sub>(January 2019 - June 2020)</sub></h2>
 
 </div>
 </div>
@@ -31,17 +31,14 @@ output:
 <hr>
 <br>
 
-## <i class="fa fa-angle-double-right fa-lg"></i>  Costs of inadvertent perioperative hypothermia in Australia: A cost-of-illness study
-- [Link to paper](https://www.sciencedirect.com/science/article/pii/S1322769619301891)
+## <i class="fa fa-angle-double-right fa-lg"></i>  Avoiding and Managing Error in Interventional Radiology Practice: Tips and Tools
+- [Link to paper](https://journals.sagepub.com/doi/abs/10.1177/0846537119899215)
 
 <br>
 
-## <i class="fa fa-angle-double-right fa-lg"></i> Large expert-curated database for benchmarking document similarity detection in biomedical literature search
-- [Link to paper](https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006)
+## <i class="fa fa-angle-double-right fa-lg"></i> Accuracy and precision of zero-heat-flux temperature measurements with the 3M™ Bair Hugger™ Temperature Monitoring System: a systematic review and meta-analysis. 
+- [Link to paper](https://rdcu.be/b4AoO)
 
-## <i class="fa fa-angle-double-right fa-lg"></i> Preprocedural Assessment for Patients Anticipating Sedation 
-
-- [Link to paper](https://link.springer.com/article/10.1007%2Fs40140-020-00368-8)
 
 <br><br>
 
@@ -49,68 +46,62 @@ output:
 <hr>
 
 
-## Planned
+## Submitted
 
 - [Automating pre-procedural fasting instructions](https://auto-fasting.netlify.com) (CIHR Project Grant Scheme - March 2020) 
-- High flow nasal oxygen for sedation (CIHR Project Grant Scheme - September 2020) 
+
+## Completed
+
+- [High flow nasal oxygen for sedation - Connaught New Researcher](https://www.aaronconway.info/HFNO) 
 
 <br><br>
 
 # <i class="fa fa-construction fa-lg"></i> Current studies
 <hr>
 
-## High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial 
-- [Link to progress update](https://aconway.dev/hfno)
-
 ## Validating the Perioperative Thirst Discomfort Scale 
+
 - [Link to progress update](https://aconway.dev/thirst-discomfort-screening)
 
 ## Predicting apnea during procedural sedation 
+
 - [Link to protocol](https://apnea-prediction-protocol.netlify.com/)
 
+## Automating pre-procedural fasting instructions.
 
-<br><br>
-
-# <i class="fa fa-forward fa-lg"></i> Planned studies
-<hr>
-
-### Automating pre-procedural fasting instructions.
-
-This program of research will involve: 1) predictive modelling of procedure start times using a large retrospective database of cardiac cath lab procedure scheduling information; and 2) user-centered design principles to create an alert system optimally suited to patient and clinician requirements for the delivery of automated pre-procedural fasting instructions.
+This program of research will involve: 1) predictive modeling of procedure start times using a large retrospective database of cardiac cath lab procedure scheduling information; and 2) user-centered design principles to create an alert system optimally suited to patient and clinician requirements for the delivery of automated pre-procedural fasting instructions.
 
 Progress to date:
 
 - Worked out a process with the Enterprise Data Warehouse to automatically send 'snapshots' of PHS scheduling information for cath labs so that we can build up a database of scheduling data to use in our predictive model.
-- Working on [grant application](https://auto-fasting.netlify.com)
-- Need to organise linkages with Techna Institute
+- Submitted [grant application](https://auto-fasting.netlify.com)
+- Organised linkages with PMCC AI team (led by Dr Bo Wang)
+- Developing protocol for a study to develop user-facing components (i.e. the alerts that patients receive), which will ensure the alert system is optimally suited to patient and healthcare team requirements for providing the automated pre-procedure fasting instructions.
 
-> Advertised as potential PhD project
-
-### A smart alarm to guide treatment of sedation-induced respiratory depression
+## A smart alarm to guide treatment of sedation-induced respiratory depression
 
 How nurses detect and respond to sedation-induced respiratory depression during medical procedures can make the difference between a good or disastrous patient outcome. We propose that the current approach to capnography monitor alarm management may be improved upon by using machine learning to create a ‘smart alarm’ that can alert clinicians only if an apneic event is predicted to be prolonged. Based on results from our preliminary work, it seems that using information about the history of previous respiratory states may be a promising solution in regards to predicting durations of apneic periods. We now plan to build on these preliminary findings about the associations between apneic events and the history of previous respiratory states by building a predictive model from a large sample of capnography waveforms. Longer term plans for this program of research are to prospectively evaluate the accuracy of the model developed in the current study, develop a Graphical User Interface that is best suited to operationalise the predictive model as a ‘smart alarm’ in the clinical setting and, ultimately, conduct a randomized controlled trial to test the clinical safety and utility of the ‘smart alarm’.
 
 - REB approved
 - Waiting on DREAM team to make 10-second data available.
-- Applied similar modelling techniques to a much smaller dataset that we have available now (really need a larger sample).
+- Applied similar modeling techniques to a much smaller dataset that we have available now (really need a larger sample).
+- Planning a submission to the Medtronic External Research Program to undertake a similar analysis using data from patients who were monitored with capnography while receiving opioids.
 
-### Automating sedation state assessments
+## Automating sedation state assessments
 
 Procedural sedation is used to to attenuate the pain and distress that may otherwise be experienced during diagnostic and interventional medical procedures. The ‘ideal’ state is when the patient is pain and anxiety free, not moving and with normal vital signs. This program of research will focus on automatic classification of sedation states based on a combination of video, audio and physiological monitoring inputs. Automating sedation state assessments has multiple potential applications. For example, it could be used to assist providers to determine how often the ‘ideal’ sedation state is achieved when different sedation techniques are utilized. Predictive models could also be developed to determine the probability of an impending sedation state transition, potentially allowing for clinicians to titrate sedation doses and optimize time spent in the ‘ideal’ sedation state. It could also provide an improved remote monitoring experience for anesthetists who are charged with supervising the provision of sedation by other providers, such as nurses and anesthesia assistants.
 
-> Advertised as potential PhD project
-
-<br><br>
-
+- Linked with Dr Babak Taati from TRI, who has experience with classifying pain from facial expression in videos, to collaborate on this project.
+- Currently developing protocol
 
 # <i class="fa fa-chart-line fa-lg"></i> Research Capacity Building
 <hr>
 
 ## Undergraduate students
 
-- Summer students from UofT now working on a study at TGH
+- Summer students from UofT completed data collection for a study at TGH
 
 ## PMCC nurses
 
-- Assisted Shereli Soldevilla to submit application for CAP research grant in November
+- Assisted Shereli Soldevilla to submit application for CAP research grant in November (unsuccessful)
 

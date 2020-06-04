@@ -13,12 +13,11 @@
 
 <title>pmcc-update.utf8</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+<meta name="name" content="viewport" />
+<meta name="content" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link href="site_libs/bootstrap-3.4.1/bootstrap-custom.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.4.1/bootstrap.min.js"></script>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -42,8 +41,17 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
+  pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: .5rem;
+  }
   pre:not([class]) {
     background-color: white;
+  }
+  pre code {
+    background-color: transparent;
   }
 </style>
 <script type="text/javascript">
@@ -80,6 +88,7 @@ h5 {
 h6 {
   font-size: 12px;
 }
+
 .table th:not([align]) {
   text-align: left;
 }
@@ -119,6 +128,7 @@ summary {
 
 
 <style type="text/css">
+/* TODO: remove this padding CSS when we drop BS3 */
 /* padding for bootstrap navbar */
 body {
   padding-top: 60px;
@@ -149,6 +159,7 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
+
 .dropdown-submenu {
   position: relative;
 }
@@ -199,27 +210,29 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
 });
 </script>
 
-<!-- tabsets -->
-
+<!--
+  Note that .tabset-dropdown was initially implemented using Glyphicons, which were dropped
+  in BS4. The idea behind the "equivalent" BS4 CSS derives from how carets are implemented
+  https://github.com/twbs/bootstrap/blob/099860/scss/mixins/_caret.scss#L1
+-->
 <style type="text/css">
 .tabset-dropdown > .nav-tabs {
   display: inline-table;
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
+.tabset-dropdown > .nav-tabs > li.active-dropdown-tab:before {
   content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
@@ -227,7 +240,7 @@ $(document).ready(function () {
   border-right: 1px solid #ddd;
 }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active-dropdown-tab:before {
   content: "&#xe258;";
   border: none;
 }
@@ -240,7 +253,7 @@ $(document).ready(function () {
   border-right: 1px solid #ddd;
 }
 
-.tabset-dropdown > .nav-tabs > li.active {
+.tabset-dropdown > .nav-tabs > li.active-dropdown-tab {
   display: block;
 }
 
@@ -340,13 +353,13 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -475,7 +488,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -492,7 +505,7 @@ div.tocify {
 <blockquote>
 <h2>
 <center>
-Update on RBC Chair of Cardiovascular Nursing Resarch activities <br> <sub>(October 2019 - January 2019)</sub>
+Update on RBC Chair of Cardiovascular Nursing Resarch activities <br> <sub>(January 2019 - June 2020)</sub>
 </h2>
 </blockquote>
 </div>
@@ -502,23 +515,17 @@ Update on RBC Chair of Cardiovascular Nursing Resarch activities <br> <sub>(Octo
 <h1><i class="fa fa-pencil fa-lg"></i> Publications</h1>
 <hr>
 <p><br></p>
-<div id="costs-of-inadvertent-perioperative-hypothermia-in-australia-a-cost-of-illness-study" class="section level2">
-<h2><i class="fa fa-angle-double-right fa-lg"></i> Costs of inadvertent perioperative hypothermia in Australia: A cost-of-illness study</h2>
+<div id="avoiding-and-managing-error-in-interventional-radiology-practice-tips-and-tools" class="section level2">
+<h2><i class="fa fa-angle-double-right fa-lg"></i> Avoiding and Managing Error in Interventional Radiology Practice: Tips and Tools</h2>
 <ul>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S1322769619301891">Link to paper</a></li>
+<li><a href="https://journals.sagepub.com/doi/abs/10.1177/0846537119899215">Link to paper</a></li>
 </ul>
 <p><br></p>
 </div>
-<div id="large-expert-curated-database-for-benchmarking-document-similarity-detection-in-biomedical-literature-search" class="section level2">
-<h2><i class="fa fa-angle-double-right fa-lg"></i> Large expert-curated database for benchmarking document similarity detection in biomedical literature search</h2>
+<div id="accuracy-and-precision-of-zero-heat-flux-temperature-measurements-with-the-3m-bair-hugger-temperature-monitoring-system-a-systematic-review-and-meta-analysis." class="section level2">
+<h2><i class="fa fa-angle-double-right fa-lg"></i> Accuracy and precision of zero-heat-flux temperature measurements with the 3M™ Bair Hugger™ Temperature Monitoring System: a systematic review and meta-analysis.</h2>
 <ul>
-<li><a href="https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006">Link to paper</a></li>
-</ul>
-</div>
-<div id="preprocedural-assessment-for-patients-anticipating-sedation" class="section level2">
-<h2><i class="fa fa-angle-double-right fa-lg"></i> Preprocedural Assessment for Patients Anticipating Sedation</h2>
-<ul>
-<li><a href="https://link.springer.com/article/10.1007%2Fs40140-020-00368-8">Link to paper</a></li>
+<li><a href="https://rdcu.be/b4AoO">Link to paper</a></li>
 </ul>
 <p><br><br></p>
 </div>
@@ -526,11 +533,16 @@ Update on RBC Chair of Cardiovascular Nursing Resarch activities <br> <sub>(Octo
 <div id="grants" class="section level1">
 <h1><i class="fa fa-money fa-lg"></i> Grants</h1>
 <hr>
-<div id="planned" class="section level2">
-<h2>Planned</h2>
+<div id="submitted" class="section level2">
+<h2>Submitted</h2>
 <ul>
 <li><a href="https://auto-fasting.netlify.com">Automating pre-procedural fasting instructions</a> (CIHR Project Grant Scheme - March 2020)</li>
-<li>High flow nasal oxygen for sedation (CIHR Project Grant Scheme - September 2020)</li>
+</ul>
+</div>
+<div id="completed" class="section level2">
+<h2>Completed</h2>
+<ul>
+<li><a href="https://www.aaronconway.info/HFNO">High flow nasal oxygen for sedation - Connaught New Researcher</a></li>
 </ul>
 <p><br><br></p>
 </div>
@@ -538,12 +550,6 @@ Update on RBC Chair of Cardiovascular Nursing Resarch activities <br> <sub>(Octo
 <div id="current-studies" class="section level1">
 <h1><i class="fa fa-construction fa-lg"></i> Current studies</h1>
 <hr>
-<div id="high-flow-nasal-oxygen-during-conscious-sedation-in-the-cardiac-catheterisation-laboratory-a-randomized-controlled-trial" class="section level2">
-<h2>High flow nasal oxygen during conscious sedation in the cardiac catheterisation laboratory: A randomized controlled trial</h2>
-<ul>
-<li><a href="https://aconway.dev/hfno">Link to progress update</a></li>
-</ul>
-</div>
 <div id="validating-the-perioperative-thirst-discomfort-scale" class="section level2">
 <h2>Validating the Perioperative Thirst Discomfort Scale</h2>
 <ul>
@@ -555,41 +561,35 @@ Update on RBC Chair of Cardiovascular Nursing Resarch activities <br> <sub>(Octo
 <ul>
 <li><a href="https://apnea-prediction-protocol.netlify.com/">Link to protocol</a></li>
 </ul>
-<p><br><br></p>
 </div>
-</div>
-<div id="planned-studies" class="section level1">
-<h1><i class="fa fa-forward fa-lg"></i> Planned studies</h1>
-<hr>
-<div id="automating-pre-procedural-fasting-instructions." class="section level3">
-<h3>Automating pre-procedural fasting instructions.</h3>
-<p>This program of research will involve: 1) predictive modelling of procedure start times using a large retrospective database of cardiac cath lab procedure scheduling information; and 2) user-centered design principles to create an alert system optimally suited to patient and clinician requirements for the delivery of automated pre-procedural fasting instructions.</p>
+<div id="automating-pre-procedural-fasting-instructions." class="section level2">
+<h2>Automating pre-procedural fasting instructions.</h2>
+<p>This program of research will involve: 1) predictive modeling of procedure start times using a large retrospective database of cardiac cath lab procedure scheduling information; and 2) user-centered design principles to create an alert system optimally suited to patient and clinician requirements for the delivery of automated pre-procedural fasting instructions.</p>
 <p>Progress to date:</p>
 <ul>
 <li>Worked out a process with the Enterprise Data Warehouse to automatically send ‘snapshots’ of PHS scheduling information for cath labs so that we can build up a database of scheduling data to use in our predictive model.</li>
-<li>Working on <a href="https://auto-fasting.netlify.com">grant application</a></li>
-<li>Need to organise linkages with Techna Institute</li>
+<li>Submitted <a href="https://auto-fasting.netlify.com">grant application</a></li>
+<li>Organised linkages with PMCC AI team (led by Dr Bo Wang)</li>
+<li>Developing protocol for a study to develop user-facing components (i.e. the alerts that patients receive), which will ensure the alert system is optimally suited to patient and healthcare team requirements for providing the automated pre-procedure fasting instructions.</li>
 </ul>
-<blockquote>
-<p>Advertised as potential PhD project</p>
-</blockquote>
 </div>
-<div id="a-smart-alarm-to-guide-treatment-of-sedation-induced-respiratory-depression" class="section level3">
-<h3>A smart alarm to guide treatment of sedation-induced respiratory depression</h3>
+<div id="a-smart-alarm-to-guide-treatment-of-sedation-induced-respiratory-depression" class="section level2">
+<h2>A smart alarm to guide treatment of sedation-induced respiratory depression</h2>
 <p>How nurses detect and respond to sedation-induced respiratory depression during medical procedures can make the difference between a good or disastrous patient outcome. We propose that the current approach to capnography monitor alarm management may be improved upon by using machine learning to create a ‘smart alarm’ that can alert clinicians only if an apneic event is predicted to be prolonged. Based on results from our preliminary work, it seems that using information about the history of previous respiratory states may be a promising solution in regards to predicting durations of apneic periods. We now plan to build on these preliminary findings about the associations between apneic events and the history of previous respiratory states by building a predictive model from a large sample of capnography waveforms. Longer term plans for this program of research are to prospectively evaluate the accuracy of the model developed in the current study, develop a Graphical User Interface that is best suited to operationalise the predictive model as a ‘smart alarm’ in the clinical setting and, ultimately, conduct a randomized controlled trial to test the clinical safety and utility of the ‘smart alarm’.</p>
 <ul>
 <li>REB approved</li>
 <li>Waiting on DREAM team to make 10-second data available.</li>
-<li>Applied similar modelling techniques to a much smaller dataset that we have available now (really need a larger sample).</li>
+<li>Applied similar modeling techniques to a much smaller dataset that we have available now (really need a larger sample).</li>
+<li>Planning a submission to the Medtronic External Research Program to undertake a similar analysis using data from patients who were monitored with capnography while receiving opioids.</li>
 </ul>
 </div>
-<div id="automating-sedation-state-assessments" class="section level3">
-<h3>Automating sedation state assessments</h3>
+<div id="automating-sedation-state-assessments" class="section level2">
+<h2>Automating sedation state assessments</h2>
 <p>Procedural sedation is used to to attenuate the pain and distress that may otherwise be experienced during diagnostic and interventional medical procedures. The ‘ideal’ state is when the patient is pain and anxiety free, not moving and with normal vital signs. This program of research will focus on automatic classification of sedation states based on a combination of video, audio and physiological monitoring inputs. Automating sedation state assessments has multiple potential applications. For example, it could be used to assist providers to determine how often the ‘ideal’ sedation state is achieved when different sedation techniques are utilized. Predictive models could also be developed to determine the probability of an impending sedation state transition, potentially allowing for clinicians to titrate sedation doses and optimize time spent in the ‘ideal’ sedation state. It could also provide an improved remote monitoring experience for anesthetists who are charged with supervising the provision of sedation by other providers, such as nurses and anesthesia assistants.</p>
-<blockquote>
-<p>Advertised as potential PhD project</p>
-</blockquote>
-<p><br><br></p>
+<ul>
+<li>Linked with Dr Babak Taati from TRI, who has experience with classifying pain from facial expression in videos, to collaborate on this project.</li>
+<li>Currently developing protocol</li>
+</ul>
 </div>
 </div>
 <div id="research-capacity-building" class="section level1">
@@ -598,13 +598,13 @@ Update on RBC Chair of Cardiovascular Nursing Resarch activities <br> <sub>(Octo
 <div id="undergraduate-students" class="section level2">
 <h2>Undergraduate students</h2>
 <ul>
-<li>Summer students from UofT now working on a study at TGH</li>
+<li>Summer students from UofT completed data collection for a study at TGH</li>
 </ul>
 </div>
 <div id="pmcc-nurses" class="section level2">
 <h2>PMCC nurses</h2>
 <ul>
-<li>Assisted Shereli Soldevilla to submit application for CAP research grant in November</li>
+<li>Assisted Shereli Soldevilla to submit application for CAP research grant in November (unsuccessful)</li>
 </ul>
 </div>
 </div>
@@ -639,7 +639,9 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
+    $(this).siblings().removeClass("active-dropdown-tab");
+    $(this).addClass("active-dropdown-tab");
   });
 });
 </script>
@@ -660,7 +662,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
